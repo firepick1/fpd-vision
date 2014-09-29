@@ -22,7 +22,7 @@ function gcode() {
 }
 
 function imageAt() {
-  FILE=$IMAGES/$XP-$1-$2.jpg
+  FILE=$IMAGES/XP$XP-$1-$2.jpg
   echo "IMAGE	: $FILE"
   sleep 1
   gcode G0$1
