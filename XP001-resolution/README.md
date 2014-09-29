@@ -41,6 +41,6 @@ then our overall accuracy will improve.
 1. Our measured object will be 8mm component tape, which has sprocket holes every 4mm
 1. We will use `image` to take a series of 5 images at Z=0 and Z=0.1. 
 1. Before each measurement, we will return to a known position (arbitrarily Z=-10)
-1. We will use `process` to measure the object size using Simon's esimate-pixels-per-mm.json FireSight pipeline
+1. We will use `process` to measure the object size using [Simon's FireSight pipeline](https://github.com/firepick1/FireSight/wiki/op-Points2Resolution)
 
 
