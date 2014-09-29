@@ -1,7 +1,0 @@
-#!/bin/bash
-
-for FILE in `ls img`
-do
-	JSON=`firesight -p ../json/estimate-px-per-mm.json -Dseparation=4 -DdiamMin=6 -DdiamMax=12 -i img/$FILE `
-	echo $FILE `echo $JSON | grep -o -E "resolution.:[-0-9. ]*"`
-done
