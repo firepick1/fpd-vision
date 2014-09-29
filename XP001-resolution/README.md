@@ -9,7 +9,10 @@ known object. Closer images of a given object will appear larger than
 farther images of the same object. 
 
 ### Hypothesis
-FPD is capable of 0.1mm accuracy measurable by the onboard camera.
+Using only its camera, FirePick Delta is capable of detecting Z-position 
+with repeatable accuracy of:
+
+* **<2mm* using [hole detection](https://github.com/firepick1/FireSight/wiki/op-Points2Resolution)
 
 ### Considerations
 **FPD steppers** are theoretically capable of moving the effector 300mm 
@@ -46,6 +49,8 @@ then our overall accuracy will improve.
 1. We will use `process-holes` to measure the object size using [Simon's FireSight pipeline](https://github.com/firepick1/FireSight/wiki/op-Points2Resolution)
 
 ### Results
+
+Using
 [Raw results](process-holes.out)
 
 <img src="process-holes-table.png"/>
