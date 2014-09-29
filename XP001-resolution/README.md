@@ -39,8 +39,14 @@ then our overall accuracy will improve.
 
 ### Method
 1. Our measured object will be 8mm component tape, which has sprocket holes every 4mm
-1. We will use `image` to take a series of 5 images at point A (Z=0) and point B (Z=0.1). 
-1. Before each measurement, we will return to a known position (arbitrarily Z=-10)
-1. We will use `process` to measure the object size using [Simon's FireSight pipeline](https://github.com/firepick1/FireSight/wiki/op-Points2Resolution)
+1. We will use `image` to take a series of 3 images at each point to determine vision accuracy
+1. We will use five Z planes (A,B,C,D,E) spanning Z=0 to Z=-4mm
+1. We will CNC reposition the camera at each point three times to determine movement accuracy
+1. After each set of point measurements, we will return to a known position (arbitrarily Z=-10)
+1. We will use `process-holes` to measure the object size using [Simon's FireSight pipeline](https://github.com/firepick1/FireSight/wiki/op-Points2Resolution)
 
+### Results
+[Raw results](process-holes.out)
+
+<img src="process-holes-table.png"/>
 
