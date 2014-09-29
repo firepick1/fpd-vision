@@ -1,9 +1,10 @@
 #! /bin/bash
 
-echo "COMMAND	: $0 take pictures"
-echo "XP	: Experiment XP140928"
-
 XP=001
+
+echo "COMMAND	: $0 take pictures"
+echo "XP	: Experiment $XP"
+
 IMAGES=/var/firefuse/calibration
 GCODEFIRE=/dev/firefuse/sync/cnc/marlin/gcode.fire
 if [ ! -e $GCODEFIRE ]; then
@@ -22,7 +23,8 @@ function gcode() {
 
 function imageAt() {
   echo "IMAGE	: $XP-$1"
-  gcode G0$1M400
+  sleep 1
+  gcode G0$1
   sleep 1
   cp /dev/firefuse/sync/cv/1/camera.jpg $IMAGES/$XP-$1-$2.jpg // ignore first image
   cp /dev/firefuse/sync/cv/1/camera.jpg $IMAGES/$XP-$1-$2.jpg 
@@ -37,9 +39,9 @@ sleep 5
 
 for i in `seq 1 1 5`
 do
-	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	gcode G0Z0Y0Z10 "Moving out of vision plane"
 	imageAt X10Y10Z0 $i
-	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	gcode G0Z0Y0Z10 "Moving out of vision plane"
 	imageAt X10Y10Z0.1 $i
 done
 
