@@ -22,9 +22,10 @@ function gcode() {
 
 function imageAt() {
   echo "IMAGE	: $XP-$1"
-  gcode G0$1
-  gcode M400
-  cp /dev/firefuse/sync/cv/1/camera.jpg $IMAGES/$XP-$1-$2.jpg
+  gcode G0$1M400
+  sleep 1
+  cp /dev/firefuse/sync/cv/1/camera.jpg $IMAGES/$XP-$1-$2.jpg // ignore first image
+  cp /dev/firefuse/sync/cv/1/camera.jpg $IMAGES/$XP-$1-$2.jpg 
   RC=$?; if [ $RC -ne 0 ]; then echo "ERROR	: $RC"; exit -1; fi
 }
 
