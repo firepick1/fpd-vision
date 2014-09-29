@@ -49,11 +49,11 @@ then our overall accuracy will improve.
 1. We will use `process-holes` to measure the object size using [Simon's FireSight pipeline](https://github.com/firepick1/FireSight/wiki/op-Points2Resolution)
 
 ### Results
-Using the [images](img) created by `image`:
+Using the [images](img) created by `image`, the `process-holes` script 
+generated [raw data](process-holes.out) summarized in the table below:
 
 <img src="img/XP001-A1.1_X10Y10Z0.jpg"/>
 
-The `process-holes` script generated [raw data](process-holes.out) summarized in the table below:
 
 <img src="process-holes-table.png"/>
 
