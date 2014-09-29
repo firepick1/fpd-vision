@@ -25,7 +25,7 @@ function imageAt() {
   FILE=$IMAGES/XP$XP-$2_$1.jpg
   echo "IMAGE	: $FILE"
   sleep 1
-  gcode G0$1
+  gcode G0$1M400
   sleep 1
   cp /dev/firefuse/sync/cv/1/camera.jpg $FILE  # ignore first
   cp /dev/firefuse/sync/cv/1/camera.jpg $FILE 
@@ -38,11 +38,14 @@ sleep 3
 gcode G0Z0Y0Z0M400 "Moving to origin"
 sleep 5
 
+echoe "STATUS	: removing prior experiment results"
+rm /var/firefuse/calibration/XP$XP*.jpg
+
 for i in `seq 1 1 5`
 do
-	gcode G0Z0Y0Z10 "Moving out of vision plane"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
 	imageAt X10Y10Z0 "A$i"
-	gcode G0Z0Y0Z10 "Moving out of vision plane"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
 	imageAt X10Y10Z1 "B$i"
 done
 
