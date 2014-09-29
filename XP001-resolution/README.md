@@ -49,9 +49,17 @@ then our overall accuracy will improve.
 1. We will use `process-holes` to measure the object size using [Simon's FireSight pipeline](https://github.com/firepick1/FireSight/wiki/op-Points2Resolution)
 
 ### Results
+Using the images created by `image`:
+<img src="img/XP001-A1.1_X10Y10Z0.jpg"/>
+[more...](img)
 
-Using
-[Raw results](process-holes.out)
+The `process-holes` script generated [raw data](process-holes.out) summarized in the table below:
 
 <img src="process-holes-table.png"/>
 
+From this data we can conclude that hole detection will yield a resolution of <2mm,
+provided that at least 3 camera images are taken to calculate the average pixels/mm.
+This accuracy is insufficient for Z-bed leveling required for 3D printing.
+
+As followr-on research, there is an open question as to whether Fourier spectral analysis
+might lead to a more accurate result.
