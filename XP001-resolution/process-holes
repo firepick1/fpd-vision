@@ -1,0 +1,15 @@
+#!/bin/bash
+
+XP=001
+
+if [ -e /var/firefuse/calibration/XP001-A1.1_X10Y10Z0.jpg ]; then
+  IMAGES=/var/firefuse/calibration
+else
+  IMAGES=img
+fi
+
+for FILE in `ls $IMAGES/XP$XP*`
+do
+	JSON=`firesight -p ../json/estimate-px-per-mm.json -Dseparation=4 -DdiamMin=6 -DdiamMax=12 -i $FILE `
+	echo $FILE `echo $JSON | grep -o -E "resolution.:[-0-9. ]*"`
+done
