@@ -12,7 +12,7 @@ farther images of the same object.
 Using only its camera, FirePick Delta is capable of detecting Z-position 
 with repeatable accuracy of:
 
-* **<2mm* using [hole detection](https://github.com/firepick1/FireSight/wiki/op-Points2Resolution)
+* **<2mm** using [hole detection](https://github.com/firepick1/FireSight/wiki/op-Points2Resolution)
 
 ### Considerations
 **FPD steppers** are theoretically capable of moving the effector 300mm 
