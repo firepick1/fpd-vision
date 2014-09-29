@@ -51,5 +51,7 @@ do
 	imageAt X10Y10Z0 "A$i"
 	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
 	imageAt X10Y10Z-1 "B$i"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	imageAt X10Y10Z-2 "B$i"
 done
 
