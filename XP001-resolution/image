@@ -3,7 +3,7 @@
 echo "COMMAND	: $0 take pictures"
 echo "XP	: Experiment XP140928"
 
-XP=140928
+XP=001
 IMAGES=/var/firefuse/calibration
 GCODEFIRE=/dev/firefuse/sync/cnc/marlin/gcode.fire
 if [ ! -e $GCODEFIRE ]; then
@@ -36,6 +36,7 @@ sleep 5
 
 for i in `seq 1 1 5`
 do
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
 	imageAt X10Y10Z0 $i
 	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
 	imageAt X10Y10Z0.1 $i
