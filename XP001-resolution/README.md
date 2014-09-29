@@ -61,5 +61,5 @@ From this data we can conclude that hole detection will yield a resolution of <2
 provided that at least 3 camera images are taken to calculate the average pixels/mm.
 This accuracy is insufficient for Z-bed leveling required for 3D printing.
 
-As followr-on research, there is an open question as to whether Fourier spectral analysis
+As follow-on research, there is an open question as to whether Fourier spectral analysis
 might lead to a more accurate result.
