@@ -1,0 +1,69 @@
+#! /bin/bash
+
+XP=001
+
+echo "COMMAND	: $0 take pictures"
+echo "XP	: Experiment XP$XP"
+
+IMAGES=/var/firefuse/calibration
+GCODEFIRE=/dev/firefuse/sync/cnc/marlin/gcode.fire
+if [ ! -e $GCODEFIRE ]; then
+  echo "ERROR	: FireFUSE serial connection to Marlin is unavailable"
+  echo "TRY	: See /var/log/firefuse.log for details"
+  exit -1
+fi
+
+function gcode() {
+  if [ "$2" != "" ]; then echo "STATUS	: $2"; fi
+  echo "GCODE	: $1"
+  echo "$1" > $GCODEFIRE
+  RC=$?; if [ $RC -ne 0 ]; then echo "ERROR	: $RC"; exit -1; fi
+  return $RC
+}
+
+function imageAt() {
+  sleep 1
+  gcode G0$1M400
+  sleep 1
+  cp /dev/firefuse/sync/cv/1/camera.jpg /dev/null
+
+  for img in `seq 1 1 3`
+  do
+	  FILE=$IMAGES/XP$XP-$2.${img}_$1.jpg
+	  echo "IMAGE	: $FILE"
+	  cp /dev/firefuse/sync/cv/1/camera.jpg $FILE 
+	  RC=$?; if [ $RC -ne 0 ]; then echo "ERROR	: $RC"; exit -1; fi
+  done
+}
+
+echo "STATUS	: taking images for calibrating pixels per mm"
+gcode G28Z0M400 "Homing"
+sleep 3
+gcode G0Z0Y0Z0M400 "Moving to origin"
+sleep 5
+
+echo "STATUS	: removing prior experiment results"
+rm /var/firefuse/calibration/XP$XP*.jpg
+
+for i in `seq 1 1 3`
+do
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	imageAt X10Y10Z0 "A$i"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	imageAt X10Y10Z-0.5 "A${i}.5"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	imageAt X10Y10Z-1 "B$i"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	imageAt X10Y10Z-1.5 "B${i}.5"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	imageAt X10Y10Z-2 "C$i"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	imageAt X10Y10Z-2.5 "C${i}.5"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	imageAt X10Y10Z-3 "D$i"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	imageAt X10Y10Z-3.5 "D${i}.5"
+	gcode G0Z0Y0Z10M400 "Moving out of vision plane"
+	imageAt X10Y10Z-4 "E$i"
+done
+
