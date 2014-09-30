@@ -11,7 +11,7 @@ farther images of the same object.
 Previous related experiments:
 
 * [XP001-resolution](https://github.com/firepick1/fpd-vision/tree/master/XP001-resolution)
-* [XP001-resolution](../XP001-resolution.README)
+* [XP001-resolution](../XP001-resolution)
 
 ### Hypothesis
 Using only its camera, FirePick Delta is capable of detecting Z-position 
