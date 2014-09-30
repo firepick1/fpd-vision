@@ -45,12 +45,12 @@ sleep 5
 echo "STATUS	: removing prior experiment results"
 rm /var/firefuse/calibration/XP$XP*.jpg
 
-for i in `seq 1 1 3`
+for REP in `seq 1 1 3`
 do
 	for Z in `seq -0.0 -0.5 -4.0`
 	do
 		gcode G0Z0Y0Z10M400 "Moving out of vision plane"
-		imageAt Z$ZX10Y10Z$Z "#$i"
+		imageAt Z$ZX10Y10Z$Z $REP
 	done
 done
 
