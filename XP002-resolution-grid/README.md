@@ -10,8 +10,7 @@ farther images of the same object.
 
 Previous related experiments:
 
-* [XP001-resolution](https://github.com/firepick1/fpd-vision/tree/master/XP001-resolution)
-* [XP001-resolution](../XP001-resolution)
+* [[../XP001-resolution]]
 
 ### Hypothesis
 Using only its camera, FirePick Delta is capable of detecting Z-position 
@@ -20,7 +19,7 @@ with repeatable accuracy of:
 * **<1mm** using [grid detection](https://github.com/firepick1/FireSight/wiki/op-matchGrid)
 
 ### Considerations
-See [XP001-resolution]
+See [XP001-resolution](../XP001-resolution)
 
 **Maximize feature separation**. The accuracy of Z-distance calculation is very much influenced
 by the size of the measured object. Changes in perpective are scaled with the size of the object.
