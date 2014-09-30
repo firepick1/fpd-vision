@@ -10,7 +10,7 @@ farther images of the same object.
 
 Previous related experiments:
 
-* [[../XP001-resolution]]
+* [XP001-resolution](../XP001-resolution)
 
 ### Hypothesis
 Using only its camera, FirePick Delta is capable of detecting Z-position 
@@ -25,11 +25,12 @@ See [XP001-resolution](../XP001-resolution)
 by the size of the measured object. Changes in perpective are scaled with the size of the object.
 Larger objects provide more accuracy. A 5mm grid lets us treat three grid vertices in a row
 as a single 15mm object, which is about 4x larger than the 4mm hole separation measured in 
-[[XP001-resolution]].
+[XP001-resolution](../XP001-resolution).
 
 **Maximize recognized features**. Measuring more objects provides greater accuracy.
 By using a full grid that covers the image, we can easily get more data than measuring
-a single row of holes as in [[XP001-resolution]].
+a single row of holes as in 
+[XP001-resolution](../XP001-resolution).
 
 ### Method
 1. Our measured object will be the standard FirePick 5mm calibration grid.
