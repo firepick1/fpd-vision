@@ -44,6 +44,17 @@ a single row of holes as in
 Using the [images](img) created by `image`, the `process-grid` script 
 generated [raw data](process-grid.out) summarized in the table below:
 
-<img src="img/XP002-A1.1_X10Y10Z0.jpg"/>
+<img src="img/XP002_Z-0.0X10Y10@1#1.jpg"/>
+<img src="img/process-grid.png"/>
 
-(RESULTS PENDING)
+Of interest are the two far right columns of the table:
+
+* **IMGVAR** shows the image variance over three images taken without repositioning the head
+* **REPVAR** shows the positioning variance over three separate "random access" movements to a particular Z-position.
+
+The image variance is remarkably, 10-100x smaller than the positioning variance, which suggests that
+the camera is quite accurate in measuring Z-distance and that the differences in IMGAVG 
+are mostly due to positioning.
+The results indicate that the FirePick Delta camera can indeed be used to coordinate movement 
+with a Z-accuracy of 0.5mm or better. Indeed, it would appear that optical bed levelling is 
+quite feasible using a calibration grid as the camera objective.
