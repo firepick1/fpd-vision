@@ -50,7 +50,7 @@ do
 	for Z in `seq -0.0 -0.5 -4.0`
 	do
 		gcode G0Z0Y0Z10M400 "Moving out of vision plane"
-		imageAt Z$ZX10Y10Z$Z $REP
+		imageAt Z${Z}X10Y10 $REP
 	done
 done
 
