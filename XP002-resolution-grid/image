@@ -1,6 +1,6 @@
 #! /bin/bash
 
-XP=001
+XP=002
 
 echo "COMMAND	: $0 take pictures"
 echo "XP	: Experiment XP$XP"
