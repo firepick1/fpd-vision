@@ -1,8 +1,8 @@
 #!/bin/bash
 
-XP=001
+XP=002
 
-if [ -e /var/firefuse/calibration/XP001-A1.1_X10Y10Z0.jpg ]; then
+if [ -e /var/firefuse/calibration/XP002-A1.1_X10Y10Z0.jpg ]; then
   IMAGES=/var/firefuse/calibration
 else
   IMAGES=img
