@@ -44,7 +44,8 @@ a single row of holes as in
 Using the [images](img) created by `image`, the `process-grid` script 
 generated [raw data](process-grid.out) summarized in the table below:
 
-<img src="img/XP002_Z-0.0X10Y10@1#1.jpg"/>
+<img src="img/sample-match.png"/>
+
 <img src="img/process-grid.png"/>
 
 Of interest are the two far right columns of the table:
@@ -58,3 +59,4 @@ are mostly due to positioning.
 The results indicate that the FirePick Delta camera can indeed be used to coordinate movement 
 with a Z-accuracy of 0.5mm or better. Indeed, it would appear that optical bed levelling is 
 quite feasible using a calibration grid as the camera objective.
+
