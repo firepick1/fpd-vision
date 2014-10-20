@@ -10,7 +10,7 @@ their camera. To these forlorn queries, the answer often given is, "take more pi
 In this experiment we explore camera calibration for pick-and-place and
 will look very carefully at the advice to "take more pictures".
 
-* [OpenCV camera calibration][http://docs.opencv.org/doc/tutorials/calib3d/camera_calibration/camera_calibration.html]
+* [OpenCV camera calibration](http://docs.opencv.org/doc/tutorials/calib3d/camera_calibration/camera_calibration.html)
 
 But first, let's look at pick-and-place computer vision requirements.
 
