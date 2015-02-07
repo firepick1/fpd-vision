@@ -39,14 +39,14 @@ each use case (bed, bed+paper), for a total of 720 images.
 ### Method
 1. We will probe at X0Y0 to various Z-depths, in increments of 0.1mm offset from X0Y0Z0
 1. At each Z-depth, we will take three images (IMG1, IMG2, IMG3)
-1. We will repeat the probing of Z-depts three times (REP1, REP2, REP3)
+1. We will repeat the probing of Z-depths three times (REP1, REP2, REP3)
 1. We will use [FireSight meanStdDev](https://github.com/firepick1/FireSight/wiki/op-meanStdDev) to determine the mean and standard deviation of each RGB channel in a sampled image.
 
 ### Results
 
 **FPD can detect a piece of paper using a camera as Z-probe.**
-Using the [images](img) created by `image`, the `process` script 
-generated [raw data](process-grid.out) summarized in the table below for the red channel:
+Using the [bed-only images](img-bed) and [bed-with-paper images](img-paper) created by `image`, 
+the `process` script generated [raw data](meanstddev.out) summarized in the table below for the red channel:
 Notice that BED-REP1 detects a Z-depth 0.2 higher than BED-REP2 or BED-REP3. 
 This difference is attributable to FPD movement error, which is about +/-0.1mm.
 
