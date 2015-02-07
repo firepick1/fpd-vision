@@ -16,24 +16,25 @@ An effector-mounted downward looking camera can be used as a Z-probe
 
 ### Considerations
 
-**Use RGB channels separately**
+**Use RGB channels separately.**
 The Noir camera is more sensitive to lower frequency light (e.g. red). 
 Process each channel separately to detect darkness.
 
-**The Raspberry Pi camera has a red LED**
+**The Raspberry Pi camera has a red LED.**
 Although normally annoying, the red LED can actually help. As the camera
 approaches the bed, the LED illuminates the field, yielding a brighter red channel.
 When the shade meets the bed, that brighter light is cut off. The red LED therefore
 provides greater contrast and resolution.
 
-**Home before each measurement**
+**Home before each measurement.**
 For consistency, each measurement is preceded by G28 G0Z0M400 to ensure that the
 effector starts at a known position. This is time-consuming, but eliminates uncertainty 
 from the procedure.
 
-**Take lots of samples**
+**Take lots of samples.**
 The FPD is accurate, but not reproduceably accurate to 0.1mm. However, multiple samples
-provide more information and therefore greater accuracy.
+provide more information and therefore greater accuracy. We will take 41x3x3 samples for
+each use case (bed, bed+paper), for a total of 720 images.
 
 ### Method
 1. We will probe at X0Y0 to various Z-depths, in increments of 0.1mm offset from X0Y0Z0
@@ -43,7 +44,7 @@ provide more information and therefore greater accuracy.
 
 ### Results
 
-**FPD can detect a piece of paper using a camera as Z-probe**
+**FPD can detect a piece of paper using a camera as Z-probe.**
 Using the [images](img) created by `image`, the `process` script 
 generated [raw data](process-grid.out) summarized in the table below for the red channel:
 Notice that BED-REP1 detects a Z-depth 0.2 higher than BED-REP2 or BED-REP3. 
@@ -51,10 +52,14 @@ This difference is attributable to FPD movement error, which is about +/-0.1mm.
 
 <img src="XP004-table.png"/>
 
-**The red channel is much more sensitive than blue or green**
+**The red channel is much more sensitive than blue or green.**
 The mean RGB values are called out as (MR,MG,MB) in the table:
 
 <img src = "XP004-rgb.png"/>
+
+### Conclusion
+It is possible to use an FPD effector camera as a Zprobe, taking images at intervals of 0.1mm,
+using more images and repetitions for higher accuracy.
 
 
 
