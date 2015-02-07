@@ -46,7 +46,7 @@ each use case (bed, bed+paper), for a total of 720 images.
 
 **FPD can detect a piece of paper using a camera as Z-probe.**
 Using the [bed-only images](img-bed) and [bed-with-paper images](img-paper) created by `image`, 
-the `process` script generated [raw data](meanstddev.out) summarized in the table below for the red channel:
+the `process` script generated [raw data](meanstddev.csv) summarized in the table below for the red channel:
 Notice that BED-REP1 detects a Z-depth 0.2 higher than BED-REP2 or BED-REP3. 
 This difference is attributable to FPD movement error, which is about +/-0.1mm.
 
