@@ -37,6 +37,8 @@ provide more information and therefore greater accuracy. We will take 41x3x3 sam
 each use case (bed, bed+paper), for a total of 720 images.
 
 ### Method
+<a href="https://www.youtube.com/watch?v=ZUBUSP92gG8">Video</a>
+
 1. We will probe at X0Y0 to various Z-depths, in increments of 0.1mm offset from X0Y0Z0
 1. At each Z-depth, we will take three images (IMG1, IMG2, IMG3)
 1. We will repeat the probing of Z-depths three times (REP1, REP2, REP3)
