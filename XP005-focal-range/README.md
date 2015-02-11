@@ -1,5 +1,7 @@
 ### Experiment XP005 Focal Range Determination
 
+<img src="img/hhpx7.gif">
+
 ### Q: What's the best way to automatically determine the focal range of a fixed focus camera?
 
 FirePick Delta currently relies on fixed focus camera, which are affordable and ubiquitous.
