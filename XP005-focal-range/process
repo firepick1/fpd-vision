@@ -1,0 +1,18 @@
+#!/bin/bash
+
+XP=004
+
+if [ -e /var/firefuse/calibration/XP002-A1.1_X10Y10Z0.jpg ]; then
+  IMAGES=/var/firefuse/calibration
+elif [ -e img ]; then
+  IMAGES=img
+else
+  IMAGES=$1
+fi
+
+for FILE in `ls $IMAGES/XP$XP*`
+do
+	JSON=`firesight -p ../json/meanStdDev.json -i $FILE `
+	#echo $FILE `echo $JSON | grep -o -E 'gridY":[-0-9. ]*'`
+	echo $FILE `echo $JSON `
+done
