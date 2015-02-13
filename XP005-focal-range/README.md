@@ -48,8 +48,18 @@ TBD
 # Experiments to determine a 'sharpness' of an image using various methods.
 The input is the series of images as described above.
 A MATLAB <a href="http://www.mathworks.com/matlabcentral/fileexchange/27314-focus-measure">script</a> is used to compare several methods for measuring relative degree of focus of an image.
-The output of some of the methods is shown in the following image.
+The output of some of the methods is shown in the following image. The x axis shows z coordinate of the end effector, y axis shows 'sharpness', which is normalized to span the [0,1] interval for each method separately (based on the input data).
+
 <img src="img/allmethods.png">
+
+The methods mostly agree, that the camera was focused to about 50 mm.
+Selecting such methods, which have reasonable processing time (in MATLAB on an Intel i5 laptop) and which show a peak around z=50mm, we get the following methods: 'GRAS', 'LAPE', 'LAPM', 'LAPV', 'LAPD', 'TENG', 'TENV', 'WAVS', and 'WAVV'.
+
+<img src="img/best9_sharpness.png">
+
+The mean processing time per 400x400px input image is show in the following figure.
+
+<img src="img/best9_duration.png">
 
 
 ## Methods
