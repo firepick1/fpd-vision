@@ -49,7 +49,7 @@ TBD
 The input is the series of images as described above.
 A MATLAB <a href="http://www.mathworks.com/matlabcentral/fileexchange/27314-focus-measure">script</a> is used to compare several methods for measuring relative degree of focus of an image.
 The output of some of the methods is shown in the following image.
-<img src="img/allmethods.eps">
+<img src="img/allmethods.png">
 
 
 ## Methods
