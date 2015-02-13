@@ -45,6 +45,37 @@ Z coordinate and repeat the entire process 3 times.
 
 TBD
 
+# Experiments to determine a 'sharpness' of an image using various methods.
+The input is the series of images as described above.
+A MATLAB <a href="http://www.mathworks.com/matlabcentral/fileexchange/27314-focus-measure">script</a> is used to compare several methods for measuring relative degree of focus of an image.
+The output of some of the methods is shown in the following image.
+<img src="img/allmethods.eps">
 
+
+## Methods
+### GRAS - Absolute squared gradient
+A.M. Eskicioglu and P. S. Fisher. Image quality measures and their performance.
+Communications, IEEE Transactions on, 43(12):2959–2965, 1995
+
+F = \dfrac{1}{nx \cdot ny} \sum_x \sum_y | I_{x,y} - I_{x+1,y} | ^2
+
+### LAPE - Energy of laplacian [Subbarao92a]
+
+### LAPM -  Modified Laplacian [Nayar89]
+
+### LAPV - Variance of laplacian (Pech2000)
+
+### LAPD - Diagonal laplacian (Thelen2009)
+
+### TENG - Tenengrad (Krotkov86)
+
+### TENV - Tenengrad variance (Pech2000)
+
+### WAVS - Sum of Wavelet coeffs (Yang2003)
+
+### WAVV - Variance of  Wav...(Yang2003)
+
+![methods](focus/sharpness_methods.png)
+![speed](focus/duration.png)
 
 
