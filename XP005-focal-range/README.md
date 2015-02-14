@@ -78,7 +78,7 @@ The methods acronyms are explained in the following list, MATLAB script attached
 A.M. Eskicioglu and P. S. Fisher. Image quality measures and their performance.
 Communications, IEEE Transactions on, 43(12):2959–2965, 1995
 
-F = \dfrac{1}{nx \cdot ny} \sum_x \sum_y | I_{x,y} - I_{x+1,y} | ^2
+<math>F = \dfrac{1}{nx \cdot ny} \sum_x \sum_y | I_{x,y} - I_{x+1,y} | ^2</math>
 
 <pre>
         Ix = diff(Image, 1, 2);
