@@ -57,19 +57,28 @@ Selecting such methods, which have reasonable processing time (in MATLAB on an I
 
 <img src="img/best9_sharpness.png">
 
-The mean processing time per 400x400px input image is show in the following figure.
+The mean processing time per 400x400px input image on a Intel i5 laptop is show in the following table.
 
 <table>
-<tr><td>GRAS</td><td>    9.4633</td></tr>
-<tr><td>LAPE</td><td>   44.0758</td></tr>
-<tr><td>LAPM</td><td>   48.5062</td></tr>
-<tr><td>LAPV</td><td>   48.5406</td></tr>
-<tr><td>LAPD</td><td>   97.1680</td></tr>
-<tr><td>TENG</td><td>   64.8374</td></tr>
-<tr><td>TENV</td><td>   73.0494</td></tr>
-<tr><td>WAVS</td><td>  209.3799</td></tr>
-<tr><td>WAVV</td><td>  243.0818</td></tr>
+<tr><td>GRAS</td><td>0.0080 s</td></tr>
+<tr><td>LAPE</td><td>0.0374 s</td></tr>
+<tr><td>LAPM</td><td>0.0411 s</td></tr>
+<tr><td>LAPV</td><td>0.0412 s</td></tr>
+<tr><td>LAPD</td><td>0.0824 s</td></tr>
+<tr><td>TENG</td><td>0.0550 s</td></tr>
+<tr><td>TENV</td><td>0.0620 s</td></tr>
+<tr><td>WAVS</td><td>0.1776 s</td></tr>
+<tr><td>WAVV</td><td>0.2062 s</td></tr>
 </table>
+
+
+
+
+
+
+
+
+
 
 
 ## Methods
