@@ -59,7 +59,17 @@ Selecting such methods, which have reasonable processing time (in MATLAB on an I
 
 The mean processing time per 400x400px input image is show in the following figure.
 
-<img src="img/best9_duration.png">
+<table>
+<tr><td>GRAS</td><td>    9.4633</td></tr>
+<tr><td>LAPE</td><td>   44.0758</td></tr>
+<tr><td>LAPM</td><td>   48.5062</td></tr>
+<tr><td>LAPV</td><td>   48.5406</td></tr>
+<tr><td>LAPD</td><td>   97.1680</td></tr>
+<tr><td>TENG</td><td>   64.8374</td></tr>
+<tr><td>TENV</td><td>   73.0494</td></tr>
+<tr><td>WAVS</td><td>  209.3799</td></tr>
+<tr><td>WAVV</td><td>  243.0818</td></tr>
+</table>
 
 
 ## Methods
