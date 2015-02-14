@@ -157,7 +157,5 @@ Communications, IEEE Transactions on, 43(12):2959–2965, 1995
         FM = std2(H)^2+std2(V)+std2(D);
 </pre>
 
-![methods](focus/sharpness_methods.png)
-![speed](focus/duration.png)
 
 
