@@ -79,6 +79,7 @@ A.M. Eskicioglu and P. S. Fisher. Image quality measures and their performance.
 Communications, IEEE Transactions on, 43(12):2959–2965, 1995
 
 <math>F = \dfrac{1}{nx \cdot ny} \sum_x \sum_y | I_{x,y} - I_{x+1,y} | ^2</math>
+<img src="http://www.sciweavers.org/tex2img.php?eq=F%20%3D%20%5Cdfrac%7B1%7D%7Bnx%20%5Ccdot%20ny%7D%20%5Csum_x%20%5Csum_y%20%7C%20I_%7Bx%2Cy%7D%20-%20I_%7Bx%2B1%2Cy%7D%20%7C%20%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="F = \dfrac{1}{nx \cdot ny} \sum_x \sum_y | I_{x,y} - I_{x+1,y} | ^2" width="253" height="49" />
 ![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29%0D%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 <pre>
