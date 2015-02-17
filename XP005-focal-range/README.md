@@ -84,6 +84,8 @@ Communications, IEEE Transactions on, 43(12):2959–2965, 1995
         FM = mean2(FM);
 </pre>
 
+<img src="img/gras_cpp.png">
+
 ### LAPE - Energy of laplacian [Subbarao92a]
 <pre>
         LAP = fspecial('laplacian');
