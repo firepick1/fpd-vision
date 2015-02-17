@@ -84,7 +84,7 @@ Communications, IEEE Transactions on, 43(12):2959–2965, 1995
         FM = mean2(FM);
 </pre>
 
-Implemented in FireSight. Result on the above input data shown in the following image.
+Implemented in FireSight. Results on the above input data shown in the following image, not to scale.
 <img src="img/gras_cpp.png">
 
 ### LAPE - Energy of laplacian [Subbarao92a]
