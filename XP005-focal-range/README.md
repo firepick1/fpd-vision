@@ -85,7 +85,7 @@ Communications, IEEE Transactions on, 43(12):2959–2965, 1995
 </pre>
 
 Implemented in FireSight. Results on the above input data shown in the following image, not to scale.
-The results are different, as the c++ implementation works with grayscale images, whereas MATLAB uses colour images.
+The results are different, as there is a slight difference in the OpenCV and MATLAB conversion from colour to grayscale images.
 <img src="img/gras_cpp.png">
 
 ### LAPE - Energy of laplacian [Subbarao92a]
