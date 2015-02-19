@@ -84,7 +84,7 @@ Communications, IEEE Transactions on, 43(12):2959–2965, 1995
         FM = mean2(FM);
 </pre>
 
-Implemented in FireSight. Results on the above input data shown in the following image, not to scale.
+Implemented in FireSight. Results on the above input data shown in the following image.
 The results are different, as there is a slight difference in the OpenCV and MATLAB conversion from colour to grayscale images.
 <img src="img/gras_cpp.png">
 
@@ -94,6 +94,10 @@ The results are different, as there is a slight difference in the OpenCV and MAT
         FM = imfilter(Image, LAP, 'replicate', 'conv');
         FM = mean2(FM.^2);
 </pre>
+
+Implemented in FireSight. Results on the above input data shown in the following image.
+The results are different due to different implementation of Laplacian in MATLAB and OpenCV.
+<img src="img/lape_cpp.png">
 
 ### LAPM -  Modified Laplacian [Nayar89]
 <pre>
