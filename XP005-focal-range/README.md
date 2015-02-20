@@ -1,8 +1,8 @@
 ### Experiment XP005 Focal Range Determination
 
-<a href="img/neopixel.gif">NeoPixel lighting RGB(127,127/2,127/2) with 3DLC1036 NeoPixel Diffuser<br><img src="img/neopixel.gif"></a>
-
-<a href="img/hhpx7.gif">Ambient lighting with single super-bright LED mounted on corner extrusion</a>
+* <a href="img/neopixel.gif">NeoPixel lighting RGB(127,127/2,127/2) with 3DLC1036 NeoPixel Diffuser<br><img src="img/neopixel.gif"></a>
+* <a href="https://www.youtube.com/watch?v=30jYHJ4mcWk">Video of NeoPixel image acquisition</a>
+* <a href="img/hhpx7.gif">Ambient lighting with single super-bright LED mounted on corner extrusion</a>
 
 ### Q: What's the best way to automatically determine the focal range of a fixed focus camera?
 
