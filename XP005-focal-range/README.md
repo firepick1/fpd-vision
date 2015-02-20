@@ -1,6 +1,7 @@
 ### Experiment XP005 Focal Range Determination
 
-<img src="img/hhpx7.gif">
+<a href="img/hhpx7.gif">ambient lighting</a>
+<img src="img/neopixel.gif">
 
 ### Q: What's the best way to automatically determine the focal range of a fixed focus camera?
 
