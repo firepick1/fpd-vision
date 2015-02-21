@@ -86,9 +86,10 @@ Communications, IEEE Transactions on, 43(12):2959–2965, 1995
         FM = mean2(FM);
 </pre>
 
-Implemented in FireSight. Results on the above input data shown in the following image.
+Implemented in FireSight. Results on the not-illuminated input data shown in the following image.
 The results are different, as there is a slight difference in the OpenCV and MATLAB conversion from colour to grayscale images.
-<img src="img/gras_cpp.png">
+<img src="img/GRAS.png">
+
 
 ### LAPE - Energy of laplacian [Subbarao92a]
 <pre>
@@ -97,9 +98,9 @@ The results are different, as there is a slight difference in the OpenCV and MAT
         FM = mean2(FM.^2);
 </pre>
 
-Implemented in FireSight. Results on the above input data shown in the following image.
-The results are different due to different implementation of Laplacian in MATLAB and OpenCV.
-<img src="img/lape_cpp.png">
+Implemented in FireSight. Results on the not-illuminated input data shown in the following image.
+<img src="img/LAPE.png">
+
 
 ### LAPM -  Modified Laplacian [Nayar89]
 <pre>
@@ -109,6 +110,7 @@ The results are different due to different implementation of Laplacian in MATLAB
         FM = abs(Lx) + abs(Ly);
         FM = mean2(FM);
 </pre>
+
 
 ### LAPV - Variance of laplacian (Pech2000)
 <pre>
@@ -168,4 +170,8 @@ The results are different due to different implementation of Laplacian in MATLAB
 </pre>
 
 
+## Neopixel illuminated dataset
+
+With the images taken under Neopixel illumination, we get a shift in the peak sharpness (unless Karl readjusted the focal length?), as seen in the following figure.
+<img src="img/nolight_vs_neopixel.png">
 
