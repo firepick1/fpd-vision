@@ -110,6 +110,7 @@ Implemented in FireSight. Results on the not-illuminated input data shown in the
         FM = abs(Lx) + abs(Ly);
         FM = mean2(FM);
 </pre>
+<img src="img/LAPM.png">
 
 
 ### LAPV - Variance of laplacian (Pech2000)
