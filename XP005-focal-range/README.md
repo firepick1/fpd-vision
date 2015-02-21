@@ -91,7 +91,8 @@ The results are different, as there is a slight difference in the OpenCV and MAT
 <img src="img/GRAS.png">
 
 
-### LAPE - Energy of laplacian [Subbarao92a]
+### LAPE - Energy of laplacian
+Murali Subbarao, Tae Choi, Arman Nikzad. Focusing Techniques. Journal of Optical Engineering. 32:2824-2836, 1992
 <pre>
         LAP = fspecial('laplacian');
         FM = imfilter(Image, LAP, 'replicate', 'conv');
@@ -102,7 +103,8 @@ Implemented in FireSight. Results on the not-illuminated input data shown in the
 <img src="img/LAPE.png">
 
 
-### LAPM -  Modified Laplacian [Nayar89]
+### LAPM -  Modified Laplacian
+Shree K. Nayar. Shape from Focus. Technical Report. Carnegie Mellon University. 1989
 <pre>
         M = [-1 2 -1];        
         Lx = imfilter(Image, M, 'replicate', 'conv');
