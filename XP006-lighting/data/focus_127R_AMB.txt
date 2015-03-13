@@ -1,0 +1,569 @@
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:263.3
+TRACE	:   IMG2(-5) sharp:273.5
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:212.3
+TRACE	:   IMG4(-67) sharp:11.6
+TRACE	: GEN_0:[-23,-67] x:[-110,20]
+TRACE	:   IMG5(-58) sharp:26.2
+TRACE	:   IMG6(-16) sharp:246.3
+TRACE	: GEN_1:[-16,-23,-58,-67] x:[-67,20]
+TRACE	:   IMG7(-24) sharp:206.1
+TRACE	:   IMG8(-8) sharp:273.7
+TRACE	: GEN_2:[-8,-16,-23,-24] x:[-24,20]
+TRACE	:   IMG9(-1) sharp:265.7
+TRACE	:   IMG10(-7) sharp:275.7
+TRACE	: GEN_3:[-7,-8,-1,-16] x:[-16,20]
+TRACE	:   IMG11(5) sharp:249.3
+TRACE	: GEN_4:[-7,-8,-1,5] x:[-16,5]
+TRACE	:   IMG12(-4) sharp:272.4
+TRACE	: GEN_5:[-7,-8,-4,-1] x:[-16,-1]
+TRACE	:   IMG13(-9) sharp:272.8
+TRACE	: GEN_6:[-7,-8,-9,-4] x:[-16,-4]
+TRACE	:   IMG14(-12) sharp:267.9
+TRACE	: GEN_7:[-7,-8,-9,-4] x:[-12,-4]
+TRACE	: GEN_8:[-7,-8,-9,-4] x:[-12,-4]
+TRACE	:   IMG15(-6) sharp:274.4
+TRACE	: GEN_9:[-7,-6,-8,-9] x:[-9,-4]
+TRACE	: GEN_10:[-7,-6,-8,-9] x:[-9,-4]
+TRACE	: GEN_11:[-7,-6,-8,-9] x:[-9,-4]
+TRACE	: GEN_12:[-7,-6,-8,-9] x:[-9,-4]
+TRACE	: polyFit average of  low:[-10,-8,-5] high:[-9,-6,-4]
+TRACE	:   IMG16(-10) sharp:271.6
+DEBUG	: solve() elite survived 10 generations xBest:-7 xPolyFit:-6.9 xPolyFitAvg:-6.6
+DEBUG	: sharpestZ() elite survived 10 generations zBest:-7 zPolyFit:-6.9 zPolyFitAvg:-6.6 samples:14
+
+  4 passing (17s)
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:264.1
+TRACE	:   IMG2(-5) sharp:274.1
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:213.1
+TRACE	:   IMG4(-67) sharp:11.6
+TRACE	: GEN_0:[-23,-67] x:[-110,20]
+TRACE	:   IMG5(-73) sharp:7.2
+TRACE	:   IMG6(-31) sharp:156.2
+TRACE	: GEN_1:[-23,-31,-67,-73] x:[-73,20]
+TRACE	:   IMG7(-27) sharp:184.7
+TRACE	:   IMG8(-26) sharp:191.6
+TRACE	: GEN_2:[-23,-26,-27,-31] x:[-31,20]
+TRACE	:   IMG9(-20) sharp:232.4
+TRACE	: GEN_3:[-20,-23,-26,-27] x:[-27,20]
+TRACE	:   IMG10(-1) sharp:266.3
+TRACE	:   IMG11(-22) sharp:219.4
+TRACE	: GEN_4:[-1,-20,-22,-23] x:[-23,20]
+TRACE	:   IMG12(8) sharp:235.9
+TRACE	:   IMG13(3) sharp:255.8
+TRACE	: GEN_5:[-1,3,8,-20] x:[-20,20]
+TRACE	:   IMG14(-2) sharp:269.7
+TRACE	:   IMG15(1) sharp:262.5
+TRACE	: GEN_6:[-2,-1,1,3] x:[-20,3]
+TRACE	: GEN_7:[-2,-1,0,1] x:[-20,1]
+TRACE	:   IMG16(-3) sharp:272.1
+TRACE	: GEN_8:[-3,-2,-1,0] x:[-20,0]
+TRACE	:   IMG17(-7) sharp:275.9
+TRACE	: GEN_9:[-7,-3,-2,-1] x:[-20,-1]
+TRACE	:   IMG18(-9) sharp:274
+TRACE	: GEN_10:[-7,-5,-9,-3] x:[-20,-3]
+TRACE	: GEN_11:[-7,-5,-9,-3] x:[-20,-3]
+TRACE	:   IMG19(-8) sharp:273.9
+TRACE	: GEN_12:[-7,-5,-9,-8] x:[-9,-3]
+TRACE	: GEN_13:[-7,-5,-9,-8] x:[-9,-3]
+TRACE	: GEN_14:[-7,-5,-9,-8] x:[-9,-3]
+TRACE	:   IMG20(-6) sharp:276.1
+TRACE	: GEN_15:[-6,-7,-5,-9] x:[-9,-3]
+TRACE	: GEN_16:[-6,-7,-5,-9] x:[-9,-3]
+TRACE	: GEN_17:[-6,-7,-5,-9] x:[-9,-3]
+TRACE	: GEN_18:[-6,-7,-5,-9] x:[-9,-3]
+TRACE	: GEN_19:[-6,-7,-5,-9] x:[-9,-3]
+TRACE	: polyFit average of  low:[-9,-7,-4] high:[-8,-5,-3]
+TRACE	:   IMG21(-4) sharp:274.1
+DEBUG	: solve() population stable for 5 generations xBest:-6 xPolyFit:-5.9 xPolyFitAvg:-6.4
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-6 zPolyFit:-5.9 zPolyFitAvg:-6.4 samples:19
+
+  4 passing (23s)
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:264.9
+TRACE	:   IMG2(-5) sharp:274
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:214.5
+TRACE	:   IMG4(-67) sharp:11.6
+TRACE	: GEN_0:[-23,-67] x:[-110,20]
+TRACE	:   IMG5(-17) sharp:248.8
+TRACE	:   IMG6(-27) sharp:185.8
+TRACE	: GEN_1:[-17,-23,-27,-67] x:[-67,20]
+TRACE	:   IMG7(-13) sharp:264.9
+TRACE	:   IMG8(-19) sharp:239
+TRACE	: GEN_2:[-13,-17,-19,-23] x:[-23,20]
+TRACE	:   IMG9(-3) sharp:270.3
+TRACE	: GEN_3:[-3,-13,-17,-19] x:[-19,20]
+TRACE	:   IMG10(8) sharp:233.9
+TRACE	:   IMG11(4) sharp:251.3
+TRACE	: GEN_4:[-3,-13,4,-17] x:[-17,8]
+TRACE	:   IMG12(-9) sharp:274.3
+TRACE	: GEN_5:[-9,-5,-3,-13] x:[-13,4]
+TRACE	:   IMG13(-8) sharp:273
+TRACE	: GEN_6:[-9,-5,-8,-3] x:[-13,-3]
+TRACE	:   IMG14(-6) sharp:274.4
+TRACE	: GEN_7:[-6,-9,-5,-8] x:[-9,-3]
+TRACE	:   IMG15(-7) sharp:275.9
+TRACE	: GEN_8:[-7,-6,-9,-5] x:[-9,-5]
+TRACE	: GEN_9:[-7,-6,-9,-5] x:[-9,-5]
+TRACE	: GEN_10:[-7,-6,-9,-5] x:[-9,-5]
+TRACE	: GEN_11:[-7,-6,-9,-5] x:[-9,-5]
+TRACE	: GEN_12:[-7,-6,-9,-5] x:[-9,-5]
+TRACE	: polyFit average of  low:[-10,-8,-5] high:[-9,-6,-4]
+TRACE	:   IMG16(-10) sharp:272.7
+TRACE	:   IMG17(-4) sharp:272.2
+DEBUG	: solve() population stable for 5 generations xBest:-7 xPolyFit:-7.1 xPolyFitAvg:-9.2
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-7 zPolyFit:-7.1 zPolyFitAvg:-9.2 samples:15
+
+  4 passing (18s)
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:263.6
+TRACE	:   IMG2(-5) sharp:273.3
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:214
+TRACE	:   IMG4(-67) sharp:11.7
+TRACE	: GEN_0:[-23,-67] x:[-110,20]
+TRACE	:   IMG5(-54) sharp:36.5
+TRACE	:   IMG6(-25) sharp:200
+TRACE	: GEN_1:[-23,-25,-54,-67] x:[-67,20]
+TRACE	:   IMG7(-28) sharp:178.6
+TRACE	:   IMG8(-4) sharp:272.7
+TRACE	: GEN_2:[-4,-23,-25,-28] x:[-28,20]
+TRACE	:   IMG9(-3) sharp:269.3
+TRACE	:   IMG10(-10) sharp:272.8
+TRACE	: GEN_3:[-10,-4,-3,-23] x:[-23,20]
+TRACE	:   IMG11(-12) sharp:268.2
+TRACE	: GEN_4:[-10,-4,-3,-12] x:[-12,20]
+TRACE	:   IMG12(9) sharp:229.2
+TRACE	:   IMG13(-11) sharp:271.5
+TRACE	: GEN_5:[-10,-4,-11,-3] x:[-12,-3]
+TRACE	:   IMG14(-9) sharp:272.8
+TRACE	: GEN_6:[-9,-10,-4,-11] x:[-11,-3]
+TRACE	:   IMG15(-6) sharp:276.3
+TRACE	: GEN_7:[-6,-9,-10,-4] x:[-11,-4]
+TRACE	: GEN_8:[-6,-9,-10,-4] x:[-11,-4]
+TRACE	:   IMG16(-7) sharp:275.7
+TRACE	: GEN_9:[-6,-7,-9,-10] x:[-10,-4]
+TRACE	: GEN_10:[-6,-7,-9,-10] x:[-10,-4]
+TRACE	: GEN_11:[-6,-7,-9,-10] x:[-10,-4]
+TRACE	: GEN_12:[-6,-7,-5,-9] x:[-9,-4]
+TRACE	: GEN_13:[-6,-7,-5,-9] x:[-9,-4]
+TRACE	: GEN_14:[-6,-7,-5,-9] x:[-9,-4]
+TRACE	:   IMG17(-8) sharp:273.7
+TRACE	: GEN_15:[-6,-7,-8,-5] x:[-9,-5]
+TRACE	: GEN_16:[-6,-7,-8,-5] x:[-9,-5]
+TRACE	: polyFit average of  low:[-9,-7,-4] high:[-8,-5,-3]
+DEBUG	: solve() elite survived 10 generations xBest:-6 xPolyFit:-6.2 xPolyFitAvg:-6.6
+DEBUG	: sharpestZ() elite survived 10 generations zBest:-6 zPolyFit:-6.2 zPolyFitAvg:-6.6 samples:15
+
+  4 passing (19s)
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:264.4
+TRACE	:   IMG2(-5) sharp:274.7
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:215.1
+TRACE	:   IMG4(-67) sharp:11.7
+TRACE	: GEN_0:[-23,-67] x:[-110,20]
+TRACE	:   IMG5(-71) sharp:8.4
+TRACE	: GEN_1:[-23,-67,-71] x:[-71,20]
+TRACE	:   IMG6(-31) sharp:158
+TRACE	:   IMG7(-20) sharp:232.6
+TRACE	: GEN_2:[-20,-23,-31,-67] x:[-67,20]
+TRACE	:   IMG8(-28) sharp:178.8
+TRACE	:   IMG9(-22) sharp:221
+TRACE	: GEN_3:[-20,-22,-23,-28] x:[-28,20]
+TRACE	:   IMG10(-14) sharp:262.4
+TRACE	: GEN_4:[-14,-20,-22,-23] x:[-23,20]
+TRACE	:   IMG11(-6) sharp:274.2
+TRACE	: GEN_5:[-6,-14,-20,-22] x:[-22,20]
+TRACE	:   IMG12(14) sharp:203
+TRACE	: GEN_6:[-6,-14,-20,-22] x:[-22,14]
+TRACE	:   IMG13(-4) sharp:272.3
+TRACE	:   IMG14(-2) sharp:269.5
+TRACE	: GEN_7:[-6,-4,-2,-14] x:[-14,14]
+TRACE	: GEN_8:[-6,-4,-2,0] x:[-14,0]
+TRACE	: GEN_9:[-5,-6,-4,-2] x:[-14,-2]
+TRACE	:   IMG15(-8) sharp:274.4
+TRACE	: GEN_10:[-5,-8,-6,-4] x:[-14,-4]
+TRACE	:   IMG16(-7) sharp:274.8
+TRACE	: GEN_11:[-7,-5,-8,-6] x:[-14,-5]
+TRACE	:   IMG17(-10) sharp:273
+TRACE	: GEN_12:[-7,-5,-8,-6] x:[-10,-5]
+TRACE	: GEN_13:[-7,-5,-8,-6] x:[-10,-5]
+TRACE	: GEN_14:[-7,-5,-8,-6] x:[-10,-5]
+TRACE	: GEN_15:[-7,-5,-8,-6] x:[-10,-5]
+TRACE	: polyFit average of  low:[-10,-8,-5] high:[-9,-6,-4]
+TRACE	:   IMG18(-9) sharp:271.8
+DEBUG	: solve() population stable for 5 generations xBest:-7 xPolyFit:-6.1 xPolyFitAvg:-6.2
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-7 zPolyFit:-6.1 zPolyFitAvg:-6.2 samples:16
+
+  4 passing (20s)
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:263.3
+TRACE	:   IMG2(-5) sharp:274.2
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:215.1
+TRACE	:   IMG4(-67) sharp:11.7
+TRACE	: GEN_0:[-23,-67] x:[-110,20]
+TRACE	:   IMG5(-70) sharp:9
+TRACE	:   IMG6(-39) sharp:105.6
+TRACE	: GEN_1:[-23,-39,-67,-70] x:[-70,20]
+TRACE	:   IMG7(-31) sharp:158.1
+TRACE	:   IMG8(-29) sharp:171.9
+TRACE	: GEN_2:[-23,-29,-31,-39] x:[-39,20]
+TRACE	:   IMG9(-4) sharp:270.3
+TRACE	:   IMG10(-18) sharp:246.2
+TRACE	: GEN_3:[-4,-18,-23,-29] x:[-29,20]
+TRACE	:   IMG11(-15) sharp:258.4
+TRACE	: GEN_4:[-4,-15,-18,-23] x:[-23,20]
+TRACE	:   IMG12(-9) sharp:274
+TRACE	:   IMG13(3) sharp:253.4
+TRACE	: GEN_5:[-9,-4,-15,3] x:[-18,3]
+TRACE	:   IMG14(-6) sharp:274.7
+TRACE	: GEN_6:[-6,-5,-9,-4] x:[-15,-4]
+TRACE	: GEN_7:[-6,-5,-9,-4] x:[-15,-4]
+TRACE	:   IMG15(-11) sharp:270.6
+TRACE	: GEN_8:[-6,-5,-9,-11] x:[-11,-4]
+TRACE	: GEN_9:[-6,-5,-9,-11] x:[-11,-4]
+TRACE	:   IMG16(-8) sharp:276.2
+TRACE	: GEN_10:[-8,-6,-5,-9] x:[-9,-4]
+TRACE	: GEN_11:[-8,-6,-5,-9] x:[-9,-4]
+TRACE	: GEN_12:[-8,-6,-5,-9] x:[-9,-4]
+TRACE	: GEN_13:[-8,-6,-5,-9] x:[-9,-4]
+TRACE	:   IMG17(-7) sharp:277.3
+TRACE	: GEN_14:[-7,-8,-6,-5] x:[-9,-5]
+TRACE	: GEN_15:[-7,-8,-6,-5] x:[-9,-5]
+TRACE	: GEN_16:[-7,-8,-6,-5] x:[-9,-5]
+TRACE	: GEN_17:[-7,-8,-6,-5] x:[-9,-5]
+TRACE	: GEN_18:[-7,-8,-6,-5] x:[-9,-5]
+TRACE	: polyFit average of  low:[-10,-8,-5] high:[-9,-6,-4]
+TRACE	:   IMG18(-10) sharp:273.3
+DEBUG	: solve() population stable for 5 generations xBest:-7 xPolyFit:-7 xPolyFitAvg:-7.3
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-7 zPolyFit:-7 zPolyFitAvg:-7.3 samples:16
+
+  4 passing (19s)
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:263.3
+TRACE	:   IMG2(-5) sharp:274.5
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:216.3
+TRACE	:   IMG4(-67) sharp:11.8
+TRACE	: GEN_0:[-23,-67] x:[-110,20]
+TRACE	:   IMG5(-50) sharp:50.3
+TRACE	: GEN_1:[-23,-50,-67] x:[-67,20]
+TRACE	:   IMG6(-28) sharp:178.8
+TRACE	: GEN_2:[-23,-28,-50,-67] x:[-67,20]
+TRACE	:   IMG7(-10) sharp:273
+TRACE	:   IMG8(-22) sharp:221.3
+TRACE	: GEN_3:[-10,-22,-23,-28] x:[-28,20]
+TRACE	:   IMG9(3) sharp:252.6
+TRACE	:   IMG10(-11) sharp:271
+TRACE	: GEN_4:[-10,-11,3,-22] x:[-22,20]
+TRACE	:   IMG11(-3) sharp:269.4
+TRACE	: GEN_5:[-10,-11,-3,3] x:[-22,3]
+TRACE	:   IMG12(-15) sharp:257.9
+TRACE	:   IMG13(-8) sharp:275.4
+TRACE	: GEN_6:[-8,-10,-11,-3] x:[-15,-3]
+TRACE	:   IMG14(-6) sharp:274.8
+TRACE	: GEN_7:[-8,-6,-10,-11] x:[-11,-3]
+TRACE	:   IMG15(-7) sharp:275.7
+TRACE	: GEN_8:[-7,-8,-6,-10] x:[-10,-3]
+TRACE	: GEN_9:[-7,-8,-6,-5] x:[-10,-5]
+TRACE	:   IMG16(-9) sharp:273.1
+TRACE	: GEN_10:[-7,-8,-6,-5] x:[-9,-5]
+TRACE	: GEN_11:[-7,-8,-6,-5] x:[-9,-5]
+TRACE	: GEN_12:[-7,-8,-6,-5] x:[-9,-5]
+TRACE	: GEN_13:[-7,-8,-6,-5] x:[-9,-5]
+TRACE	: polyFit average of  low:[-10,-8,-5] high:[-9,-6,-4]
+TRACE	:   IMG17(-4) sharp:271.1
+DEBUG	: solve() population stable for 5 generations xBest:-7 xPolyFit:-6.6 xPolyFitAvg:-7
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-7 zPolyFit:-6.6 zPolyFitAvg:-7 samples:15
+
+  4 passing (18s)
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:263.5
+TRACE	:   IMG2(-5) sharp:274.1
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:216
+TRACE	:   IMG4(-67) sharp:11.8
+TRACE	: GEN_0:[-23,-67] x:[-110,20]
+TRACE	:   IMG5(-56) sharp:31.2
+TRACE	:   IMG6(-27) sharp:187.3
+TRACE	: GEN_1:[-23,-27,-56,-67] x:[-67,20]
+TRACE	:   IMG7(-26) sharp:194.4
+TRACE	:   IMG8(-30) sharp:166.3
+TRACE	: GEN_2:[-23,-26,-27,-30] x:[-30,20]
+TRACE	:   IMG9(-3) sharp:269.2
+TRACE	: GEN_3:[-3,-23,-26,-27] x:[-27,20]
+TRACE	:   IMG10(-7) sharp:275.7
+TRACE	: GEN_4:[-7,-5,-3,-23] x:[-23,20]
+TRACE	:   IMG11(-12) sharp:268.8
+TRACE	: GEN_5:[-7,-5,-3,-12] x:[-12,20]
+TRACE	:   IMG12(1) sharp:259.7
+TRACE	: GEN_6:[-7,-5,-3,-12] x:[-12,1]
+TRACE	: GEN_7:[-7,-5,-3,-12] x:[-12,1]
+TRACE	: GEN_8:[-7,-5,-3,-12] x:[-12,0]
+TRACE	:   IMG13(-6) sharp:274.7
+TRACE	:   IMG14(-8) sharp:273.6
+TRACE	: GEN_9:[-7,-6,-5,-8] x:[-8,-3]
+TRACE	: GEN_10:[-7,-6,-5,-8] x:[-8,-3]
+TRACE	:   IMG15(-4) sharp:272.8
+TRACE	: GEN_11:[-7,-6,-5,-8] x:[-8,-4]
+TRACE	: GEN_12:[-7,-6,-5,-8] x:[-8,-4]
+TRACE	: GEN_13:[-7,-6,-5,-8] x:[-8,-4]
+TRACE	: polyFit average of  low:[-10,-8,-5] high:[-9,-6,-4]
+TRACE	:   IMG16(-10) sharp:273
+TRACE	:   IMG17(-9) sharp:271.8
+DEBUG	: solve() population stable for 5 generations xBest:-7 xPolyFit:-6.6 xPolyFitAvg:-4.4
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-7 zPolyFit:-6.6 zPolyFitAvg:-4.4 samples:15
+
+  4 passing (19s)
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:262.8
+TRACE	:   IMG2(-5) sharp:274.2
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:217.1
+TRACE	:   IMG4(-67) sharp:11.7
+TRACE	: GEN_0:[-23,-67] x:[-110,20]
+TRACE	:   IMG5(-46) sharp:69.7
+TRACE	: GEN_1:[-23,-46,-67] x:[-67,20]
+TRACE	:   IMG6(-32) sharp:149.3
+TRACE	:   IMG7(-22) sharp:220.9
+TRACE	: GEN_2:[-22,-23,-32,-46] x:[-46,20]
+TRACE	:   IMG8(-7) sharp:275
+TRACE	:   IMG9(-15) sharp:258.8
+TRACE	: GEN_3:[-7,-15,-22,-23] x:[-23,20]
+TRACE	:   IMG10(-11) sharp:270.7
+TRACE	: GEN_4:[-7,-11,-15,-22] x:[-22,20]
+TRACE	: GEN_5:[-7,-11,0,-15] x:[-15,20]
+TRACE	:   IMG11(2) sharp:256.6
+TRACE	:   IMG12(-6) sharp:274.8
+TRACE	: GEN_6:[-7,-6,-11,0] x:[-15,0]
+TRACE	:   IMG13(-8) sharp:274.4
+TRACE	: GEN_7:[-7,-6,-8,-11] x:[-11,0]
+TRACE	:   IMG14(-4) sharp:272.4
+TRACE	: GEN_8:[-7,-6,-8,-4] x:[-11,-4]
+TRACE	: GEN_9:[-7,-6,-8,-4] x:[-11,-4]
+TRACE	: GEN_10:[-7,-6,-8,-5] x:[-11,-5]
+TRACE	: GEN_11:[-7,-6,-8,-5] x:[-11,-5]
+TRACE	:   IMG15(-9) sharp:273.7
+TRACE	: GEN_12:[-7,-6,-8,-5] x:[-9,-5]
+TRACE	: polyFit average of  low:[-10,-8,-5] high:[-9,-6,-4]
+TRACE	:   IMG16(-10) sharp:273
+DEBUG	: solve() elite survived 10 generations xBest:-7 xPolyFit:-6.8 xPolyFitAvg:-6.9
+DEBUG	: sharpestZ() elite survived 10 generations zBest:-7 zPolyFit:-6.8 zPolyFitAvg:-6.9 samples:14
+
+  4 passing (17s)
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:262.3
+TRACE	:   IMG2(-5) sharp:274.2
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:216.8
+TRACE	:   IMG4(-67) sharp:11.7
+TRACE	: GEN_0:[-23,-67] x:[-110,20]
+TRACE	:   IMG5(-30) sharp:166.2
+TRACE	: GEN_1:[-23,-30,-67] x:[-67,20]
+TRACE	:   IMG6(-31) sharp:160.5
+TRACE	:   IMG7(-25) sharp:202.6
+TRACE	: GEN_2:[-23,-25,-30,-31] x:[-31,20]
+TRACE	: GEN_3:[0,-23,-25,-30] x:[-30,20]
+TRACE	:   IMG8(-3) sharp:269.5
+TRACE	:   IMG9(-4) sharp:273
+TRACE	: GEN_4:[-4,-3,0,-23] x:[-23,20]
+TRACE	: GEN_5:[-4,-3,0,-23] x:[-23,20]
+TRACE	:   IMG10(-2) sharp:268.4
+TRACE	: GEN_6:[-4,-3,-2,0] x:[-23,0]
+TRACE	:   IMG11(-6) sharp:275.1
+TRACE	: GEN_7:[-6,-4,-3,-2] x:[-23,-2]
+TRACE	:   IMG12(-13) sharp:267.1
+TRACE	: GEN_8:[-6,-4,-3,-2] x:[-13,-2]
+TRACE	:   IMG13(-9) sharp:274.1
+TRACE	: GEN_9:[-6,-5,-9,-4] x:[-13,-4]
+TRACE	: GEN_10:[-6,-5,-9,-4] x:[-13,-4]
+TRACE	:   IMG14(-8) sharp:274.4
+TRACE	:   IMG15(-7) sharp:275.5
+TRACE	: GEN_11:[-7,-6,-8,-5] x:[-9,-5]
+TRACE	: GEN_12:[-7,-6,-8,-5] x:[-9,-5]
+TRACE	: GEN_13:[-7,-6,-8,-5] x:[-9,-5]
+TRACE	: GEN_14:[-7,-6,-8,-5] x:[-9,-5]
+TRACE	: GEN_15:[-7,-6,-8,-5] x:[-9,-5]
+TRACE	: polyFit average of  low:[-10,-8,-5] high:[-9,-6,-4]
+TRACE	:   IMG16(-10) sharp:273.4
+DEBUG	: solve() population stable for 5 generations xBest:-7 xPolyFit:-6.9 xPolyFitAvg:-6.8
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-7 zPolyFit:-6.9 zPolyFitAvg:-6.8 samples:14
+
+  4 passing (17s)
+
