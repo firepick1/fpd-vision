@@ -15,6 +15,11 @@ controlled illumination to minimize the impact of ambient light changes on
 computer vision calculations.
 
 ### Considerations
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_EXT.jpg"><img
+src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_EXT.jpg" height=200px></a>
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG"><img
+src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG" 
+height=200px></a>
 
 **Effector lighting** will be 16-LED NeoPixel ring light. 
 The <a href="http://www.adafruit.com/product/1463">NeoPixel ring</a>
@@ -29,8 +34,6 @@ LED strip lighting</a> mounted on the lower
 part of the FPD vertical extrusions. Although it's possible to mount four such lights,
 two should be fine for assessing the hypothesis.
 
-<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_EXT.jpg"><img
-src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_EXT.jpg" height=200px></a>
 
 **Ambient residential lighting** fluctuates dramatically throughout the day. Unlike
 commercial factory lighting, residential lighting is affected by passing clouds
@@ -43,16 +46,6 @@ it is important to understand the requirements for proper FPD lighting.
 without the influence of ambient light. A box will be used to minimize inconvenience
 to home inhabitants. 
 
-<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG"><img
-src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG" 
-style="
-	-webkit-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
-	transform: rotate(90deg);
-"
-height=200px></a>
 
 **FireSight <a href="https://github.com/firepick1/FireSight/wiki/op-Sharpness">op-sharpness</a>** (thank you, Simon!) will be used to measure the camera
 focal length.
