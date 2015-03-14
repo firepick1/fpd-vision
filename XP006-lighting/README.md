@@ -82,6 +82,15 @@ We will calculate the FPD focal length in the following circumsances:
 ### Results
 
 <a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient-38_9AM_10AM.gif">
-<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient-38_9AM_10AM.gif" size=200px></a>
+<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient-38_9AM_10AM.gif" 
+height=200px></a>
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient_data.png">
+<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient_data.png" 
+height=200px></a>
 
-**Ambient light** strongly affects focus calculation.
+**Ambient light** strongly affects focus calculation. 
+The picture above shows two images, taken at 9 and 10AM. Notice that:
+
+* The "sharpest Z" changes by over 15mm, all within about an hour as the day got brighter.
+* Brighter ambient images are seen as "sharper". Increased ambient light increases the contrast of more distant images, resulting in a greater z value for sharpness.
+* Brighter ambient light also fluctuates more (higher standard deviation), because the higher intensity affects the relative change in intensity used to calculate sharpness
