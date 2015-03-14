@@ -44,7 +44,15 @@ without the influence of ambient light. A box will be used to minimize inconveni
 to home inhabitants. 
 
 <a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG"><img
-src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG" height=200px></a>
+src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG" 
+style="
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+"
+height=200px></a>
 
 **FireSight <a href="https://github.com/firepick1/FireSight/wiki/op-Sharpness">op-sharpness</a>** (thank you, Simon!) will be used to measure the camera
 focal length.
