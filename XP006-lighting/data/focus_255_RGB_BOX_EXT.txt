@@ -1,0 +1,701 @@
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:277.6
+TRACE	:   IMG2(-5) sharp:293.2
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:364.4
+TRACE	:   IMG4(-67) sharp:566.1
+TRACE	: GEN_0:[-67,-23] x:[-110,20]
+TRACE	:   IMG5(-4) sharp:290.5
+TRACE	: GEN_1:[-67,-23,-4] x:[-110,-4]
+TRACE	:   IMG6(-94) sharp:371.7
+TRACE	:   IMG7(-82) sharp:514.9
+TRACE	: GEN_2:[-67,-82,-94,-23] x:[-110,-23]
+TRACE	:   IMG8(-72) sharp:568.2
+TRACE	:   IMG9(-64) sharp:569.4
+TRACE	: GEN_3:[-64,-72,-67,-82] x:[-82,-23]
+TRACE	:   IMG10(-46) sharp:496.6
+TRACE	:   IMG11(-65) sharp:571.5
+TRACE	: GEN_4:[-65,-64,-72,-67] x:[-72,-46]
+TRACE	:   IMG12(-66) sharp:572.8
+TRACE	: GEN_5:[-66,-65,-64,-72] x:[-72,-46]
+TRACE	:   IMG13(-53) sharp:532.7
+TRACE	: GEN_6:[-66,-65,-64,-72] x:[-72,-53]
+TRACE	:   IMG14(-63) sharp:568.3
+TRACE	: GEN_7:[-66,-65,-64,-63] x:[-72,-63]
+TRACE	:   IMG15(-69) sharp:568
+TRACE	: GEN_8:[-66,-65,-64,-63] x:[-69,-63]
+TRACE	: GEN_9:[-66,-65,-64,-63] x:[-67,-63]
+TRACE	: GEN_10:[-66,-65,-64,-63] x:[-67,-63]
+TRACE	: GEN_11:[-66,-65,-64,-63] x:[-67,-63]
+TRACE	: polyFit average of  low:[-69,-67,-64] high:[-68,-65,-63]
+TRACE	:   IMG16(-68) sharp:572.1
+DEBUG	: solve() population stable for 5 generations xBest:-66 xPolyFit:-66.7 xPolyFitAvg:-66.8
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-66 zPolyFit:-66.7 zPolyFitAvg:-66.8 samples:14
+
+  3 passing (31s)
+  1 failing
+
+  1) firepick.Focus sharpness(0) should compute the sharpness at {x:0,y:0,z:0}:
+     Error: timeout of 2000ms exceeded
+      at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:206:67)
+      at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:262:7)
+      at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:244:7)
+      at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:374:10)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:452:12
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:299:14)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:309:7
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:248:23)
+      at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:276:5)
+      at processImmediate [as _immediateCallback] (timers.js:358:17)
+
+
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:279.7
+TRACE	:   IMG2(-5) sharp:294.1
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:365.8
+TRACE	:   IMG4(-67) sharp:569.7
+TRACE	: GEN_0:[-67,-23] x:[-110,20]
+TRACE	:   IMG5(-62) sharp:564.9
+TRACE	: GEN_1:[-67,-62,-23] x:[-110,-23]
+TRACE	:   IMG6(-44) sharp:486.1
+TRACE	:   IMG7(-73) sharp:564.8
+TRACE	: GEN_2:[-67,-62,-73,-44] x:[-110,-44]
+TRACE	:   IMG8(-81) sharp:520.3
+TRACE	:   IMG9(-59) sharp:553.4
+TRACE	: GEN_3:[-67,-62,-73,-59] x:[-81,-59]
+TRACE	:   IMG10(-69) sharp:567.9
+TRACE	: GEN_4:[-67,-69,-62,-73] x:[-73,-59]
+TRACE	: GEN_5:[-67,-69,-62,-73] x:[-73,-59]
+TRACE	:   IMG11(-65) sharp:573.8
+TRACE	: GEN_6:[-65,-67,-69,-62] x:[-73,-62]
+TRACE	:   IMG12(-66) sharp:573
+TRACE	: GEN_7:[-65,-66,-67,-69] x:[-69,-62]
+TRACE	:   IMG13(-64) sharp:569.9
+TRACE	: GEN_8:[-65,-66,-64,-67] x:[-67,-62]
+TRACE	: GEN_9:[-65,-66,-64,-67] x:[-67,-62]
+TRACE	: GEN_10:[-65,-66,-64,-67] x:[-67,-62]
+TRACE	: GEN_11:[-65,-66,-64,-67] x:[-67,-62]
+TRACE	: GEN_12:[-65,-66,-64,-67] x:[-67,-62]
+TRACE	: polyFit average of  low:[-68,-66,-63] high:[-67,-64,-62]
+TRACE	:   IMG14(-68) sharp:570.8
+TRACE	:   IMG15(-63) sharp:568.7
+DEBUG	: solve() population stable for 5 generations xBest:-65 xPolyFit:-65.1 xPolyFitAvg:-65.7
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-65 zPolyFit:-65.1 zPolyFitAvg:-65.7 samples:13
+
+  3 passing (24s)
+  1 failing
+
+  1) firepick.Focus sharpness(0) should compute the sharpness at {x:0,y:0,z:0}:
+     Error: timeout of 2000ms exceeded
+      at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:206:67)
+      at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:262:7)
+      at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:244:7)
+      at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:374:10)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:452:12
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:299:14)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:309:7
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:248:23)
+      at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:276:5)
+      at processImmediate [as _immediateCallback] (timers.js:358:17)
+
+
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:279.7
+TRACE	:   IMG2(-5) sharp:294.2
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:365.7
+TRACE	:   IMG4(-67) sharp:570.4
+TRACE	: GEN_0:[-67,-23] x:[-110,20]
+TRACE	:   IMG5(-9) sharp:305.3
+TRACE	: GEN_1:[-67,-23,-9] x:[-110,-9]
+TRACE	:   IMG6(-33) sharp:415.6
+TRACE	:   IMG7(-53) sharp:530.3
+TRACE	: GEN_2:[-67,-53,-33,-23] x:[-110,-23]
+TRACE	:   IMG8(-64) sharp:567.4
+TRACE	:   IMG9(-69) sharp:568.7
+TRACE	: GEN_3:[-67,-69,-64,-53] x:[-110,-53]
+TRACE	:   IMG10(-83) sharp:502.7
+TRACE	: GEN_4:[-67,-69,-64,-53] x:[-83,-53]
+TRACE	:   IMG11(-78) sharp:540.1
+TRACE	:   IMG12(-66) sharp:570.8
+TRACE	: GEN_5:[-66,-67,-69,-64] x:[-78,-64]
+TRACE	:   IMG13(-70) sharp:568.2
+TRACE	: GEN_6:[-66,-67,-69,-70] x:[-70,-64]
+TRACE	:   IMG14(-65) sharp:573.9
+TRACE	: GEN_7:[-65,-66,-67,-69] x:[-69,-64]
+TRACE	: GEN_8:[-65,-66,-67,-69] x:[-69,-64]
+TRACE	: GEN_9:[-65,-66,-67,-69] x:[-69,-64]
+TRACE	: GEN_10:[-65,-66,-67,-69] x:[-69,-64]
+TRACE	: GEN_11:[-65,-66,-67,-69] x:[-69,-64]
+TRACE	: polyFit average of  low:[-68,-66,-63] high:[-67,-64,-62]
+TRACE	:   IMG15(-68) sharp:571.1
+TRACE	:   IMG16(-63) sharp:568.7
+TRACE	:   IMG17(-62) sharp:568.4
+DEBUG	: solve() population stable for 5 generations xBest:-65 xPolyFit:-65.2 xPolyFitAvg:-65.6
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-65 zPolyFit:-65.2 zPolyFitAvg:-65.6 samples:15
+
+  3 passing (28s)
+  1 failing
+
+  1) firepick.Focus sharpness(0) should compute the sharpness at {x:0,y:0,z:0}:
+     Error: timeout of 2000ms exceeded
+      at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:206:67)
+      at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:262:7)
+      at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:244:7)
+      at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:374:10)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:452:12
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:299:14)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:309:7
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:248:23)
+      at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:276:5)
+      at processImmediate [as _immediateCallback] (timers.js:358:17)
+
+
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:280.4
+TRACE	:   IMG2(-5) sharp:294.7
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:366.1
+TRACE	:   IMG4(-67) sharp:569.5
+TRACE	: GEN_0:[-67,-23] x:[-110,20]
+TRACE	:   IMG5(-30) sharp:401.2
+TRACE	:   IMG6(-71) sharp:568
+TRACE	: GEN_1:[-67,-71,-30,-23] x:[-110,-23]
+TRACE	:   IMG7(-55) sharp:542.9
+TRACE	: GEN_2:[-67,-71,-55,-30] x:[-110,-30]
+TRACE	:   IMG8(-49) sharp:513.7
+TRACE	: GEN_3:[-67,-71,-55,-49] x:[-110,-49]
+TRACE	:   IMG9(-81) sharp:520.7
+TRACE	:   IMG10(-69) sharp:568.8
+TRACE	: GEN_4:[-67,-69,-71,-55] x:[-81,-55]
+TRACE	: GEN_5:[-67,-69,-71,-55] x:[-81,-55]
+TRACE	:   IMG11(-72) sharp:567.3
+TRACE	: GEN_6:[-67,-69,-71,-72] x:[-72,-55]
+TRACE	:   IMG12(-63) sharp:567.1
+TRACE	:   IMG13(-68) sharp:571.2
+TRACE	: GEN_7:[-68,-67,-69,-71] x:[-71,-63]
+TRACE	:   IMG14(-66) sharp:570.5
+TRACE	: GEN_8:[-68,-66,-67,-69] x:[-69,-63]
+TRACE	: GEN_9:[-68,-66,-67,-69] x:[-69,-63]
+TRACE	: GEN_10:[-68,-66,-67,-69] x:[-69,-63]
+TRACE	: GEN_11:[-68,-66,-67,-69] x:[-69,-63]
+TRACE	:   IMG15(-65) sharp:573.4
+TRACE	: GEN_12:[-65,-68,-66,-67] x:[-68,-63]
+TRACE	:   IMG16(-64) sharp:570.3
+TRACE	: GEN_13:[-65,-68,-66,-64] x:[-68,-64]
+TRACE	: GEN_14:[-65,-68,-66,-64] x:[-68,-64]
+TRACE	: GEN_15:[-65,-68,-66,-64] x:[-68,-64]
+TRACE	: GEN_16:[-65,-68,-66,-64] x:[-68,-64]
+TRACE	: GEN_17:[-65,-68,-66,-64] x:[-68,-64]
+TRACE	: polyFit average of  low:[-68,-66,-63] high:[-67,-64,-62]
+TRACE	:   IMG17(-62) sharp:568
+DEBUG	: solve() population stable for 5 generations xBest:-65 xPolyFit:-65.2 xPolyFitAvg:-66.6
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-65 zPolyFit:-65.2 zPolyFitAvg:-66.6 samples:15
+
+  3 passing (28s)
+  1 failing
+
+  1) firepick.Focus sharpness(0) should compute the sharpness at {x:0,y:0,z:0}:
+     Error: timeout of 2000ms exceeded
+      at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:206:67)
+      at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:262:7)
+      at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:244:7)
+      at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:374:10)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:452:12
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:299:14)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:309:7
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:248:23)
+      at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:276:5)
+      at processImmediate [as _immediateCallback] (timers.js:358:17)
+
+
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:280.9
+TRACE	:   IMG2(-5) sharp:295.7
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:366.8
+TRACE	:   IMG4(-67) sharp:569.3
+TRACE	: GEN_0:[-67,-23] x:[-110,20]
+TRACE	:   IMG5(-18) sharp:347.5
+TRACE	: GEN_1:[-67,-23,-18] x:[-110,-18]
+TRACE	:   IMG6(-82) sharp:514.3
+TRACE	: GEN_2:[-67,-82,-23,-18] x:[-110,-18]
+TRACE	:   IMG7(-48) sharp:509.6
+TRACE	:   IMG8(-97) sharp:317.2
+TRACE	: GEN_3:[-67,-82,-48,-23] x:[-97,-23]
+TRACE	:   IMG9(-38) sharp:447.1
+TRACE	:   IMG10(-66) sharp:571.3
+TRACE	: GEN_4:[-66,-67,-82,-48] x:[-97,-48]
+TRACE	:   IMG11(-78) sharp:540.8
+TRACE	:   IMG12(-69) sharp:565
+TRACE	: GEN_5:[-66,-67,-69,-78] x:[-78,-48]
+TRACE	:   IMG13(-63) sharp:569.5
+TRACE	: GEN_6:[-66,-63,-67,-69] x:[-69,-48]
+TRACE	:   IMG14(-56) sharp:544.1
+TRACE	: GEN_7:[-66,-63,-67,-69] x:[-69,-56]
+TRACE	:   IMG15(-64) sharp:568.2
+TRACE	:   IMG16(-65) sharp:573.4
+TRACE	: GEN_8:[-65,-66,-63,-67] x:[-67,-56]
+TRACE	:   IMG17(-62) sharp:563.8
+TRACE	: GEN_9:[-65,-66,-63,-67] x:[-67,-62]
+TRACE	: GEN_10:[-65,-66,-63,-67] x:[-67,-62]
+TRACE	: GEN_11:[-65,-66,-63,-67] x:[-67,-62]
+TRACE	: GEN_12:[-65,-66,-63,-67] x:[-67,-62]
+TRACE	: polyFit average of  low:[-68,-66,-63] high:[-67,-64,-62]
+TRACE	:   IMG18(-68) sharp:570
+DEBUG	: solve() population stable for 5 generations xBest:-65 xPolyFit:-65 xPolyFitAvg:-65.9
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-65 zPolyFit:-65 zPolyFitAvg:-65.9 samples:16
+
+  3 passing (36s)
+  1 failing
+
+  1) firepick.Focus sharpness(0) should compute the sharpness at {x:0,y:0,z:0}:
+     Error: timeout of 2000ms exceeded
+      at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:206:67)
+      at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:262:7)
+      at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:244:7)
+      at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:374:10)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:452:12
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:299:14)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:309:7
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:248:23)
+      at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:276:5)
+      at processImmediate [as _immediateCallback] (timers.js:358:17)
+
+
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:282.1
+TRACE	:   IMG2(-5) sharp:296.5
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:367.6
+TRACE	:   IMG4(-67) sharp:569.4
+TRACE	: GEN_0:[-67,-23] x:[-110,20]
+TRACE	:   IMG5(-12) sharp:322.7
+TRACE	:   IMG6(-79) sharp:533.5
+TRACE	: GEN_1:[-67,-79,-23,-12] x:[-110,-12]
+TRACE	:   IMG7(-49) sharp:514.5
+TRACE	:   IMG8(-68) sharp:566.3
+TRACE	: GEN_2:[-67,-68,-79,-49] x:[-110,-49]
+TRACE	:   IMG9(-84) sharp:497.5
+TRACE	:   IMG10(-63) sharp:568
+TRACE	: GEN_3:[-67,-63,-68,-79] x:[-79,-49]
+TRACE	:   IMG11(-72) sharp:563
+TRACE	: GEN_4:[-67,-63,-68,-72] x:[-72,-49]
+TRACE	:   IMG12(-54) sharp:532.9
+TRACE	: GEN_5:[-67,-63,-68,-72] x:[-72,-54]
+TRACE	: GEN_6:[-67,-63,-68,-72] x:[-72,-54]
+TRACE	:   IMG13(-66) sharp:569.5
+TRACE	: GEN_7:[-66,-67,-63,-68] x:[-68,-54]
+TRACE	:   IMG14(-56) sharp:545.7
+TRACE	: GEN_8:[-66,-67,-63,-68] x:[-68,-56]
+TRACE	:   IMG15(-65) sharp:572
+TRACE	: GEN_9:[-65,-66,-67,-63] x:[-68,-63]
+TRACE	: GEN_10:[-65,-66,-67,-63] x:[-68,-63]
+TRACE	: GEN_11:[-65,-66,-67,-63] x:[-68,-63]
+TRACE	:   IMG16(-64) sharp:570.4
+TRACE	: GEN_12:[-65,-64,-66,-67] x:[-67,-63]
+TRACE	: GEN_13:[-65,-64,-66,-67] x:[-67,-63]
+TRACE	: GEN_14:[-65,-64,-66,-67] x:[-67,-63]
+TRACE	: GEN_15:[-65,-64,-66,-67] x:[-67,-63]
+TRACE	: GEN_16:[-65,-64,-66,-67] x:[-67,-63]
+TRACE	: polyFit average of  low:[-68,-66,-63] high:[-67,-64,-62]
+TRACE	:   IMG17(-62) sharp:564.9
+DEBUG	: solve() population stable for 5 generations xBest:-65 xPolyFit:-65.2 xPolyFitAvg:-65.2
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-65 zPolyFit:-65.2 zPolyFitAvg:-65.2 samples:15
+
+  3 passing (32s)
+  1 failing
+
+  1) firepick.Focus sharpness(0) should compute the sharpness at {x:0,y:0,z:0}:
+     Error: timeout of 2000ms exceeded
+      at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:206:67)
+      at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:262:7)
+      at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:244:7)
+      at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:374:10)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:452:12
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:299:14)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:309:7
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:248:23)
+      at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:276:5)
+      at processImmediate [as _immediateCallback] (timers.js:358:17)
+
+
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:282.8
+TRACE	:   IMG2(-5) sharp:297.3
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:368
+TRACE	:   IMG4(-67) sharp:566.3
+TRACE	: GEN_0:[-67,-23] x:[-110,20]
+TRACE	:   IMG5(-21) sharp:361.4
+TRACE	:   IMG6(-44) sharp:482.9
+TRACE	: GEN_1:[-67,-44,-23,-21] x:[-110,-21]
+TRACE	:   IMG7(-100) sharp:263.3
+TRACE	: GEN_2:[-67,-44,-23,-21] x:[-100,-21]
+TRACE	:   IMG8(-38) sharp:449.6
+TRACE	:   IMG9(-75) sharp:554.1
+TRACE	: GEN_3:[-67,-75,-44,-38] x:[-100,-38]
+TRACE	:   IMG10(-57) sharp:548.5
+TRACE	:   IMG11(-65) sharp:572.4
+TRACE	: GEN_4:[-65,-67,-75,-57] x:[-100,-57]
+TRACE	:   IMG12(-77) sharp:544.1
+TRACE	:   IMG13(-62) sharp:567.7
+TRACE	: GEN_5:[-65,-62,-67,-75] x:[-75,-57]
+TRACE	:   IMG14(-60) sharp:560.5
+TRACE	:   IMG15(-64) sharp:566.5
+TRACE	: GEN_6:[-65,-62,-64,-67] x:[-67,-60]
+TRACE	:   IMG16(-66) sharp:571.1
+TRACE	: GEN_7:[-65,-66,-62,-64] x:[-67,-62]
+TRACE	: GEN_8:[-65,-66,-62,-64] x:[-67,-62]
+TRACE	: GEN_9:[-65,-66,-62,-64] x:[-67,-62]
+TRACE	: GEN_10:[-65,-66,-62,-64] x:[-67,-62]
+TRACE	: GEN_11:[-65,-66,-62,-64] x:[-67,-62]
+TRACE	: polyFit average of  low:[-68,-66,-63] high:[-67,-64,-62]
+TRACE	:   IMG17(-68) sharp:570.8
+TRACE	:   IMG18(-63) sharp:568.1
+DEBUG	: solve() population stable for 5 generations xBest:-65 xPolyFit:-64.8 xPolyFitAvg:-66.2
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-65 zPolyFit:-64.8 zPolyFitAvg:-66.2 samples:16
+
+  3 passing (34s)
+  1 failing
+
+  1) firepick.Focus sharpness(0) should compute the sharpness at {x:0,y:0,z:0}:
+     Error: timeout of 2000ms exceeded
+      at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:206:67)
+      at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:262:7)
+      at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:244:7)
+      at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:374:10)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:452:12
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:299:14)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:309:7
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:248:23)
+      at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:276:5)
+      at processImmediate [as _immediateCallback] (timers.js:358:17)
+
+
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:283
+TRACE	:   IMG2(-5) sharp:297.4
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:369.2
+TRACE	:   IMG4(-67) sharp:568.6
+TRACE	: GEN_0:[-67,-23] x:[-110,20]
+TRACE	:   IMG5(-25) sharp:379.8
+TRACE	:   IMG6(-80) sharp:526.1
+TRACE	: GEN_1:[-67,-80,-25,-23] x:[-110,-23]
+TRACE	:   IMG7(-78) sharp:538.2
+TRACE	:   IMG8(-70) sharp:565.6
+TRACE	: GEN_2:[-67,-70,-78,-80] x:[-80,-25]
+TRACE	:   IMG9(-52) sharp:529.2
+TRACE	:   IMG10(-68) sharp:569.1
+TRACE	: GEN_3:[-68,-67,-70,-78] x:[-78,-52]
+TRACE	:   IMG11(-66) sharp:569.4
+TRACE	: GEN_4:[-66,-68,-67,-70] x:[-70,-52]
+TRACE	:   IMG12(-60) sharp:558
+TRACE	: GEN_5:[-66,-68,-67,-70] x:[-70,-60]
+TRACE	:   IMG13(-65) sharp:573.5
+TRACE	: GEN_6:[-65,-66,-68,-67] x:[-68,-60]
+TRACE	:   IMG14(-63) sharp:567.4
+TRACE	: GEN_7:[-65,-66,-68,-67] x:[-68,-63]
+TRACE	: GEN_8:[-65,-66,-68,-67] x:[-68,-63]
+TRACE	: GEN_9:[-65,-66,-68,-67] x:[-68,-63]
+TRACE	:   IMG15(-64) sharp:568.6
+TRACE	: GEN_10:[-65,-66,-68,-67] x:[-68,-64]
+TRACE	: polyFit average of  low:[-68,-66,-63] high:[-67,-64,-62]
+TRACE	:   IMG16(-62) sharp:565.6
+DEBUG	: solve() population stable for 5 generations xBest:-65 xPolyFit:-65.1 xPolyFitAvg:-66
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-65 zPolyFit:-65.1 zPolyFitAvg:-66 samples:14
+
+  3 passing (27s)
+  1 failing
+
+  1) firepick.Focus sharpness(0) should compute the sharpness at {x:0,y:0,z:0}:
+     Error: timeout of 2000ms exceeded
+      at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:206:67)
+      at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:262:7)
+      at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:244:7)
+      at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:374:10)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:452:12
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:299:14)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:309:7
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:248:23)
+      at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:276:5)
+      at processImmediate [as _immediateCallback] (timers.js:358:17)
+
+
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:284
+TRACE	:   IMG2(-5) sharp:298.4
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:369.9
+TRACE	:   IMG4(-67) sharp:568.5
+TRACE	: GEN_0:[-67,-23] x:[-110,20]
+TRACE	:   IMG5(-39) sharp:453.5
+TRACE	: GEN_1:[-67,-39,-23] x:[-110,-23]
+TRACE	:   IMG6(-75) sharp:551.8
+TRACE	:   IMG7(-76) sharp:549.4
+TRACE	: GEN_2:[-67,-75,-76,-39] x:[-110,-39]
+TRACE	:   IMG8(-65) sharp:572.1
+TRACE	:   IMG9(-73) sharp:561.7
+TRACE	: GEN_3:[-65,-67,-73,-75] x:[-75,-39]
+TRACE	:   IMG10(-51) sharp:523.7
+TRACE	:   IMG11(-66) sharp:571.2
+TRACE	: GEN_4:[-65,-66,-67,-73] x:[-73,-51]
+TRACE	:   IMG12(-63) sharp:566.7
+TRACE	: GEN_5:[-65,-66,-67,-63] x:[-73,-63]
+TRACE	:   IMG13(-69) sharp:566.2
+TRACE	: GEN_6:[-65,-66,-67,-63] x:[-69,-63]
+TRACE	: GEN_7:[-65,-66,-67,-63] x:[-69,-63]
+TRACE	: GEN_8:[-65,-66,-67,-63] x:[-69,-63]
+TRACE	: GEN_9:[-65,-66,-67,-63] x:[-69,-63]
+TRACE	: polyFit average of  low:[-68,-66,-63] high:[-67,-64,-62]
+TRACE	:   IMG14(-68) sharp:570.5
+TRACE	:   IMG15(-64) sharp:569.7
+TRACE	:   IMG16(-62) sharp:565.8
+DEBUG	: solve() population stable for 5 generations xBest:-65 xPolyFit:-65.2 xPolyFitAvg:-65.8
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-65 zPolyFit:-65.2 zPolyFitAvg:-65.8 samples:14
+
+  3 passing (26s)
+  1 failing
+
+  1) firepick.Focus sharpness(0) should compute the sharpness at {x:0,y:0,z:0}:
+     Error: timeout of 2000ms exceeded
+      at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:206:67)
+      at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:262:7)
+      at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:244:7)
+      at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:374:10)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:452:12
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:299:14)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:309:7
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:248:23)
+      at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:276:5)
+      at processImmediate [as _immediateCallback] (timers.js:358:17)
+
+
+
+LOADED	: firepick.Camera
+LOADED	: firepick.ImageRef
+LOADED	: firepick.ImageStore
+LOADED	: firepick.ImageProcessor
+LOADED	: firepick.XYZCamera
+LOADED	: firepick.Util
+LOADED	: firepick.Evolve
+LOADED	: firepick.XYZPositioner
+LOADED	: firepick.FireFUSECamera is available
+LOADED	: firepick.FireFUSEMarlin
+LOADED	: firepick.DeltaCalculator
+DeltaCalculatorTest() BEGIN
+DeltaCalculatorTest() PASS
+LOADED	: firepick.FPDModel
+LOADED	: firepick.FPD
+LOADED	: firepick.Maximizer
+LOADED	: firepick.Focus
+[2J[1;3HTRACE	:   IMG1(0) sharp:284.2
+TRACE	:   IMG2(-5) sharp:299.2
+TRACE	: nPlaces:0 dxPolyFit:2
+TRACE	:   IMG3(-23) sharp:370.2
+TRACE	:   IMG4(-67) sharp:568.3
+TRACE	: GEN_0:[-67,-23] x:[-110,20]
+TRACE	:   IMG5(-38) sharp:451.5
+TRACE	:   IMG6(-51) sharp:523.5
+TRACE	: GEN_1:[-67,-51,-38,-23] x:[-110,-23]
+TRACE	:   IMG7(-88) sharp:448.1
+TRACE	:   IMG8(-68) sharp:569
+TRACE	: GEN_2:[-68,-67,-51,-38] x:[-88,-38]
+TRACE	:   IMG9(-62) sharp:567.7
+TRACE	: GEN_3:[-68,-67,-62,-51] x:[-88,-51]
+TRACE	:   IMG10(-73) sharp:561.3
+TRACE	: GEN_4:[-68,-67,-62,-73] x:[-73,-51]
+TRACE	:   IMG11(-59) sharp:553
+TRACE	: GEN_5:[-68,-67,-62,-73] x:[-73,-59]
+TRACE	:   IMG12(-70) sharp:567.6
+TRACE	: GEN_6:[-68,-67,-62,-70] x:[-70,-59]
+TRACE	:   IMG13(-64) sharp:569.1
+TRACE	:   IMG14(-69) sharp:566.4
+TRACE	: GEN_7:[-64,-68,-67,-62] x:[-69,-62]
+TRACE	:   IMG15(-63) sharp:567.7
+TRACE	: GEN_8:[-64,-68,-67,-62] x:[-69,-62]
+TRACE	:   IMG16(-66) sharp:570
+TRACE	: GEN_9:[-66,-64,-68,-67] x:[-68,-63]
+TRACE	:   IMG17(-65) sharp:572.9
+TRACE	: GEN_10:[-65,-66,-64,-68] x:[-68,-63]
+TRACE	: GEN_11:[-65,-66,-64,-68] x:[-68,-63]
+TRACE	: GEN_12:[-65,-66,-64,-68] x:[-68,-63]
+TRACE	: GEN_13:[-65,-66,-64,-68] x:[-68,-63]
+TRACE	: GEN_14:[-65,-66,-64,-68] x:[-68,-63]
+TRACE	: polyFit average of  low:[-68,-66,-63] high:[-67,-64,-62]
+DEBUG	: solve() population stable for 5 generations xBest:-65 xPolyFit:-65.1 xPolyFitAvg:-65.4
+DEBUG	: sharpestZ() population stable for 5 generations zBest:-65 zPolyFit:-65.1 zPolyFitAvg:-65.4 samples:15
+
+  3 passing (28s)
+  1 failing
+
+  1) firepick.Focus sharpness(0) should compute the sharpness at {x:0,y:0,z:0}:
+     Error: timeout of 2000ms exceeded
+      at done (/usr/local/lib/node_modules/mocha/lib/runnable.js:206:67)
+      at callFn (/usr/local/lib/node_modules/mocha/lib/runnable.js:262:7)
+      at Test.Runnable.run (/usr/local/lib/node_modules/mocha/lib/runnable.js:244:7)
+      at Runner.runTest (/usr/local/lib/node_modules/mocha/lib/runner.js:374:10)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:452:12
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:299:14)
+      at /usr/local/lib/node_modules/mocha/lib/runner.js:309:7
+      at next (/usr/local/lib/node_modules/mocha/lib/runner.js:248:23)
+      at Immediate._onImmediate (/usr/local/lib/node_modules/mocha/lib/runner.js:276:5)
+      at processImmediate [as _immediateCallback] (timers.js:358:17)
+
+
+
