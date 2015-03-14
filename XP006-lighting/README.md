@@ -10,29 +10,44 @@ computation based on pixel intensity. One such calculation is
 which can be used to determine the focal length of FPDs fixed focus camera.
 
 ### Hypothesis
-A series of images taken along the Z-axis at X0Y0 provides information sufficient to 
-determine the focal range in real world coordinates (vs. raw machine coordinates)
+Both effector and external frame lighting will be needed to provide sufficient 
+controlled illumination to minimize the impact of ambient light changes on
+computer vision calculations.
 
 ### Considerations
 
-**Raw machine coordinates** are uncorrected machine coordinates. There is no guarantee
-that a 1mm move in raw machine coordinates will actually move the effector 1mm or even
-move the effector in the desired direction. 
+**Effector lighting** will be 16-LED NeoPixel ring light. 
+The <a href="http://www.adafruit.com/product/1463">NeoPixel ring</a>
+allows us to experiment with different RGB light levels.
 
-**Measure at X0Y0** to reduce raw machine coordinate error. Moves along X0Y0 require identical
-delta motor translations at each step.
+**Raspberry Pi <a href="http://www.adafruit.com/product/1567">Noir camera</a>** 
+for its sensitivity in computer vision applications.
 
-**Use the calibration grid** to correlate actual Z-height with raw Z-height.
+**External frame lighting (EXT)** will be 
+<a href="http://www.amazon.com/Goal-Zero-14101-Stick-Light/dp/B0045XRK06/ref=sr_1_3?ie=UTF8&qid=1426303833&sr=8-3&keywords=usb+led">
+LED strip lighting</a> mounted on the lower
+part of the FPD vertical extrusions. Although it's possible to mount four such lights,
+two should be fine for assessing the hypothesis.
 
-**Home before each measurement.**
-For consistency, each measurement is preceded by G28 G0Z0M400 to ensure that the
-effector starts at a known position. This is time-consuming, but eliminates uncertainty 
-from the procedure.
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_EXT.jpg"><img
+src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_EXT.jpg" height=200px></a>
 
-**Take lots of samples.**
-The FPD is accurate, but not reproduceably accurate to 0.1mm. However, multiple samples
-provide more information and therefore greater accuracy. We will take 3 images at each
-Z coordinate and repeat the entire process 3 times.
+**Ambient residential lighting** fluctuates dramatically throughout the day. Unlike
+commercial factory lighting, residential lighting is affected by passing clouds
+and varying insolation throughout the day. Another difference in residential lighting is
+that the average home encompasses multiple kinds of light sources (fluorescent, LED,
+incandescent, halogen, etc.). Since FPD will be expected to operate in a residence, 
+it is important to understand the requirements for proper FPD lighting.
+
+**A box** or other light shield will be used to understand the illumination hypothesis
+without the influence of ambient light. A box will be used to minimize inconvenience
+to home inhabitants. 
+
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_EXT.jpg"><img
+src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.jpg" height=200px></a>
+
+**FireSight <a href="https://github.com/firepick1/FireSight/wiki/op-Sharpness">op-sharpness</a>** (thank you, Simon!) will be used to measure the camera
+focal length.
 
 ### Method
 <a href="https://www.youtube.com/watch?v=ZUBUSP92gG8">Video</a>
