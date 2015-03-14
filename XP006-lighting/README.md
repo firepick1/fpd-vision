@@ -48,6 +48,14 @@ to home inhabitants.
 **FireSight <a href="https://github.com/firepick1/FireSight/wiki/op-Sharpness">op-sharpness</a>** (thank you, Simon!) will be used to measure the camera
 focal length.
 
+**Brighter images** may be considered "sharper". Since focus calculations often rely on detecting 
+pixel intensity changes, brighter images may be "sharper" than dim images.
+
+**Distant images** may be considered "sharper" than up-close images. 
+Since we will be imaging a grid, distant images will include more grid lines.
+Each grid line triggers a contrast detection--close-up images will have
+fewer gridlines and hypothetically less detected sharpness.
+
 **FireREST Focus.js** will be used to generate 
 <a href="https://github.com/firepick1/fpd-vision/tree/master/XP006-lighting/data">test data.</a>
 Focus.js converges 
@@ -73,3 +81,7 @@ We will calculate the FPD focal length in the following circumsances:
 
 ### Results
 
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient-38_9AM_10AM.gif">
+<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient-38_9AM_10AM.gif" size=200px></a>
+
+**Ambient light** strongly affects focus calculation.
