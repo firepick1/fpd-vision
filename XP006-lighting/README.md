@@ -43,7 +43,7 @@ it is important to understand the requirements for proper FPD lighting.
 without the influence of ambient light. A box will be used to minimize inconvenience
 to home inhabitants. 
 
-<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_EXT.jpg"><img
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG"><img
 src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG" height=200px></a>
 
 **FireSight <a href="https://github.com/firepick1/FireSight/wiki/op-Sharpness">op-sharpness</a>** (thank you, Simon!) will be used to measure the camera
