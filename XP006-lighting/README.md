@@ -57,7 +57,7 @@ to determine:
 ### Method
 
 We will calculate the FPD focal range in the following circumsances by sampling the focal range
-from 0509 to 1243, with sunrise occurring at 0716. This time range encompasses the full range
+from 0521 to 1258, with sunrise occurring at 0716. This time range encompasses the full range
 of ambient illumination in a residential setting. The sampling will be conducted at 30 minute
 intervals using sets of 10 samples to give us data about ambient illumination change at that
 time of day. We therefore expect a data set of about 1329 images taken over the course of the experiment.
