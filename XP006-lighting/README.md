@@ -15,82 +15,102 @@ controlled illumination to minimize the impact of ambient light changes on
 computer vision calculations.
 
 ### Considerations
-<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_EXT.jpg"><img
-src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_EXT.jpg" height=200px></a>
-<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG"><img
-src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/FPD_BOX.JPG" 
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient.png"><img
+src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient.png" height=200px></a>
 height=200px></a>
 
 **Effector lighting** will be 16-LED NeoPixel ring light. 
 The <a href="http://www.adafruit.com/product/1463">NeoPixel ring</a>
-allows us to experiment with different RGB light levels.
+allows us to experiment with different RGB light levels. For the experiment,
+we will arbitrarily choose R128G63B63 as "pleasing to the eye and having not too much glare."
+The NeoPixel at RGB255 is quite bright and a bit painful to look at.
 
 **THe Raspberry Pi <a href="http://www.adafruit.com/product/1567">Noir camera</a>** 
 will be used for its sensitivity in computer vision applications.
-
-**External frame lighting (EXT)** will be 
-<a href="http://www.amazon.com/Goal-Zero-14101-Stick-Light/dp/B0045XRK06/ref=sr_1_3?ie=UTF8&qid=1426303833&sr=8-3&keywords=usb+led">
-LED strip lighting</a> mounted on the lower
-part of the FPD vertical extrusions. Although it's possible to mount four such lights,
-two should be fine for assessing the hypothesis.
 
 **Ambient residential lighting** fluctuates dramatically throughout the day. Unlike
 commercial factory lighting, residential lighting is affected by passing clouds
 and varying insolation throughout the day. Another difference in residential lighting is
 that the average home encompasses multiple kinds of light sources (fluorescent, LED,
 incandescent, halogen, etc.). Since FPD will be expected to operate in a residence, 
-it is important to understand the requirements for proper FPD lighting.
+it is important to understand the requirements for proper FPD lighting. For this experiment,
+all ambient light will be natural. We will start the experiment before dawn and
+continue it through the brightest hours of the day, sampling the focus range
+every 30 minutes in sets of ten samples. <a href="https://www.youtube.com/watch?v=H8_O2updL7o">See video</a>
 
-**A box** or other light shield will be used to evaluate the illumination hypothesis
-without the influence of ambient light. A box will be used to minimize inconvenience
-to home inhabitants. 
+**No box or other light shield** will be used to block out ambient light. Boxes introduce
+internal reflection which would affect the experiment in non-reproduceable ways. 
+Instead, we simply start the experiment earlier in a dark room, 
+since a dark room is, by definition, a black box.
 
 **FireSight <a href="https://github.com/firepick1/FireSight/wiki/op-Sharpness">op-sharpness</a>** (thank you, Simon!) will be used to measure the camera
-focal length.
+focal length. Specifically, we will use 
+<a href="https://github.com/firepick1/FireREST/blob/dev/server/firepick/Focus.js">Focus.focalRange()</a>
+to determine:
 
-**Brighter images** may be considered "sharper". Since focus calculations often rely on detecting 
-pixel intensity changes, brighter images may be "sharper" than dim images.
-
-**Distant images** may be considered "sharper" than up-close images. 
-Since we will be imaging a grid, distant images will include more grid lines.
-Each grid line triggers a contrast detection--close-up images will have
-fewer gridlines and hypothetically less detected sharpness.
-
-**FireREST Focus.js** will be used to generate 
-<a href="https://github.com/firepick1/fpd-vision/tree/master/XP006-lighting/data">test data.</a>
-Focus.js converges 
-on a value for maximum focus Z coordinate (i.e., "sharpest Z") within 15-20 images.
-We will measure the focus using the **zBest** and **zPolyFit** values returned by 
-<a href="https://github.com/firepick1/FireREST/blob/dev/server/firepick/Focus.js">Focus.solve()</a>.
-
-**Effector illumination** will be tested with the following variations:
-
-1. **RGB255** full RGB 
-1. **RGB127** half-intensity RGB
-1. **R127GB63** half-intensity R, quarter-intensity GB
-1. **RGB0** no effector lighting
+* **sharpness.max** greatest sharpness returned by op-sharpness
+* **sharpness.min** 0.7 * greatest sharpness returned by op-sharpness
+* **zBest** is highest FPD z-axis coordinate having **sharpness.max**
+* **zHigh** is highest FPD z-axis coordinate having **sharpness.min**
+* **zLow** is lowest FPD z-axis coordinate having **sharpness.min**
 
 ### Method
 
-We will calculate the FPD focal length in the following circumsances:
-
-1. **without FPD lighting** to establish an ambient baseline at two different times of day. (RGB0,AMB)
-1. **within a box** to establish ambient-independent behavior (BOX)
-1. **with FPD lighting** using different LED light levels (R127GB63, RGB127, RGB255)
-
+We will calculate the FPD focal range in the following circumsances by sampling the focal range
+from 0509 to 1243, with sunrise occurring at 0716. This time range encompasses the full range
+of ambient illumination in a residential setting. The sampling will be conducted at 30 minute
+intervals using sets of 10 samples to give us data about ambient illumination change at that
+time of day. We therefore expect a data set of about 1329 images taken over the course of the experiment.
 
 ### Results
 
-#### Ambient light strongly affects focus calculation. 
-<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient-38_9AM_10AM.gif">
-<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient-38_9AM_10AM.gif" 
-height=200px></a>
-<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient_data.png">
-<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient_data.png" 
-height=200px></a>
+#### 1. op-sharpness is very sensitive to ambient light changes
+The following graph shows that the maximum sharpness is very sensitive to ambient light changes and
+is unreliable for precise measurement. The minimum sharpness is merely 0.7 the maximum
+sharpness.
 
-The picture above shows two images, taken at 9 and 10AM. Notice that:
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/SharpAVG.png">
+<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/SharpAVG.png" 
+height=400px></a>
 
-* The "sharpest Z" changes by over 15mm, all within about an hour as the day got brighter.
-* Brighter ambient images are seen as "sharper". Increased ambient light increases the contrast of more distant images, resulting in a greater z value for sharpness.
-* Brighter ambient light also fluctuates more (higher standard deviation), because the higher intensity affects the relative change in intensity used to calculate sharpness
+More precisely, the standard deviation of the maximum sharpness shows exactly how bad the
+variation is:
+
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/SharpSTDDEV.png">
+<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/SharpSTDDEV.png" 
+height=400px></a>
+
+#### 2. The focal range minimum (lowest point of minimum acceptable sharpness) is stable
+
+Although the ZBEST and ZHIGH focal range values fluctuate with ambient light, we do notice
+a very surprising and useful result.
+Looking carefully at the ZLOW value for the bottom of the focal range, we notice
+that ZLOW is quite stable through all the ambient light changes from full dark to full light.
+
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ZAVG.png">
+<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ZAVG.png" 
+height=400px></a>
+
+Amazingly, ZLOW shows much less standard deviation than either ZBEST or ZHIGH. 
+This actually makes sense when considering that the effector light illuminates
+the calibration grid better at ZLOW than at ZHIGH. In other words, the effector
+light is doing a great job of cancelling out ambient light changes. At ZBEST and
+ZHIGH, the effector light is more distant and less effective, making the image
+more susceptible to changes in ambient light.
+
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ZSTDDEV.png">
+<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ZSTDDEV.png" 
+height=400px></a>
+
+#### 3. The FPD has a warmup phase of 30 minutes
+
+An unexpected result was the change in focal range that happened from power on at 0521 till
+about 30 minutes later. During this time the ambient light is fully dark, but we
+see a gradual shift when looking at the raw sample data:
+
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/warmup.png">
+<img src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/warmup.png" 
+height=400px></a>
+
+The NeoPixel does warm up with use, which suggests that the warmup variance might be entirely
+due to camera/light as opposed to FPD itself.
