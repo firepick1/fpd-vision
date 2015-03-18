@@ -6,8 +6,9 @@ FirePick Delta has an effector-mounted camera and light. Since the light is
 mounted on the effector, images taken closer to the bed will be brighter than 
 images taken higher up. This difference in brightness may affect computer vision
 computation based on pixel intensity. One such calculation is 
-<a href="https://github.com/firepick1/FireSight/wiki/op-Sharpness">image sharpness detection</a>,
-which can be used to determine the focal length of FPDs fixed focus camera.
+<a href="https://github.com/firepick1/FireSight/wiki/op-Sharpness">FireSight op-sharpness</a>,
+which can be used to determine the focal length of FPDs fixed focus camera by measuring
+image sharpness at various points along the z-axis.
 
 ### Hypothesis
 Effector lighting will provide sufficient 
