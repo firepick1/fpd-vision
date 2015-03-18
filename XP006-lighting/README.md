@@ -18,7 +18,6 @@ computer vision calculations.
 ### Considerations
 <a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient.gif"><img
 src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient.gif" height=200px></a>
-height=200px></a>
 
 **Effector lighting** will be 16-LED NeoPixel ring light. 
 The <a href="http://www.adafruit.com/product/1463">NeoPixel ring</a>
@@ -26,7 +25,7 @@ allows us to experiment with different RGB light levels. For the experiment,
 we will arbitrarily choose R128G63B63 as "pleasing to the eye and having not too much glare."
 The NeoPixel at RGB255 is quite bright and a bit painful to look at.
 
-**THe Raspberry Pi <a href="http://www.adafruit.com/product/1567">Noir camera</a>** 
+**The Raspberry Pi <a href="http://www.adafruit.com/product/1567">Noir camera</a>** 
 will be used for its sensitivity in computer vision applications.
 
 **Ambient residential lighting** fluctuates dramatically throughout the day. Unlike
