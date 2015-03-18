@@ -50,7 +50,7 @@ to determine:
 
 * **sharpness.max** greatest sharpness returned by op-sharpness
 * **sharpness.min** 0.7 * greatest sharpness returned by op-sharpness
-* **zBest** is highest FPD z-axis coordinate having **sharpness.max**
+* **zBest** is FPD z-axis coordinate having **sharpness.max**
 * **zHigh** is highest FPD z-axis coordinate having **sharpness.min**
 * **zLow** is lowest FPD z-axis coordinate having **sharpness.min**
 
