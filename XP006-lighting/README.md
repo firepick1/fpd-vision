@@ -10,13 +10,13 @@ computation based on pixel intensity. One such calculation is
 which can be used to determine the focal length of FPDs fixed focus camera.
 
 ### Hypothesis
-Both effector and external frame lighting will be needed to provide sufficient 
+Effector lighting will provide sufficient 
 controlled illumination to minimize the impact of ambient light changes on
 computer vision calculations.
 
 ### Considerations
-<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient.png"><img
-src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient.png" height=200px></a>
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient.gif"><img
+src="https://github.com/firepick1/fpd-vision/blob/master/XP006-lighting/img/ambient.gif" height=200px></a>
 height=200px></a>
 
 **Effector lighting** will be 16-LED NeoPixel ring light. 
