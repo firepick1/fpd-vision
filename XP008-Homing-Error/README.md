@@ -1,4 +1,4 @@
-### Homing Error
+### Rotational Delta Homing Error
 FirePick Delta (FPD) relies on rotational delta kinematics. As such, it
 is subject to a source of error that does not affect cartesian
 or even linear delta machines. That error is homing error, which
