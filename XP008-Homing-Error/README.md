@@ -62,7 +62,7 @@ greater effect on Z at 100mm from the origin. The error is also
 non-linear and it is indeed "bowl shaped".
 
 The error also affects the X and Y axes. The effect on the X-axis
-is quite pronounced:
+is quite pronounced and leads to non-linear XY motion (e.g., "twisted bowls"):
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/XHomingError.png)
 
