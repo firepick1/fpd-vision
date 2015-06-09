@@ -1,0 +1,695 @@
+
+
+  firepick.PHCalibrater
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:16.515, offset:{0:{dx:19, dy:-11, match:0.966507}}} q:15.848
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:15.846, offset:{0:{dx:32, dy:-23, match:0.743814}}} q:15.179
+DEBUG	: tvMaxQuality(0.667) quality:15.513
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.387, offset:{0:{dx:2, dy:0, match:0.988334}}} q:25.054
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.721, offset:{0:{dx:2, dy:0, match:0.991272}}} q:25.388
+DEBUG	: tvMaxQuality(0.333) quality:25.221
+DEBUG	: tvMaxQuality(0.278) result:{PSNR:26.09, offset:{0:{dx:2, dy:1, match:0.991699}}} q:25.812
+DEBUG	: tvMaxQuality(0.278) result:{PSNR:26.051, offset:{0:{dx:2, dy:1, match:0.991708}}} q:25.773
+DEBUG	: tvMaxQuality(0.278) quality:25.792
+DEBUG	: tvMaxQuality(0.409) result:{PSNR:24.564, offset:{0:{dx:2, dy:0, match:0.987433}}} q:24.155
+DEBUG	: tvMaxQuality(0.409) result:{PSNR:24.622, offset:{0:{dx:2, dy:0, match:0.987933}}} q:24.213
+DEBUG	: tvMaxQuality(0.409) quality:24.184
+DEBUG	: tvMaxQuality(0.191) result:{PSNR:26.337, offset:{0:{dx:2, dy:0, match:0.980032}}} q:26.146
+DEBUG	: tvMaxQuality(0.191) result:{PSNR:27.166, offset:{0:{dx:1, dy:0, match:0.97326}}} q:26.975
+DEBUG	: tvMaxQuality(0.191) quality:26.56
+DEBUG	: tvMaxQuality(0.248) result:{PSNR:26.555, offset:{0:{dx:2, dy:0, match:0.978915}}} q:26.307
+DEBUG	: tvMaxQuality(0.248) result:{PSNR:26.415, offset:{0:{dx:2, dy:1, match:0.984718}}} q:26.167
+DEBUG	: tvMaxQuality(0.248) quality:26.237
+DEBUG	: tvMaxQuality(0.205) result:{PSNR:26.978, offset:{0:{dx:1, dy:1, match:0.983371}}} q:26.773
+DEBUG	: tvMaxQuality(0.205) result:{PSNR:26.344, offset:{0:{dx:2, dy:0, match:0.987783}}} q:26.139
+DEBUG	: tvMaxQuality(0.205) quality:26.456
+DEBUG	: tvMaxQuality(0.166) result:{PSNR:25.324, offset:{0:{dx:2, dy:0, match:0.997388}}} q:25.158
+DEBUG	: tvMaxQuality(0.166) result:{PSNR:25.191, offset:{0:{dx:2, dy:0, match:0.99151}}} q:25.025
+DEBUG	: tvMaxQuality(0.166) quality:25.091
+DEBUG	: tvMaxQuality(0.2) result:{PSNR:26.458, offset:{0:{dx:2, dy:1, match:0.98849}}} q:26.258
+DEBUG	: tvMaxQuality(0.2) result:{PSNR:25.859, offset:{0:{dx:2, dy:0, match:0.994524}}} q:25.659
+DEBUG	: tvMaxQuality(0.2) quality:25.959
+DEBUG	: tvMaxQuality(0.122) result:{PSNR:26.431, offset:{0:{dx:2, dy:1, match:0.990403}}} q:26.309
+DEBUG	: tvMaxQuality(0.122) result:{PSNR:26.209, offset:{0:{dx:2, dy:0, match:0.99026}}} q:26.087
+DEBUG	: tvMaxQuality(0.122) quality:26.198
+DEBUG	: tvMaxQuality(0.189) result:{PSNR:27.155, offset:{0:{dx:1, dy:0, match:0.984032}}} q:26.966
+DEBUG	: tvMaxQuality(0.189) result:{PSNR:27.234, offset:{0:{dx:1, dy:1, match:0.98702}}} q:27.045
+DEBUG	: tvMaxQuality(0.189) quality:27.005
+DEBUG	: tvMaxQuality(0.187) result:{PSNR:25.961, offset:{0:{dx:2, dy:0, match:0.998312}}} q:25.774
+DEBUG	: tvMaxQuality(0.187) result:{PSNR:26.259, offset:{0:{dx:2, dy:0, match:0.989023}}} q:26.072
+DEBUG	: tvMaxQuality(0.187) quality:25.923
+DEBUG	: tvMaxQuality(0.112) result:{PSNR:26.251, offset:{0:{dx:2, dy:0, match:0.995959}}} q:26.139
+DEBUG	: tvMaxQuality(0.112) result:{PSNR:25.85, offset:{0:{dx:2, dy:0, match:0.997981}}} q:25.738
+DEBUG	: tvMaxQuality(0.112) quality:25.939
+DEBUG	: tvMaxQuality(0.18) result:{PSNR:25.872, offset:{0:{dx:2, dy:0, match:0.990471}}} q:25.692
+DEBUG	: tvMaxQuality(0.18) result:{PSNR:25.789, offset:{0:{dx:2, dy:0, match:0.979007}}} q:25.609
+DEBUG	: tvMaxQuality(0.18) quality:25.651
+DEBUG	: tvMaxQuality(0.138) result:{PSNR:25.664, offset:{0:{dx:2, dy:0, match:0.997008}}} q:25.526
+DEBUG	: tvMaxQuality(0.138) result:{PSNR:25.447, offset:{0:{dx:2, dy:0, match:0.994213}}} q:25.309
+DEBUG	: tvMaxQuality(0.138) quality:25.418
+DEBUG	: calibrate_tvMax() => 0.189 samples:15
+    ✓ TESTTESTcalibrate_tvMax() should find the minimum acceleration time (394676ms)
+
+
+  1 passing (7m)
+
+
+
+  firepick.PHCalibrater
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:16.419, offset:{0:{dx:20, dy:-11, match:0.953996}}} q:15.752
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:15.827, offset:{0:{dx:32, dy:-23, match:0.730145}}} q:15.16
+DEBUG	: tvMaxQuality(0.667) quality:15.456
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.477, offset:{0:{dx:2, dy:0, match:0.988471}}} q:25.144
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.484, offset:{0:{dx:2, dy:0, match:0.989867}}} q:25.151
+DEBUG	: tvMaxQuality(0.333) quality:25.147
+DEBUG	: tvMaxQuality(0.29) result:{PSNR:25.126, offset:{0:{dx:2, dy:0, match:0.996677}}} q:24.836
+DEBUG	: tvMaxQuality(0.29) result:{PSNR:25.421, offset:{0:{dx:2, dy:0, match:0.996359}}} q:25.131
+DEBUG	: tvMaxQuality(0.29) quality:24.984
+DEBUG	: tvMaxQuality(0.319) result:{PSNR:25.997, offset:{0:{dx:2, dy:0, match:0.982952}}} q:25.678
+DEBUG	: tvMaxQuality(0.319) result:{PSNR:26.405, offset:{0:{dx:2, dy:0, match:0.991134}}} q:26.086
+DEBUG	: tvMaxQuality(0.319) quality:25.882
+DEBUG	: tvMaxQuality(0.274) result:{PSNR:26.594, offset:{0:{dx:2, dy:0, match:0.987176}}} q:26.32
+DEBUG	: tvMaxQuality(0.274) result:{PSNR:26.418, offset:{0:{dx:2, dy:0, match:0.988853}}} q:26.144
+DEBUG	: tvMaxQuality(0.274) quality:26.232
+DEBUG	: tvMaxQuality(0.321) result:{PSNR:26.058, offset:{0:{dx:2, dy:0, match:0.988094}}} q:25.737
+DEBUG	: tvMaxQuality(0.321) result:{PSNR:25.75, offset:{0:{dx:2, dy:0, match:0.995593}}} q:25.429
+DEBUG	: tvMaxQuality(0.321) quality:25.583
+DEBUG	: tvMaxQuality(0.207) result:{PSNR:27.417, offset:{0:{dx:1, dy:1, match:0.985993}}} q:27.21
+DEBUG	: tvMaxQuality(0.207) result:{PSNR:24.466, offset:{0:{dx:2, dy:-1, match:0.995376}}} q:24.259
+DEBUG	: tvMaxQuality(0.207) quality:25.734
+DEBUG	: tvMaxQuality(0.282) result:{PSNR:25.285, offset:{0:{dx:2, dy:0, match:0.993715}}} q:25.003
+DEBUG	: tvMaxQuality(0.282) result:{PSNR:24.921, offset:{0:{dx:2, dy:0, match:0.996132}}} q:24.639
+DEBUG	: tvMaxQuality(0.282) quality:24.821
+DEBUG	: tvMaxQuality(0.211) result:{PSNR:26.094, offset:{0:{dx:2, dy:1, match:0.991597}}} q:25.883
+DEBUG	: tvMaxQuality(0.211) result:{PSNR:25.792, offset:{0:{dx:2, dy:0, match:0.983654}}} q:25.581
+DEBUG	: tvMaxQuality(0.211) quality:25.732
+DEBUG	: tvMaxQuality(0.287) result:{PSNR:16.784, offset:{0:{dx:-15, dy:11, match:0.937437}}} q:16.497
+DEBUG	: tvMaxQuality(0.287) result:{PSNR:16.889, offset:{0:{dx:-15, dy:11, match:0.961707}}} q:16.602
+DEBUG	: tvMaxQuality(0.287) quality:16.55
+DEBUG	: tvMaxQuality(0.116) result:{PSNR:26.62, offset:{0:{dx:2, dy:0, match:0.981063}}} q:26.504
+DEBUG	: tvMaxQuality(0.116) result:{PSNR:26.419, offset:{0:{dx:2, dy:0, match:0.99694}}} q:26.303
+DEBUG	: tvMaxQuality(0.116) quality:26.404
+DEBUG	: tvMaxQuality(0.298) result:{PSNR:25.402, offset:{0:{dx:2, dy:0, match:0.99405}}} q:25.104
+DEBUG	: tvMaxQuality(0.298) result:{PSNR:25.343, offset:{0:{dx:2, dy:0, match:0.996314}}} q:25.045
+DEBUG	: tvMaxQuality(0.298) quality:25.075
+DEBUG	: tvMaxQuality(0.237) result:{PSNR:27.252, offset:{0:{dx:2, dy:0, match:0.987852}}} q:27.015
+DEBUG	: tvMaxQuality(0.237) result:{PSNR:26.833, offset:{0:{dx:2, dy:0, match:0.992474}}} q:26.596
+DEBUG	: tvMaxQuality(0.237) quality:26.805
+DEBUG	: tvMaxQuality(0.248) result:{PSNR:26.457, offset:{0:{dx:2, dy:0, match:0.980093}}} q:26.209
+DEBUG	: tvMaxQuality(0.248) result:{PSNR:27.246, offset:{0:{dx:1, dy:1, match:0.986557}}} q:26.998
+DEBUG	: tvMaxQuality(0.248) quality:26.603
+DEBUG	: tvMaxQuality(0.271) result:{PSNR:25.253, offset:{0:{dx:2, dy:0, match:0.993583}}} q:24.982
+DEBUG	: tvMaxQuality(0.271) result:{PSNR:25.08, offset:{0:{dx:2, dy:0, match:0.99536}}} q:24.809
+DEBUG	: tvMaxQuality(0.271) quality:24.895
+DEBUG	: tvMaxQuality(0.209) result:{PSNR:26.426, offset:{0:{dx:2, dy:0, match:0.981921}}} q:26.217
+DEBUG	: tvMaxQuality(0.209) result:{PSNR:26.274, offset:{0:{dx:2, dy:0, match:0.983235}}} q:26.065
+DEBUG	: tvMaxQuality(0.209) quality:26.141
+DEBUG	: tvMaxQuality(0.199) result:{PSNR:27.156, offset:{0:{dx:1, dy:0, match:0.985746}}} q:26.957
+DEBUG	: tvMaxQuality(0.199) result:{PSNR:27.041, offset:{0:{dx:1, dy:1, match:0.985269}}} q:26.842
+DEBUG	: tvMaxQuality(0.199) quality:26.899
+DEBUG	: tvMaxQuality(0.159) result:{PSNR:26.006, offset:{0:{dx:2, dy:0, match:0.987396}}} q:25.847
+DEBUG	: tvMaxQuality(0.159) result:{PSNR:25.847, offset:{0:{dx:2, dy:0, match:0.994588}}} q:25.688
+DEBUG	: tvMaxQuality(0.159) quality:25.767
+DEBUG	: tvMaxQuality(0.18) result:{PSNR:25.831, offset:{0:{dx:2, dy:1, match:0.97849}}} q:25.651
+DEBUG	: tvMaxQuality(0.18) result:{PSNR:26.369, offset:{0:{dx:2, dy:1, match:0.990911}}} q:26.189
+DEBUG	: tvMaxQuality(0.18) quality:25.92
+DEBUG	: tvMaxQuality(0.233) result:{PSNR:25.419, offset:{0:{dx:2, dy:0, match:0.994576}}} q:25.186
+DEBUG	: tvMaxQuality(0.233) result:{PSNR:25.089, offset:{0:{dx:2, dy:0, match:0.998164}}} q:24.856
+DEBUG	: tvMaxQuality(0.233) quality:25.021
+DEBUG	: tvMaxQuality(0.212) result:{PSNR:26.382, offset:{0:{dx:2, dy:0, match:0.996035}}} q:26.17
+DEBUG	: tvMaxQuality(0.212) result:{PSNR:26.148, offset:{0:{dx:2, dy:0, match:0.995858}}} q:25.936
+DEBUG	: tvMaxQuality(0.212) quality:26.053
+DEBUG	: tvMaxQuality(0.081) result:{PSNR:24.488, offset:{0:{dx:2, dy:0, match:0.992476}}} q:24.407
+DEBUG	: tvMaxQuality(0.081) result:{PSNR:24.451, offset:{0:{dx:2, dy:0, match:0.993118}}} q:24.37
+DEBUG	: tvMaxQuality(0.081) quality:24.389
+DEBUG	: tvMaxQuality(0.205) result:{PSNR:26.233, offset:{0:{dx:2, dy:0, match:0.989713}}} q:26.028
+DEBUG	: tvMaxQuality(0.205) result:{PSNR:26.747, offset:{0:{dx:1, dy:0, match:0.972465}}} q:26.542
+DEBUG	: tvMaxQuality(0.205) quality:26.285
+DEBUG	: tvMaxQuality(0.138) result:{PSNR:24.537, offset:{0:{dx:2, dy:0, match:0.994207}}} q:24.399
+DEBUG	: tvMaxQuality(0.138) result:{PSNR:24.993, offset:{0:{dx:2, dy:0, match:0.9961}}} q:24.855
+DEBUG	: tvMaxQuality(0.138) quality:24.627
+DEBUG	: tvMaxQuality(0.246) result:{PSNR:24.694, offset:{0:{dx:2, dy:0, match:0.994272}}} q:24.448
+DEBUG	: tvMaxQuality(0.246) result:{PSNR:24.73, offset:{0:{dx:2, dy:0, match:0.994599}}} q:24.484
+DEBUG	: tvMaxQuality(0.246) quality:24.466
+DEBUG	: calibrate_tvMax() => 0.199 samples:25
+    ✓ TESTTESTcalibrate_tvMax() should find the minimum acceleration time (660996ms)
+
+
+  1 passing (11m)
+
+
+
+  firepick.PHCalibrater
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:16.787, offset:{0:{dx:19, dy:-11, match:0.967681}}} q:16.12
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:16.027, offset:{0:{dx:32, dy:-22, match:0.759272}}} q:15.36
+DEBUG	: tvMaxQuality(0.667) quality:15.74
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.756, offset:{0:{dx:2, dy:0, match:0.987911}}} q:25.423
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.912, offset:{0:{dx:2, dy:0, match:0.993533}}} q:25.579
+DEBUG	: tvMaxQuality(0.333) quality:25.501
+DEBUG	: tvMaxQuality(0.336) result:{PSNR:25.834, offset:{0:{dx:2, dy:0, match:0.987574}}} q:25.498
+DEBUG	: tvMaxQuality(0.336) result:{PSNR:25.549, offset:{0:{dx:2, dy:0, match:0.987252}}} q:25.213
+DEBUG	: tvMaxQuality(0.336) quality:25.355
+DEBUG	: tvMaxQuality(0.396) result:{PSNR:25.302, offset:{0:{dx:2, dy:0, match:0.99453}}} q:24.906
+DEBUG	: tvMaxQuality(0.396) result:{PSNR:25.351, offset:{0:{dx:2, dy:0, match:0.994563}}} q:24.955
+DEBUG	: tvMaxQuality(0.396) quality:24.93
+DEBUG	: tvMaxQuality(0.293) result:{PSNR:24.909, offset:{0:{dx:2, dy:0, match:0.996878}}} q:24.616
+DEBUG	: tvMaxQuality(0.293) result:{PSNR:24.963, offset:{0:{dx:2, dy:0, match:0.995046}}} q:24.67
+DEBUG	: tvMaxQuality(0.293) quality:24.643
+DEBUG	: tvMaxQuality(0.34) result:{PSNR:24.937, offset:{0:{dx:2, dy:0, match:0.993773}}} q:24.597
+DEBUG	: tvMaxQuality(0.34) result:{PSNR:24.592, offset:{0:{dx:2, dy:0, match:0.995362}}} q:24.252
+DEBUG	: tvMaxQuality(0.34) quality:24.424
+DEBUG	: tvMaxQuality(0.343) result:{PSNR:24.804, offset:{0:{dx:2, dy:0, match:0.98539}}} q:24.461
+DEBUG	: tvMaxQuality(0.343) result:{PSNR:24.682, offset:{0:{dx:2, dy:0, match:0.995104}}} q:24.339
+DEBUG	: tvMaxQuality(0.343) quality:24.4
+DEBUG	: tvMaxQuality(0.515) result:{PSNR:25.207, offset:{0:{dx:2, dy:0, match:0.991022}}} q:24.692
+DEBUG	: tvMaxQuality(0.515) result:{PSNR:25.392, offset:{0:{dx:2, dy:0, match:0.994556}}} q:24.877
+DEBUG	: tvMaxQuality(0.515) quality:24.785
+DEBUG	: tvMaxQuality(0.322) result:{PSNR:24.733, offset:{0:{dx:2, dy:0, match:0.994657}}} q:24.411
+DEBUG	: tvMaxQuality(0.322) result:{PSNR:24.514, offset:{0:{dx:2, dy:0, match:0.994849}}} q:24.192
+DEBUG	: tvMaxQuality(0.322) quality:24.301
+DEBUG	: tvMaxQuality(0.267) result:{PSNR:27.663, offset:{0:{dx:1, dy:0, match:0.990738}}} q:27.396
+DEBUG	: tvMaxQuality(0.267) result:{PSNR:25.894, offset:{0:{dx:2, dy:0, match:0.995489}}} q:25.627
+DEBUG	: tvMaxQuality(0.267) quality:26.511
+DEBUG	: tvMaxQuality(0.334) result:{PSNR:25.984, offset:{0:{dx:2, dy:0, match:0.997473}}} q:25.65
+DEBUG	: tvMaxQuality(0.334) result:{PSNR:25.853, offset:{0:{dx:2, dy:0, match:0.998352}}} q:25.519
+DEBUG	: tvMaxQuality(0.334) quality:25.584
+DEBUG	: tvMaxQuality(0.177) result:{PSNR:26.801, offset:{0:{dx:2, dy:0, match:0.991648}}} q:26.624
+DEBUG	: tvMaxQuality(0.177) result:{PSNR:26.504, offset:{0:{dx:2, dy:1, match:0.971379}}} q:26.327
+DEBUG	: tvMaxQuality(0.177) quality:26.476
+DEBUG	: tvMaxQuality(0.251) result:{PSNR:25.774, offset:{0:{dx:2, dy:0, match:0.993978}}} q:25.523
+DEBUG	: tvMaxQuality(0.251) result:{PSNR:25.714, offset:{0:{dx:2, dy:0, match:0.99373}}} q:25.463
+DEBUG	: tvMaxQuality(0.251) quality:25.493
+DEBUG	: tvMaxQuality(0.154) result:{PSNR:27.601, offset:{0:{dx:1, dy:1, match:0.987809}}} q:27.447
+DEBUG	: tvMaxQuality(0.154) result:{PSNR:28.95, offset:{0:{dx:1, dy:0, match:0.997429}}} q:28.796
+DEBUG	: tvMaxQuality(0.154) quality:28.122
+DEBUG	: tvMaxQuality(0.255) result:{PSNR:25.71, offset:{0:{dx:2, dy:0, match:0.994864}}} q:25.455
+DEBUG	: tvMaxQuality(0.255) result:{PSNR:25.399, offset:{0:{dx:2, dy:0, match:0.997575}}} q:25.144
+DEBUG	: tvMaxQuality(0.255) quality:25.3
+DEBUG	: tvMaxQuality(0.134) result:{PSNR:26.142, offset:{0:{dx:2, dy:0, match:0.988413}}} q:26.008
+DEBUG	: tvMaxQuality(0.134) result:{PSNR:25.641, offset:{0:{dx:2, dy:0, match:0.998161}}} q:25.507
+DEBUG	: tvMaxQuality(0.134) quality:25.758
+DEBUG	: tvMaxQuality(0.128) result:{PSNR:24.75, offset:{0:{dx:2, dy:0, match:0.988735}}} q:24.622
+DEBUG	: tvMaxQuality(0.128) result:{PSNR:25.109, offset:{0:{dx:2, dy:0, match:0.993475}}} q:24.981
+DEBUG	: tvMaxQuality(0.128) quality:24.801
+DEBUG	: tvMaxQuality(0.12) result:{PSNR:25.688, offset:{0:{dx:2, dy:0, match:0.997491}}} q:25.568
+DEBUG	: tvMaxQuality(0.12) result:{PSNR:25.793, offset:{0:{dx:2, dy:0, match:0.99346}}} q:25.673
+DEBUG	: tvMaxQuality(0.12) quality:25.62
+DEBUG	: tvMaxQuality(0.165) result:{PSNR:16.591, offset:{0:{dx:19, dy:-11, match:0.95566}}} q:16.426
+DEBUG	: tvMaxQuality(0.165) result:{PSNR:16.024, offset:{0:{dx:32, dy:-22, match:0.768178}}} q:15.859
+DEBUG	: tvMaxQuality(0.165) quality:16.143
+DEBUG	: tvMaxQuality(0.174) result:{PSNR:25.483, offset:{0:{dx:2, dy:0, match:0.997328}}} q:25.309
+DEBUG	: tvMaxQuality(0.174) result:{PSNR:25.443, offset:{0:{dx:2, dy:0, match:0.99749}}} q:25.269
+DEBUG	: tvMaxQuality(0.174) quality:25.289
+DEBUG	: tvMaxQuality(0.156) result:{PSNR:28.17, offset:{0:{dx:1, dy:1, match:0.987767}}} q:28.014
+DEBUG	: tvMaxQuality(0.156) result:{PSNR:27.405, offset:{0:{dx:1, dy:0, match:0.989759}}} q:27.249
+DEBUG	: tvMaxQuality(0.156) quality:27.632
+DEBUG	: tvMaxQuality(0.097) result:{PSNR:25.678, offset:{0:{dx:2, dy:0, match:0.995795}}} q:25.581
+DEBUG	: tvMaxQuality(0.097) result:{PSNR:25.295, offset:{0:{dx:2, dy:0, match:0.991067}}} q:25.198
+DEBUG	: tvMaxQuality(0.097) quality:25.39
+DEBUG	: tvMaxQuality(0.153) result:{PSNR:27.262, offset:{0:{dx:2, dy:0, match:0.990487}}} q:27.109
+DEBUG	: tvMaxQuality(0.153) result:{PSNR:27.215, offset:{0:{dx:2, dy:0, match:0.989947}}} q:27.062
+DEBUG	: tvMaxQuality(0.153) quality:27.085
+DEBUG	: tvMaxQuality(0.15) result:{PSNR:24.914, offset:{0:{dx:2, dy:0, match:0.996641}}} q:24.764
+DEBUG	: tvMaxQuality(0.15) result:{PSNR:25.376, offset:{0:{dx:2, dy:0, match:0.995534}}} q:25.226
+DEBUG	: tvMaxQuality(0.15) quality:24.995
+DEBUG	: tvMaxQuality(0.121) result:{PSNR:27.098, offset:{0:{dx:1, dy:0, match:0.98315}}} q:26.977
+DEBUG	: tvMaxQuality(0.121) result:{PSNR:26.743, offset:{0:{dx:2, dy:0, match:0.99578}}} q:26.622
+DEBUG	: tvMaxQuality(0.121) quality:26.799
+DEBUG	: tvMaxQuality(0.204) result:{PSNR:26.969, offset:{0:{dx:1, dy:1, match:0.985784}}} q:26.765
+DEBUG	: tvMaxQuality(0.204) result:{PSNR:26.363, offset:{0:{dx:2, dy:0, match:0.989427}}} q:26.159
+DEBUG	: tvMaxQuality(0.204) quality:26.462
+DEBUG	: tvMaxQuality(0.098) result:{PSNR:26.534, offset:{0:{dx:2, dy:0, match:0.988736}}} q:26.436
+DEBUG	: tvMaxQuality(0.098) result:{PSNR:26.065, offset:{0:{dx:2, dy:0, match:0.994258}}} q:25.967
+DEBUG	: tvMaxQuality(0.098) quality:26.202
+DEBUG	: tvMaxQuality(0.162) result:{PSNR:26.456, offset:{0:{dx:2, dy:1, match:0.988151}}} q:26.294
+DEBUG	: tvMaxQuality(0.162) result:{PSNR:26.558, offset:{0:{dx:2, dy:1, match:0.986046}}} q:26.396
+DEBUG	: tvMaxQuality(0.162) quality:26.345
+DEBUG	: tvMaxQuality(0.036) result:{PSNR:27.098, offset:{0:{dx:1, dy:1, match:0.982909}}} q:27.062
+DEBUG	: tvMaxQuality(0.036) result:{PSNR:26.561, offset:{0:{dx:1, dy:1, match:0.980615}}} q:26.525
+DEBUG	: tvMaxQuality(0.036) quality:26.794
+DEBUG	: calibrate_tvMax() => 0.154 samples:29
+    ✓ TESTTESTcalibrate_tvMax() should find the minimum acceleration time (757706ms)
+
+
+  1 passing (13m)
+
+
+
+  firepick.PHCalibrater
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:16.223, offset:{0:{dx:19, dy:-11, match:0.954792}}} q:15.556
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:15.62, offset:{0:{dx:32, dy:-22, match:0.733722}}} q:14.953
+DEBUG	: tvMaxQuality(0.667) quality:15.255
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.38, offset:{0:{dx:2, dy:0, match:0.9878}}} q:25.047
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.507, offset:{0:{dx:2, dy:0, match:0.994985}}} q:25.174
+DEBUG	: tvMaxQuality(0.333) quality:25.11
+DEBUG	: tvMaxQuality(0.746) result:{PSNR:24.115, offset:{0:{dx:3, dy:0, match:0.990869}}} q:23.369
+DEBUG	: tvMaxQuality(0.746) result:{PSNR:25.023, offset:{0:{dx:2, dy:0, match:0.996419}}} q:24.277
+DEBUG	: tvMaxQuality(0.746) quality:23.823
+DEBUG	: tvMaxQuality(0.252) result:{PSNR:26.251, offset:{0:{dx:2, dy:0, match:0.991855}}} q:25.999
+DEBUG	: tvMaxQuality(0.252) result:{PSNR:26.22, offset:{0:{dx:2, dy:0, match:0.989869}}} q:25.968
+DEBUG	: tvMaxQuality(0.252) quality:25.983
+DEBUG	: tvMaxQuality(0.438) result:{PSNR:24.608, offset:{0:{dx:2, dy:0, match:0.990025}}} q:24.17
+DEBUG	: tvMaxQuality(0.438) result:{PSNR:24.434, offset:{0:{dx:2, dy:0, match:0.987351}}} q:23.996
+DEBUG	: tvMaxQuality(0.438) quality:24.083
+DEBUG	: tvMaxQuality(0.383) result:{PSNR:25.474, offset:{0:{dx:2, dy:0, match:0.976496}}} q:25.091
+DEBUG	: tvMaxQuality(0.383) result:{PSNR:25.622, offset:{0:{dx:2, dy:0, match:0.991404}}} q:25.239
+DEBUG	: tvMaxQuality(0.383) quality:25.165
+DEBUG	: tvMaxQuality(0.288) result:{PSNR:26.238, offset:{0:{dx:2, dy:0, match:0.989347}}} q:25.95
+DEBUG	: tvMaxQuality(0.288) result:{PSNR:25.505, offset:{0:{dx:1, dy:0, match:0.957854}}} q:25.217
+DEBUG	: tvMaxQuality(0.288) quality:25.583
+DEBUG	: tvMaxQuality(0.27) result:{PSNR:24.42, offset:{0:{dx:2, dy:0, match:0.994957}}} q:24.15
+DEBUG	: tvMaxQuality(0.27) result:{PSNR:24.211, offset:{0:{dx:2, dy:0, match:0.993138}}} q:23.941
+DEBUG	: tvMaxQuality(0.27) quality:24.045
+DEBUG	: tvMaxQuality(0.148) result:{PSNR:24.876, offset:{0:{dx:2, dy:0, match:0.992407}}} q:24.728
+DEBUG	: tvMaxQuality(0.148) result:{PSNR:25.175, offset:{0:{dx:2, dy:0, match:0.993713}}} q:25.027
+DEBUG	: tvMaxQuality(0.148) quality:24.878
+DEBUG	: tvMaxQuality(0.145) result:{PSNR:25.844, offset:{0:{dx:2, dy:0, match:0.961054}}} q:25.699
+DEBUG	: tvMaxQuality(0.145) result:{PSNR:26.701, offset:{0:{dx:1, dy:0, match:0.984957}}} q:26.556
+DEBUG	: tvMaxQuality(0.145) quality:26.128
+DEBUG	: tvMaxQuality(0.271) result:{PSNR:25.201, offset:{0:{dx:2, dy:0, match:0.995795}}} q:24.93
+DEBUG	: tvMaxQuality(0.271) result:{PSNR:25.129, offset:{0:{dx:2, dy:0, match:0.995333}}} q:24.858
+DEBUG	: tvMaxQuality(0.271) quality:24.894
+DEBUG	: tvMaxQuality(0.274) result:{PSNR:26.4, offset:{0:{dx:2, dy:1, match:0.98701}}} q:26.126
+DEBUG	: tvMaxQuality(0.274) result:{PSNR:26.329, offset:{0:{dx:2, dy:0, match:0.988477}}} q:26.055
+DEBUG	: tvMaxQuality(0.274) quality:26.09
+DEBUG	: tvMaxQuality(0.21) result:{PSNR:26.274, offset:{0:{dx:2, dy:0, match:0.986}}} q:26.064
+DEBUG	: tvMaxQuality(0.21) result:{PSNR:26.347, offset:{0:{dx:2, dy:1, match:0.983116}}} q:26.137
+DEBUG	: tvMaxQuality(0.21) quality:26.1
+DEBUG	: tvMaxQuality(0.179) result:{PSNR:26.606, offset:{0:{dx:2, dy:1, match:0.988669}}} q:26.427
+DEBUG	: tvMaxQuality(0.179) result:{PSNR:25.914, offset:{0:{dx:2, dy:1, match:0.991599}}} q:25.735
+DEBUG	: tvMaxQuality(0.179) quality:26.081
+DEBUG	: tvMaxQuality(0.105) result:{PSNR:25.996, offset:{0:{dx:2, dy:0, match:0.995799}}} q:25.891
+DEBUG	: tvMaxQuality(0.105) result:{PSNR:26.705, offset:{0:{dx:2, dy:1, match:0.98811}}} q:26.6
+DEBUG	: tvMaxQuality(0.105) quality:26.246
+DEBUG	: tvMaxQuality(0.123) result:{PSNR:26.503, offset:{0:{dx:2, dy:1, match:0.990603}}} q:26.38
+DEBUG	: tvMaxQuality(0.123) result:{PSNR:26.342, offset:{0:{dx:2, dy:1, match:0.991877}}} q:26.219
+DEBUG	: tvMaxQuality(0.123) quality:26.299
+DEBUG	: tvMaxQuality(0.044) result:{PSNR:25.951, offset:{0:{dx:2, dy:1, match:0.985498}}} q:25.907
+DEBUG	: tvMaxQuality(0.044) result:{PSNR:26.439, offset:{0:{dx:2, dy:1, match:0.986228}}} q:26.395
+DEBUG	: tvMaxQuality(0.044) quality:26.151
+DEBUG	: tvMaxQuality(0.121) result:{PSNR:26.239, offset:{0:{dx:2, dy:0, match:0.995769}}} q:26.118
+DEBUG	: tvMaxQuality(0.121) result:{PSNR:26.417, offset:{0:{dx:2, dy:0, match:0.982608}}} q:26.296
+DEBUG	: tvMaxQuality(0.121) quality:26.207
+DEBUG	: tvMaxQuality(0.119) result:{PSNR:24.803, offset:{0:{dx:2, dy:0, match:0.99664}}} q:24.684
+DEBUG	: tvMaxQuality(0.119) result:{PSNR:25.218, offset:{0:{dx:2, dy:0, match:0.996382}}} q:25.099
+DEBUG	: tvMaxQuality(0.119) quality:24.892
+DEBUG	: tvMaxQuality(0.132) result:{PSNR:26.68, offset:{0:{dx:2, dy:1, match:0.988505}}} q:26.548
+DEBUG	: tvMaxQuality(0.132) result:{PSNR:26.457, offset:{0:{dx:2, dy:1, match:0.988213}}} q:26.325
+DEBUG	: tvMaxQuality(0.132) quality:26.436
+DEBUG	: tvMaxQuality(0.108) result:{PSNR:25.431, offset:{0:{dx:2, dy:0, match:0.992794}}} q:25.323
+DEBUG	: tvMaxQuality(0.108) result:{PSNR:25.346, offset:{0:{dx:2, dy:0, match:0.991974}}} q:25.238
+DEBUG	: tvMaxQuality(0.108) quality:25.281
+DEBUG	: tvMaxQuality(0.127) result:{PSNR:16.211, offset:{0:{dx:19, dy:-11, match:0.951728}}} q:16.084
+DEBUG	: tvMaxQuality(0.127) result:{PSNR:15.585, offset:{0:{dx:32, dy:-23, match:0.719893}}} q:15.458
+DEBUG	: tvMaxQuality(0.127) quality:15.771
+DEBUG	: tvMaxQuality(0.085) result:{PSNR:26.213, offset:{0:{dx:2, dy:1, match:0.988256}}} q:26.128
+DEBUG	: tvMaxQuality(0.085) result:{PSNR:25.801, offset:{0:{dx:2, dy:0, match:0.989353}}} q:25.716
+DEBUG	: tvMaxQuality(0.085) quality:25.922
+DEBUG	: tvMaxQuality(0.037) result:{PSNR:26.558, offset:{0:{dx:1, dy:1, match:0.980166}}} q:26.521
+DEBUG	: tvMaxQuality(0.037) result:{PSNR:26.889, offset:{0:{dx:1, dy:1, match:0.987176}}} q:26.852
+DEBUG	: tvMaxQuality(0.037) quality:26.687
+DEBUG	: tvMaxQuality(0.141) result:{PSNR:25.831, offset:{0:{dx:2, dy:1, match:0.992101}}} q:25.69
+DEBUG	: tvMaxQuality(0.141) result:{PSNR:25.674, offset:{0:{dx:2, dy:1, match:0.992599}}} q:25.533
+DEBUG	: tvMaxQuality(0.141) quality:25.611
+DEBUG	: tvMaxQuality(0.088) result:{PSNR:26.811, offset:{0:{dx:2, dy:1, match:0.986455}}} q:26.723
+DEBUG	: tvMaxQuality(0.088) result:{PSNR:25.307, offset:{0:{dx:2, dy:0, match:0.998541}}} q:25.219
+DEBUG	: tvMaxQuality(0.088) quality:25.971
+DEBUG	: tvMaxQuality(0.058) result:{PSNR:25.845, offset:{0:{dx:2, dy:0, match:0.990087}}} q:25.787
+DEBUG	: tvMaxQuality(0.058) result:{PSNR:25.534, offset:{0:{dx:2, dy:0, match:0.987113}}} q:25.476
+DEBUG	: tvMaxQuality(0.058) quality:25.631
+DEBUG	: tvMaxQuality(0.063) result:{PSNR:24.866, offset:{0:{dx:2, dy:0, match:0.996739}}} q:24.803
+DEBUG	: tvMaxQuality(0.063) result:{PSNR:25.653, offset:{0:{dx:2, dy:1, match:0.986748}}} q:25.59
+DEBUG	: tvMaxQuality(0.063) quality:25.197
+DEBUG	: tvMaxQuality(0.03) result:{PSNR:26.104, offset:{0:{dx:2, dy:0, match:0.990005}}} q:26.074
+DEBUG	: tvMaxQuality(0.03) result:{PSNR:25.322, offset:{0:{dx:2, dy:0, match:0.993843}}} q:25.292
+DEBUG	: tvMaxQuality(0.03) quality:25.683
+DEBUG	: tvMaxQuality(0.05) result:{PSNR:24.481, offset:{0:{dx:2, dy:0, match:0.993945}}} q:24.431
+DEBUG	: tvMaxQuality(0.05) result:{PSNR:24.213, offset:{0:{dx:2, dy:0, match:0.991524}}} q:24.163
+DEBUG	: tvMaxQuality(0.05) quality:24.297
+DEBUG	: tvMaxQuality(0.021) result:{PSNR:26.971, offset:{0:{dx:1, dy:0, match:0.985126}}} q:26.95
+DEBUG	: tvMaxQuality(0.021) result:{PSNR:25.917, offset:{0:{dx:2, dy:0, match:0.992631}}} q:25.896
+DEBUG	: tvMaxQuality(0.021) quality:26.423
+DEBUG	: tvMaxQuality(0.072) result:{PSNR:26.795, offset:{0:{dx:1, dy:1, match:0.983568}}} q:26.723
+DEBUG	: tvMaxQuality(0.072) result:{PSNR:27.199, offset:{0:{dx:1, dy:0, match:0.98674}}} q:27.127
+DEBUG	: tvMaxQuality(0.072) quality:26.925
+DEBUG	: tvMaxQuality(0.075) result:{PSNR:24.806, offset:{0:{dx:2, dy:0, match:0.996733}}} q:24.731
+DEBUG	: tvMaxQuality(0.075) result:{PSNR:25.1, offset:{0:{dx:2, dy:0, match:0.995501}}} q:25.025
+DEBUG	: tvMaxQuality(0.075) quality:24.878
+DEBUG	: tvMaxQuality(0.069) result:{PSNR:24.934, offset:{0:{dx:2, dy:0, match:0.996999}}} q:24.865
+DEBUG	: tvMaxQuality(0.069) result:{PSNR:24.675, offset:{0:{dx:2, dy:0, match:0.996261}}} q:24.606
+DEBUG	: tvMaxQuality(0.069) quality:24.735
+DEBUG	: tvMaxQuality(0.061) result:{PSNR:25.728, offset:{0:{dx:2, dy:0, match:0.990888}}} q:25.667
+DEBUG	: tvMaxQuality(0.061) result:{PSNR:25.138, offset:{0:{dx:2, dy:0, match:0.997719}}} q:25.077
+DEBUG	: tvMaxQuality(0.061) quality:25.372
+DEBUG	: tvMaxQuality(0.08) result:{PSNR:25.391, offset:{0:{dx:2, dy:0, match:0.989744}}} q:25.311
+DEBUG	: tvMaxQuality(0.08) result:{PSNR:24.668, offset:{0:{dx:2, dy:0, match:0.996667}}} q:24.588
+DEBUG	: tvMaxQuality(0.08) quality:24.949
+DEBUG	: tvMaxQuality(0.087) result:{PSNR:24.474, offset:{0:{dx:2, dy:0, match:0.994742}}} q:24.387
+DEBUG	: tvMaxQuality(0.087) result:{PSNR:24.918, offset:{0:{dx:2, dy:0, match:0.995571}}} q:24.831
+DEBUG	: tvMaxQuality(0.087) quality:24.609
+DEBUG	: tvMaxQuality(0.042) result:{PSNR:25.876, offset:{0:{dx:2, dy:0, match:0.992491}}} q:25.834
+DEBUG	: tvMaxQuality(0.042) result:{PSNR:26.023, offset:{0:{dx:2, dy:0, match:0.991215}}} q:25.981
+DEBUG	: tvMaxQuality(0.042) quality:25.907
+DEBUG	: tvMaxQuality(0.048) result:{PSNR:26.556, offset:{0:{dx:2, dy:1, match:0.986224}}} q:26.508
+DEBUG	: tvMaxQuality(0.048) result:{PSNR:25.97, offset:{0:{dx:2, dy:0, match:0.990155}}} q:25.922
+DEBUG	: tvMaxQuality(0.048) quality:26.215
+DEBUG	: tvMaxQuality(0.067) result:{PSNR:25.891, offset:{0:{dx:2, dy:0, match:0.992255}}} q:25.824
+DEBUG	: tvMaxQuality(0.067) result:{PSNR:25.694, offset:{0:{dx:2, dy:0, match:0.993102}}} q:25.627
+DEBUG	: tvMaxQuality(0.067) quality:25.725
+DEBUG	: calibrate_tvMax() => 0.072 samples:40
+    ✓ TESTTESTcalibrate_tvMax() should find the minimum acceleration time (1051959ms)
+
+
+  1 passing (18m)
+
+
+
+  firepick.PHCalibrater
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:16.53, offset:{0:{dx:19, dy:-11, match:0.954098}}} q:15.863
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:15.892, offset:{0:{dx:32, dy:-22, match:0.741092}}} q:15.225
+DEBUG	: tvMaxQuality(0.667) quality:15.544
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.086, offset:{0:{dx:2, dy:0, match:0.987718}}} q:24.753
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:24.936, offset:{0:{dx:2, dy:0, match:0.987334}}} q:24.603
+DEBUG	: tvMaxQuality(0.333) quality:24.678
+DEBUG	: tvMaxQuality(0.564) result:{PSNR:24.18, offset:{0:{dx:2, dy:0, match:0.990829}}} q:23.616
+DEBUG	: tvMaxQuality(0.564) result:{PSNR:24.139, offset:{0:{dx:2, dy:0, match:0.988296}}} q:23.575
+DEBUG	: tvMaxQuality(0.564) quality:23.596
+DEBUG	: tvMaxQuality(0.394) result:{PSNR:24.633, offset:{0:{dx:2, dy:0, match:0.989056}}} q:24.239
+DEBUG	: tvMaxQuality(0.394) result:{PSNR:24.549, offset:{0:{dx:2, dy:0, match:0.988502}}} q:24.155
+DEBUG	: tvMaxQuality(0.394) quality:24.197
+DEBUG	: tvMaxQuality(0.3) result:{PSNR:24.938, offset:{0:{dx:2, dy:0, match:0.997016}}} q:24.638
+DEBUG	: tvMaxQuality(0.3) result:{PSNR:25.234, offset:{0:{dx:2, dy:0, match:0.994503}}} q:24.934
+DEBUG	: tvMaxQuality(0.3) quality:24.786
+DEBUG	: tvMaxQuality(0.197) result:{PSNR:24.073, offset:{0:{dx:3, dy:0, match:0.990058}}} q:23.876
+DEBUG	: tvMaxQuality(0.197) result:{PSNR:24.257, offset:{0:{dx:2, dy:0, match:0.987903}}} q:24.06
+DEBUG	: tvMaxQuality(0.197) quality:23.968
+DEBUG	: tvMaxQuality(0.324) result:{PSNR:24.593, offset:{0:{dx:2, dy:0, match:0.993199}}} q:24.269
+DEBUG	: tvMaxQuality(0.324) result:{PSNR:24.495, offset:{0:{dx:2, dy:0, match:0.992415}}} q:24.171
+DEBUG	: tvMaxQuality(0.324) quality:24.22
+DEBUG	: tvMaxQuality(0.206) result:{PSNR:26.428, offset:{0:{dx:2, dy:0, match:0.980285}}} q:26.222
+DEBUG	: tvMaxQuality(0.206) result:{PSNR:26.667, offset:{0:{dx:1, dy:1, match:0.988943}}} q:26.461
+DEBUG	: tvMaxQuality(0.206) quality:26.341
+DEBUG	: tvMaxQuality(0.314) result:{PSNR:23.836, offset:{0:{dx:3, dy:0, match:0.993916}}} q:23.522
+DEBUG	: tvMaxQuality(0.314) result:{PSNR:23.826, offset:{0:{dx:3, dy:0, match:0.993751}}} q:23.512
+DEBUG	: tvMaxQuality(0.314) quality:23.517
+DEBUG	: tvMaxQuality(0.161) result:{PSNR:25.573, offset:{0:{dx:2, dy:0, match:0.990206}}} q:25.412
+DEBUG	: tvMaxQuality(0.161) result:{PSNR:25.333, offset:{0:{dx:2, dy:0, match:0.989432}}} q:25.172
+DEBUG	: tvMaxQuality(0.161) quality:25.292
+DEBUG	: tvMaxQuality(0.211) result:{PSNR:25.428, offset:{0:{dx:2, dy:0, match:0.982156}}} q:25.217
+DEBUG	: tvMaxQuality(0.211) result:{PSNR:25.262, offset:{0:{dx:2, dy:0, match:0.9922}}} q:25.051
+DEBUG	: tvMaxQuality(0.211) quality:25.134
+DEBUG	: tvMaxQuality(0.25) result:{PSNR:15.368, offset:{0:{}}} tvMax REJECTED
+DEBUG	: tvMaxQuality(0.25) quality:0
+DEBUG	: tvMaxQuality(0.223) result:{PSNR:25.975, offset:{0:{dx:2, dy:0, match:0.984404}}} q:25.752
+DEBUG	: tvMaxQuality(0.223) result:{PSNR:25.677, offset:{0:{dx:2, dy:0, match:0.993744}}} q:25.454
+DEBUG	: tvMaxQuality(0.223) quality:25.603
+DEBUG	: tvMaxQuality(0.168) result:{PSNR:16.442, offset:{0:{dx:19, dy:-11, match:0.955262}}} q:16.274
+DEBUG	: tvMaxQuality(0.168) result:{PSNR:15.834, offset:{0:{dx:32, dy:-22, match:0.736117}}} q:15.666
+DEBUG	: tvMaxQuality(0.168) quality:15.97
+DEBUG	: tvMaxQuality(0.205) result:{PSNR:26.613, offset:{0:{dx:2, dy:1, match:0.988658}}} q:26.408
+DEBUG	: tvMaxQuality(0.205) result:{PSNR:25.944, offset:{0:{dx:2, dy:0, match:0.971835}}} q:25.739
+DEBUG	: tvMaxQuality(0.205) quality:26.073
+DEBUG	: tvMaxQuality(0.144) result:{PSNR:25.7, offset:{0:{dx:2, dy:0, match:0.994552}}} q:25.556
+DEBUG	: tvMaxQuality(0.144) result:{PSNR:25.566, offset:{0:{dx:2, dy:0, match:0.995498}}} q:25.422
+DEBUG	: tvMaxQuality(0.144) quality:25.489
+DEBUG	: tvMaxQuality(0.215) result:{PSNR:25.758, offset:{0:{dx:2, dy:0, match:0.991011}}} q:25.543
+DEBUG	: tvMaxQuality(0.215) result:{PSNR:25.658, offset:{0:{dx:2, dy:0, match:0.987138}}} q:25.443
+DEBUG	: tvMaxQuality(0.215) quality:25.493
+DEBUG	: tvMaxQuality(0.034) result:{PSNR:25.499, offset:{0:{dx:2, dy:0, match:0.982095}}} q:25.465
+DEBUG	: tvMaxQuality(0.034) result:{PSNR:25.488, offset:{0:{dx:2, dy:0, match:0.981782}}} q:25.454
+DEBUG	: tvMaxQuality(0.034) quality:25.459
+DEBUG	: tvMaxQuality(0.068) result:{PSNR:25.703, offset:{0:{dx:2, dy:0, match:0.995066}}} q:25.635
+DEBUG	: tvMaxQuality(0.068) result:{PSNR:25.487, offset:{0:{dx:2, dy:0, match:0.995997}}} q:25.419
+DEBUG	: tvMaxQuality(0.068) quality:25.527
+DEBUG	: tvMaxQuality(0.06) result:{PSNR:16.622, offset:{0:{dx:19, dy:-11, match:0.944704}}} q:16.562
+DEBUG	: tvMaxQuality(0.06) result:{PSNR:16.761, offset:{0:{dx:19, dy:-10, match:0.968511}}} q:16.701
+DEBUG	: tvMaxQuality(0.06) quality:16.632
+DEBUG	: tvMaxQuality(0.208) result:{PSNR:27.134, offset:{0:{dx:1, dy:1, match:0.988297}}} q:26.926
+DEBUG	: tvMaxQuality(0.208) result:{PSNR:27.071, offset:{0:{dx:1, dy:1, match:0.990745}}} q:26.863
+DEBUG	: tvMaxQuality(0.208) quality:26.895
+DEBUG	: tvMaxQuality(0.12) result:{PSNR:25.679, offset:{0:{dx:2, dy:0, match:0.99184}}} q:25.559
+DEBUG	: tvMaxQuality(0.12) result:{PSNR:25.668, offset:{0:{dx:2, dy:1, match:0.991566}}} q:25.548
+DEBUG	: tvMaxQuality(0.12) quality:25.554
+DEBUG	: tvMaxQuality(0.064) result:{PSNR:26.345, offset:{0:{dx:2, dy:1, match:0.988744}}} q:26.281
+DEBUG	: tvMaxQuality(0.064) result:{PSNR:26.273, offset:{0:{dx:2, dy:1, match:0.989206}}} q:26.209
+DEBUG	: tvMaxQuality(0.064) quality:26.245
+DEBUG	: tvMaxQuality(0.21) result:{PSNR:25.465, offset:{0:{dx:2, dy:0, match:0.998395}}} q:25.255
+DEBUG	: tvMaxQuality(0.21) result:{PSNR:25.754, offset:{0:{dx:2, dy:0, match:0.994801}}} q:25.544
+DEBUG	: tvMaxQuality(0.21) quality:25.399
+DEBUG	: tvMaxQuality(0.095) result:{PSNR:26.737, offset:{0:{dx:2, dy:0, match:0.989026}}} q:26.642
+DEBUG	: tvMaxQuality(0.095) result:{PSNR:26.839, offset:{0:{dx:1, dy:1, match:0.985995}}} q:26.744
+DEBUG	: tvMaxQuality(0.095) quality:26.693
+DEBUG	: tvMaxQuality(0.207) result:{PSNR:27.023, offset:{0:{dx:1, dy:1, match:0.989052}}} q:26.816
+DEBUG	: tvMaxQuality(0.207) result:{PSNR:27.209, offset:{0:{dx:1, dy:0, match:0.988317}}} q:27.002
+DEBUG	: tvMaxQuality(0.207) quality:26.909
+DEBUG	: tvMaxQuality(0.136) result:{PSNR:24.811, offset:{0:{dx:2, dy:0, match:0.996199}}} q:24.675
+DEBUG	: tvMaxQuality(0.136) result:{PSNR:25.224, offset:{0:{dx:2, dy:0, match:0.995865}}} q:25.088
+DEBUG	: tvMaxQuality(0.136) quality:24.882
+DEBUG	: tvMaxQuality(0.1) result:{PSNR:25.348, offset:{0:{dx:2, dy:1, match:0.991198}}} q:25.248
+DEBUG	: tvMaxQuality(0.1) result:{PSNR:24.59, offset:{0:{dx:2, dy:0, match:0.994237}}} q:24.49
+DEBUG	: tvMaxQuality(0.1) quality:24.869
+DEBUG	: tvMaxQuality(0.115) result:{PSNR:25.428, offset:{0:{dx:2, dy:0, match:0.996063}}} q:25.313
+DEBUG	: tvMaxQuality(0.115) result:{PSNR:25.521, offset:{0:{dx:2, dy:0, match:0.982745}}} q:25.406
+DEBUG	: tvMaxQuality(0.115) quality:25.359
+DEBUG	: tvMaxQuality(0.146) result:{PSNR:25.624, offset:{0:{dx:2, dy:0, match:0.983282}}} q:25.478
+DEBUG	: tvMaxQuality(0.146) result:{PSNR:25.576, offset:{0:{dx:2, dy:0, match:0.983724}}} q:25.43
+DEBUG	: tvMaxQuality(0.146) quality:25.454
+DEBUG	: tvMaxQuality(0.188) result:{PSNR:25.643, offset:{0:{dx:2, dy:0, match:0.992641}}} q:25.455
+DEBUG	: tvMaxQuality(0.188) result:{PSNR:25.239, offset:{0:{dx:2, dy:0, match:0.996303}}} q:25.051
+DEBUG	: tvMaxQuality(0.188) quality:25.253
+DEBUG	: calibrate_tvMax() => 0.207 samples:31
+    ✓ TESTTESTcalibrate_tvMax() should find the minimum acceleration time (821156ms)
+
+
+  1 passing (14m)
+
+
+
+  firepick.PHCalibrater
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:16.205, offset:{0:{dx:20, dy:-11, match:0.963366}}} q:15.538
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:15.663, offset:{0:{dx:32, dy:-22, match:0.745742}}} q:14.996
+DEBUG	: tvMaxQuality(0.667) quality:15.267
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:24.798, offset:{0:{dx:2, dy:0, match:0.986497}}} q:24.465
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:24.735, offset:{0:{dx:2, dy:0, match:0.989155}}} q:24.402
+DEBUG	: tvMaxQuality(0.333) quality:24.434
+DEBUG	: tvMaxQuality(0.722) result:{PSNR:23.605, offset:{0:{dx:3, dy:0, match:0.992162}}} q:22.883
+DEBUG	: tvMaxQuality(0.722) result:{PSNR:24.268, offset:{0:{dx:2, dy:0, match:0.994436}}} q:23.546
+DEBUG	: tvMaxQuality(0.722) quality:23.215
+DEBUG	: tvMaxQuality(0.095) result:{PSNR:26.884, offset:{0:{dx:1, dy:1, match:0.991423}}} q:26.789
+DEBUG	: tvMaxQuality(0.095) result:{PSNR:25.678, offset:{0:{dx:2, dy:0, match:0.969717}}} q:25.583
+DEBUG	: tvMaxQuality(0.095) quality:26.186
+DEBUG	: tvMaxQuality(0.394) result:{PSNR:24.267, offset:{0:{dx:2, dy:0, match:0.987393}}} q:23.873
+DEBUG	: tvMaxQuality(0.394) result:{PSNR:24.36, offset:{0:{dx:2, dy:0, match:0.98845}}} q:23.966
+DEBUG	: tvMaxQuality(0.394) quality:23.919
+DEBUG	: tvMaxQuality(0.284) result:{PSNR:24.616, offset:{0:{dx:2, dy:0, match:0.991553}}} q:24.332
+DEBUG	: tvMaxQuality(0.284) result:{PSNR:24.189, offset:{0:{dx:2, dy:0, match:0.989787}}} q:23.905
+DEBUG	: tvMaxQuality(0.284) quality:24.118
+DEBUG	: tvMaxQuality(0.123) result:{PSNR:25.895, offset:{0:{dx:2, dy:1, match:0.991292}}} q:25.772
+DEBUG	: tvMaxQuality(0.123) result:{PSNR:26.331, offset:{0:{dx:2, dy:1, match:0.986165}}} q:26.208
+DEBUG	: tvMaxQuality(0.123) quality:25.99
+DEBUG	: tvMaxQuality(0.129) result:{PSNR:25.692, offset:{0:{dx:2, dy:1, match:0.989934}}} q:25.563
+DEBUG	: tvMaxQuality(0.129) result:{PSNR:25.633, offset:{0:{dx:2, dy:0, match:0.991307}}} q:25.504
+DEBUG	: tvMaxQuality(0.129) quality:25.533
+DEBUG	: tvMaxQuality(0.17) result:{PSNR:16.372, offset:{0:{dx:19, dy:-11, match:0.959377}}} q:16.202
+DEBUG	: tvMaxQuality(0.17) result:{PSNR:15.737, offset:{0:{dx:32, dy:-22, match:0.755555}}} q:15.567
+DEBUG	: tvMaxQuality(0.17) quality:15.885
+DEBUG	: tvMaxQuality(0.083) result:{PSNR:25.17, offset:{0:{dx:2, dy:0, match:0.997313}}} q:25.087
+DEBUG	: tvMaxQuality(0.083) result:{PSNR:25.848, offset:{0:{dx:2, dy:0, match:0.990715}}} q:25.765
+DEBUG	: tvMaxQuality(0.083) quality:25.426
+DEBUG	: tvMaxQuality(0.077) result:{PSNR:25.589, offset:{0:{dx:2, dy:0, match:0.996382}}} q:25.512
+DEBUG	: tvMaxQuality(0.077) result:{PSNR:25.575, offset:{0:{dx:2, dy:0, match:0.996094}}} q:25.498
+DEBUG	: tvMaxQuality(0.077) quality:25.505
+DEBUG	: tvMaxQuality(0.11) result:{PSNR:24.814, offset:{0:{dx:2, dy:0, match:0.99274}}} q:24.704
+DEBUG	: tvMaxQuality(0.11) result:{PSNR:24.801, offset:{0:{dx:2, dy:0, match:0.994364}}} q:24.691
+DEBUG	: tvMaxQuality(0.11) quality:24.697
+DEBUG	: tvMaxQuality(0.092) result:{PSNR:26.91, offset:{0:{dx:1, dy:1, match:0.987479}}} q:26.818
+DEBUG	: tvMaxQuality(0.092) result:{PSNR:26.577, offset:{0:{dx:2, dy:0, match:0.989946}}} q:26.485
+DEBUG	: tvMaxQuality(0.092) quality:26.652
+DEBUG	: tvMaxQuality(0.097) result:{PSNR:24.837, offset:{0:{dx:2, dy:0, match:0.988185}}} q:24.74
+DEBUG	: tvMaxQuality(0.097) result:{PSNR:25.31, offset:{0:{dx:2, dy:0, match:0.995115}}} q:25.213
+DEBUG	: tvMaxQuality(0.097) quality:24.976
+DEBUG	: tvMaxQuality(0.064) result:{PSNR:25.558, offset:{0:{dx:2, dy:0, match:0.991324}}} q:25.494
+DEBUG	: tvMaxQuality(0.064) result:{PSNR:25.646, offset:{0:{dx:2, dy:0, match:0.988904}}} q:25.582
+DEBUG	: tvMaxQuality(0.064) quality:25.538
+DEBUG	: tvMaxQuality(0.08) result:{PSNR:25.227, offset:{0:{dx:2, dy:0, match:0.994981}}} q:25.147
+DEBUG	: tvMaxQuality(0.08) result:{PSNR:24.506, offset:{0:{dx:2, dy:0, match:0.995104}}} q:24.426
+DEBUG	: tvMaxQuality(0.08) quality:24.787
+DEBUG	: tvMaxQuality(0.1) result:{PSNR:25.3, offset:{0:{dx:2, dy:0, match:0.994227}}} q:25.2
+DEBUG	: tvMaxQuality(0.1) result:{PSNR:25.216, offset:{0:{dx:2, dy:0, match:0.994837}}} q:25.116
+DEBUG	: tvMaxQuality(0.1) quality:25.158
+DEBUG	: tvMaxQuality(0.065) result:{PSNR:25.662, offset:{0:{dx:2, dy:0, match:0.989121}}} q:25.597
+DEBUG	: tvMaxQuality(0.065) result:{PSNR:24.909, offset:{0:{dx:2, dy:0, match:0.996906}}} q:24.844
+DEBUG	: tvMaxQuality(0.065) quality:25.22
+DEBUG	: tvMaxQuality(0.096) result:{PSNR:25.795, offset:{0:{dx:2, dy:0, match:0.997619}}} q:25.699
+DEBUG	: tvMaxQuality(0.096) result:{PSNR:25.783, offset:{0:{dx:2, dy:0, match:0.995515}}} q:25.687
+DEBUG	: tvMaxQuality(0.096) quality:25.693
+DEBUG	: tvMaxQuality(0.074) result:{PSNR:26.551, offset:{0:{dx:2, dy:0, match:0.989033}}} q:26.477
+DEBUG	: tvMaxQuality(0.074) result:{PSNR:26.194, offset:{0:{dx:2, dy:0, match:0.99482}}} q:26.12
+DEBUG	: tvMaxQuality(0.074) quality:26.298
+DEBUG	: tvMaxQuality(0.085) result:{PSNR:24.799, offset:{0:{dx:2, dy:0, match:0.99588}}} q:24.714
+DEBUG	: tvMaxQuality(0.085) result:{PSNR:24.743, offset:{0:{dx:2, dy:0, match:0.996007}}} q:24.658
+DEBUG	: tvMaxQuality(0.085) quality:24.686
+DEBUG	: tvMaxQuality(0.073) result:{PSNR:24.496, offset:{0:{dx:2, dy:0, match:0.996165}}} q:24.423
+DEBUG	: tvMaxQuality(0.073) result:{PSNR:24.913, offset:{0:{dx:2, dy:0, match:0.98875}}} q:24.84
+DEBUG	: tvMaxQuality(0.073) quality:24.631
+DEBUG	: tvMaxQuality(0.091) result:{PSNR:25.488, offset:{0:{dx:2, dy:0, match:0.994735}}} q:25.397
+DEBUG	: tvMaxQuality(0.091) result:{PSNR:25.39, offset:{0:{dx:2, dy:0, match:0.996047}}} q:25.299
+DEBUG	: tvMaxQuality(0.091) quality:25.348
+DEBUG	: tvMaxQuality(0.062) result:{PSNR:25.877, offset:{0:{dx:2, dy:1, match:0.99003}}} q:25.815
+DEBUG	: tvMaxQuality(0.062) result:{PSNR:24.951, offset:{0:{dx:2, dy:0, match:0.996574}}} q:24.889
+DEBUG	: tvMaxQuality(0.062) quality:25.352
+DEBUG	: tvMaxQuality(0.069) result:{PSNR:24.682, offset:{0:{dx:2, dy:0, match:0.996068}}} q:24.613
+DEBUG	: tvMaxQuality(0.069) result:{PSNR:24.698, offset:{0:{dx:2, dy:0, match:0.995473}}} q:24.629
+DEBUG	: tvMaxQuality(0.069) quality:24.621
+DEBUG	: calibrate_tvMax() => 0.092 samples:25
+    ✓ TESTTESTcalibrate_tvMax() should find the minimum acceleration time (659056ms)
+
+
+  1 passing (11m)
+
+
+
+  firepick.PHCalibrater
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:16.593, offset:{0:{dx:19, dy:-11, match:0.961654}}} q:15.926
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:15.935, offset:{0:{dx:32, dy:-23, match:0.74603}}} q:15.268
+DEBUG	: tvMaxQuality(0.667) quality:15.597
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.462, offset:{0:{dx:2, dy:0, match:0.98786}}} q:25.129
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.246, offset:{0:{dx:2, dy:0, match:0.987521}}} q:24.913
+DEBUG	: tvMaxQuality(0.333) quality:25.021
+DEBUG	: tvMaxQuality(0.67) result:{PSNR:25.534, offset:{0:{dx:2, dy:0, match:0.996531}}} q:24.864
+DEBUG	: tvMaxQuality(0.67) result:{PSNR:24.817, offset:{0:{dx:2, dy:0, match:0.993947}}} q:24.147
+DEBUG	: tvMaxQuality(0.67) quality:24.506
+DEBUG	: tvMaxQuality(0.245) result:{PSNR:25.003, offset:{0:{dx:2, dy:0, match:0.995237}}} q:24.758
+DEBUG	: tvMaxQuality(0.245) result:{PSNR:25.187, offset:{0:{dx:2, dy:0, match:0.994253}}} q:24.942
+DEBUG	: tvMaxQuality(0.245) quality:24.85
+DEBUG	: tvMaxQuality(0.354) result:{PSNR:24.841, offset:{0:{dx:2, dy:0, match:0.990043}}} q:24.487
+DEBUG	: tvMaxQuality(0.354) result:{PSNR:24.545, offset:{0:{dx:2, dy:0, match:0.987606}}} q:24.191
+DEBUG	: tvMaxQuality(0.354) quality:24.339
+DEBUG	: tvMaxQuality(0.337) result:{PSNR:25.039, offset:{0:{dx:2, dy:0, match:0.988868}}} q:24.702
+DEBUG	: tvMaxQuality(0.337) result:{PSNR:24.948, offset:{0:{dx:2, dy:0, match:0.993671}}} q:24.611
+DEBUG	: tvMaxQuality(0.337) quality:24.656
+DEBUG	: tvMaxQuality(0.16) result:{PSNR:25.413, offset:{0:{dx:2, dy:0, match:0.991828}}} q:25.253
+DEBUG	: tvMaxQuality(0.16) result:{PSNR:24.633, offset:{0:{dx:2, dy:0, match:0.992795}}} q:24.473
+DEBUG	: tvMaxQuality(0.16) quality:24.863
+DEBUG	: tvMaxQuality(0.108) result:{PSNR:25.564, offset:{0:{dx:2, dy:0, match:0.991762}}} q:25.456
+DEBUG	: tvMaxQuality(0.108) result:{PSNR:25.56, offset:{0:{dx:2, dy:0, match:0.996855}}} q:25.452
+DEBUG	: tvMaxQuality(0.108) quality:25.454
+DEBUG	: tvMaxQuality(0.154) result:{PSNR:26.224, offset:{0:{dx:1, dy:1, match:0.960785}}} q:26.07
+DEBUG	: tvMaxQuality(0.154) result:{PSNR:27.565, offset:{0:{dx:1, dy:1, match:0.991414}}} q:27.411
+DEBUG	: tvMaxQuality(0.154) quality:26.74
+DEBUG	: tvMaxQuality(0.111) result:{PSNR:25.672, offset:{0:{dx:2, dy:0, match:0.99475}}} q:25.561
+DEBUG	: tvMaxQuality(0.111) result:{PSNR:25.622, offset:{0:{dx:2, dy:0, match:0.994257}}} q:25.511
+DEBUG	: tvMaxQuality(0.111) quality:25.536
+DEBUG	: tvMaxQuality(0.161) result:{PSNR:25.541, offset:{0:{dx:2, dy:0, match:0.990556}}} q:25.38
+DEBUG	: tvMaxQuality(0.161) result:{PSNR:25.739, offset:{0:{dx:2, dy:0, match:0.994559}}} q:25.578
+DEBUG	: tvMaxQuality(0.161) quality:25.479
+DEBUG	: tvMaxQuality(0.187) result:{PSNR:26.026, offset:{0:{dx:2, dy:0, match:0.991066}}} q:25.839
+DEBUG	: tvMaxQuality(0.187) result:{PSNR:25.65, offset:{0:{dx:2, dy:0, match:0.997006}}} q:25.463
+DEBUG	: tvMaxQuality(0.187) quality:25.651
+DEBUG	: tvMaxQuality(0.095) result:{PSNR:26.807, offset:{0:{dx:2, dy:0, match:0.985855}}} q:26.712
+DEBUG	: tvMaxQuality(0.095) result:{PSNR:26.77, offset:{0:{dx:2, dy:0, match:0.98693}}} q:26.675
+DEBUG	: tvMaxQuality(0.095) quality:26.694
+DEBUG	: tvMaxQuality(0.146) result:{PSNR:25.879, offset:{0:{dx:2, dy:1, match:0.990662}}} q:25.733
+DEBUG	: tvMaxQuality(0.146) result:{PSNR:25.371, offset:{0:{dx:2, dy:0, match:0.997447}}} q:25.225
+DEBUG	: tvMaxQuality(0.146) quality:25.479
+DEBUG	: tvMaxQuality(0.145) result:{PSNR:26.128, offset:{0:{dx:2, dy:1, match:0.972498}}} q:25.983
+DEBUG	: tvMaxQuality(0.145) result:{PSNR:26.758, offset:{0:{dx:2, dy:1, match:0.988913}}} q:26.613
+DEBUG	: tvMaxQuality(0.145) quality:26.298
+DEBUG	: tvMaxQuality(0.07) result:{PSNR:25.851, offset:{0:{dx:2, dy:0, match:0.992567}}} q:25.781
+DEBUG	: tvMaxQuality(0.07) result:{PSNR:25.576, offset:{0:{dx:2, dy:0, match:0.994768}}} q:25.506
+DEBUG	: tvMaxQuality(0.07) quality:25.643
+DEBUG	: tvMaxQuality(0.125) result:{PSNR:25.773, offset:{0:{dx:2, dy:0, match:0.981623}}} q:25.648
+DEBUG	: tvMaxQuality(0.125) result:{PSNR:25.773, offset:{0:{dx:2, dy:1, match:0.981065}}} q:25.648
+DEBUG	: tvMaxQuality(0.125) quality:25.648
+DEBUG	: tvMaxQuality(0.075) result:{PSNR:25.33, offset:{0:{dx:2, dy:0, match:0.994958}}} q:25.255
+DEBUG	: tvMaxQuality(0.075) result:{PSNR:25.347, offset:{0:{dx:2, dy:0, match:0.985221}}} q:25.272
+DEBUG	: tvMaxQuality(0.075) quality:25.264
+DEBUG	: tvMaxQuality(0.109) result:{PSNR:26.221, offset:{0:{dx:2, dy:0, match:0.995583}}} q:26.112
+DEBUG	: tvMaxQuality(0.109) result:{PSNR:26.187, offset:{0:{dx:2, dy:0, match:0.99267}}} q:26.078
+DEBUG	: tvMaxQuality(0.109) quality:26.095
+DEBUG	: tvMaxQuality(0.061) result:{PSNR:26.025, offset:{0:{dx:2, dy:0, match:0.982961}}} q:25.964
+DEBUG	: tvMaxQuality(0.061) result:{PSNR:25.997, offset:{0:{dx:2, dy:0, match:0.98312}}} q:25.936
+DEBUG	: tvMaxQuality(0.061) quality:25.95
+DEBUG	: tvMaxQuality(0.044) result:{PSNR:26.107, offset:{0:{dx:2, dy:1, match:0.986707}}} q:26.063
+DEBUG	: tvMaxQuality(0.044) result:{PSNR:19.51, offset:{0:{dx:4, dy:-2, match:0.988699}}} q:19.466
+DEBUG	: tvMaxQuality(0.044) quality:22.765
+DEBUG	: tvMaxQuality(0.13) result:{PSNR:25.357, offset:{0:{dx:2, dy:0, match:0.99216}}} q:25.227
+DEBUG	: tvMaxQuality(0.13) result:{PSNR:24.888, offset:{0:{dx:2, dy:0, match:0.996489}}} q:24.758
+DEBUG	: tvMaxQuality(0.13) quality:24.993
+DEBUG	: tvMaxQuality(0.089) result:{PSNR:25.001, offset:{0:{dx:2, dy:0, match:0.996457}}} q:24.912
+DEBUG	: tvMaxQuality(0.089) result:{PSNR:25.381, offset:{0:{dx:2, dy:0, match:0.997383}}} q:25.292
+DEBUG	: tvMaxQuality(0.089) quality:25.102
+DEBUG	: calibrate_tvMax() => 0.154 samples:23
+    ✓ TESTTESTcalibrate_tvMax() should find the minimum acceleration time (608776ms)
+
+
+  1 passing (10m)
+
+
+
+  firepick.PHCalibrater
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:16.463, offset:{0:{dx:20, dy:-11, match:0.963678}}} q:15.796
+DEBUG	: tvMaxQuality(0.667) result:{PSNR:15.887, offset:{0:{dx:32, dy:-22, match:0.750662}}} q:15.22
+DEBUG	: tvMaxQuality(0.667) quality:15.508
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.499, offset:{0:{dx:2, dy:1, match:0.991065}}} q:25.166
+DEBUG	: tvMaxQuality(0.333) result:{PSNR:25.139, offset:{0:{dx:2, dy:0, match:0.989808}}} q:24.806
+DEBUG	: tvMaxQuality(0.333) quality:24.986
+DEBUG	: tvMaxQuality(0.446) result:{PSNR:24.075, offset:{0:{dx:3, dy:0, match:0.988177}}} q:23.629
+DEBUG	: tvMaxQuality(0.446) result:{PSNR:24.475, offset:{0:{dx:2, dy:0, match:0.990368}}} q:24.029
+DEBUG	: tvMaxQuality(0.446) quality:23.829
+DEBUG	: tvMaxQuality(0.288) result:{PSNR:25.755, offset:{0:{dx:2, dy:0, match:0.997658}}} q:25.467
+DEBUG	: tvMaxQuality(0.288) result:{PSNR:26.239, offset:{0:{dx:2, dy:0, match:0.99368}}} q:25.951
+DEBUG	: tvMaxQuality(0.288) quality:25.709
+DEBUG	: tvMaxQuality(0.401) result:{PSNR:25.028, offset:{0:{dx:2, dy:1, match:0.991217}}} q:24.627
+DEBUG	: tvMaxQuality(0.401) result:{PSNR:24.828, offset:{0:{dx:2, dy:1, match:0.986915}}} q:24.427
+DEBUG	: tvMaxQuality(0.401) quality:24.527
+DEBUG	: tvMaxQuality(0.343) result:{PSNR:25.202, offset:{0:{dx:2, dy:1, match:0.991532}}} q:24.859
+DEBUG	: tvMaxQuality(0.343) result:{PSNR:25.231, offset:{0:{dx:2, dy:1, match:0.993026}}} q:24.888
+DEBUG	: tvMaxQuality(0.343) quality:24.874
+DEBUG	: tvMaxQuality(0.238) result:{PSNR:25.865, offset:{0:{dx:2, dy:0, match:0.995183}}} q:25.627
+DEBUG	: tvMaxQuality(0.238) result:{PSNR:25.844, offset:{0:{dx:2, dy:0, match:0.99435}}} q:25.606
+DEBUG	: tvMaxQuality(0.238) quality:25.617
+DEBUG	: tvMaxQuality(0.313) result:{PSNR:24.79, offset:{0:{dx:2, dy:0, match:0.994245}}} q:24.477
+DEBUG	: tvMaxQuality(0.313) result:{PSNR:25.322, offset:{0:{dx:2, dy:0, match:0.991513}}} q:25.009
+DEBUG	: tvMaxQuality(0.313) quality:24.743
+DEBUG	: tvMaxQuality(0.142) result:{PSNR:25.713, offset:{0:{dx:2, dy:1, match:0.992192}}} q:25.571
+DEBUG	: tvMaxQuality(0.142) result:{PSNR:25.713, offset:{0:{dx:2, dy:1, match:0.993821}}} q:25.571
+DEBUG	: tvMaxQuality(0.142) quality:25.571
+DEBUG	: tvMaxQuality(0.178) result:{PSNR:25.248, offset:{0:{dx:2, dy:0, match:0.99489}}} q:25.07
+DEBUG	: tvMaxQuality(0.178) result:{PSNR:25.624, offset:{0:{dx:2, dy:1, match:0.990664}}} q:25.446
+DEBUG	: tvMaxQuality(0.178) quality:25.258
+DEBUG	: tvMaxQuality(0.176) result:{PSNR:26.161, offset:{0:{dx:2, dy:1, match:0.993418}}} q:25.985
+DEBUG	: tvMaxQuality(0.176) result:{PSNR:25.829, offset:{0:{dx:2, dy:1, match:0.990078}}} q:25.653
+DEBUG	: tvMaxQuality(0.176) quality:25.819
+DEBUG	: tvMaxQuality(0.235) result:{PSNR:25.828, offset:{0:{dx:2, dy:0, match:0.99253}}} q:25.593
+DEBUG	: tvMaxQuality(0.235) result:{PSNR:25.828, offset:{0:{dx:2, dy:0, match:0.986314}}} q:25.593
+DEBUG	: tvMaxQuality(0.235) quality:25.593
+DEBUG	: tvMaxQuality(0.067) result:{PSNR:25.283, offset:{0:{dx:2, dy:0, match:0.993499}}} q:25.216
+DEBUG	: tvMaxQuality(0.067) result:{PSNR:25.033, offset:{0:{dx:2, dy:0, match:0.994498}}} q:24.966
+DEBUG	: tvMaxQuality(0.067) quality:25.091
+DEBUG	: tvMaxQuality(0.187) result:{PSNR:25.1, offset:{0:{dx:2, dy:0, match:0.997603}}} q:24.913
+DEBUG	: tvMaxQuality(0.187) result:{PSNR:25.97, offset:{0:{dx:2, dy:0, match:0.989374}}} q:25.783
+DEBUG	: tvMaxQuality(0.187) quality:25.348
+DEBUG	: tvMaxQuality(0.169) result:{PSNR:25.542, offset:{0:{dx:2, dy:0, match:0.992285}}} q:25.373
+DEBUG	: tvMaxQuality(0.169) result:{PSNR:25.479, offset:{0:{dx:2, dy:0, match:0.994652}}} q:25.31
+DEBUG	: tvMaxQuality(0.169) quality:25.342
+DEBUG	: tvMaxQuality(0.167) result:{PSNR:24.536, offset:{0:{dx:2, dy:0, match:0.993459}}} q:24.369
+DEBUG	: tvMaxQuality(0.167) result:{PSNR:24.468, offset:{0:{dx:2, dy:0, match:0.993049}}} q:24.301
+DEBUG	: tvMaxQuality(0.167) quality:24.335
+DEBUG	: tvMaxQuality(0.115) result:{PSNR:25.319, offset:{0:{dx:2, dy:0, match:0.980871}}} q:25.204
+DEBUG	: tvMaxQuality(0.115) result:{PSNR:25.239, offset:{0:{dx:2, dy:0, match:0.995803}}} q:25.124
+DEBUG	: tvMaxQuality(0.115) quality:25.164
+DEBUG	: tvMaxQuality(0.114) result:{PSNR:25.005, offset:{0:{dx:2, dy:0, match:0.994878}}} q:24.891
+DEBUG	: tvMaxQuality(0.114) result:{PSNR:25.087, offset:{0:{dx:2, dy:0, match:0.991122}}} q:24.973
+DEBUG	: tvMaxQuality(0.114) quality:24.932
+DEBUG	: tvMaxQuality(0.109) result:{PSNR:17.719, offset:{0:{dx:1, dy:-17, match:0.990102}}} q:17.61
+DEBUG	: tvMaxQuality(0.109) result:{PSNR:25.835, offset:{0:{dx:2, dy:0, match:0.995445}}} q:25.726
+DEBUG	: tvMaxQuality(0.109) quality:21.668
+DEBUG	: tvMaxQuality(0.134) result:{PSNR:25.517, offset:{0:{dx:2, dy:0, match:0.991681}}} q:25.383
+DEBUG	: tvMaxQuality(0.134) result:{PSNR:25.397, offset:{0:{dx:2, dy:0, match:0.990377}}} q:25.263
+DEBUG	: tvMaxQuality(0.134) quality:25.323
+DEBUG	: calibrate_tvMax() => 0.176 samples:20
+    ✓ TESTTESTcalibrate_tvMax() should find the minimum acceleration time (548441ms)
+
+
+  1 passing (9m)
+
