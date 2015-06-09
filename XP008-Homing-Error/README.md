@@ -51,9 +51,26 @@ this amount, perhaps more.
 Let's consider a straight path from (0,0,-50) to (100,0,-50).
 This is a 100mm line along the X-axis. A system homing error
 of +/- 2 degrees affects all three XYZ axes. The error impacts
-Z severely and leads to the commonly reported "bowl error".
+Z severely and leads to the commonly reported "bowl-shaped error".
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/ZHomingError.png)
 
+The chart shows that a single degree of system homing error introduces
+~3mm of Z error between the origin endpoint and the remote endpoint
+of our supposedly straight path. A two degree error has even
+greater effect on Z at 100mm from the origin. The error is also
+non-linear and it is indeed "bowl shaped".
+
+The error also affects the X and Y axes. The effect on the X-axis
+is quite pronounced:
+
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/XHomingError.png)
+
+Although disturbing by its magnitude, rotational delta system homing error
+is actually easy to correct. All we need to do is change the z-offset
+of our rotational delta models to cancel the error.
+
+Calibration is also quite robust because the system homing error
+affects the X-axis and can therefore be easily measured with a
+camera mounted on the effector.
 
