@@ -78,12 +78,15 @@ Homing error calibration should proceed in two steps
 2. Measure axis homing error
 
 For now we'll assume that the axis homing error is neglible
-and consider the system homing error along.
+and consider the system homing error alone. Future study
+will be needed to address individual axis homing error.
 
-For ease of calibration, we want a deviation that can be measured
-by a downward looking effector camera. The Z homing error could be
-used to detect homing error if the bed is perfectly level, 
-but we can get better accuracy by considering the Y homing error 
+To measure system homing error, we need a homing error deviation that can be measured
+by a downward looking effector camera. We have three possibilites.
+X homing error is perhaps too subtle. The Z homing error is larger
+and could be
+used to detect homing error if the bed is perfectly level. 
+But we can get the best accuracy by considering the Y homing error 
 displacement at the horizontal line endpoints. 
 If the line bends up, we have 
 negative homing error. If the line bends down, we have positive
