@@ -61,9 +61,14 @@ A two degree error has even
 greater effect on Z at X=+/-100mm from the origin. The error is visibly
 non-linear. Indeed, it is "bowl shaped".
 
-The error also affects the X and Y axes. 
-The effect on the Y-axis
-is quite startling and leads to a surprising non-linear curve:
+The error also affects the X and Y axes. The effect on the X-axis
+has an interesting shape (horizontal "S") but is subtle in nature,
+making it slightly difficult to detect:
+
+![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/XHomingError.png)
+
+Notably, the effect of system homing error on the Y-axis
+is quite startling and leads to a easily recognizable non-linear curve:
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/YHomingError.png)
 
