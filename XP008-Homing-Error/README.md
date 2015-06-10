@@ -48,7 +48,7 @@ variation is quite possible. Indeed, the FPD beta kit and
 LooseCanon designs most probably differ in their homing angles by 
 this amount, perhaps more.
 
-Let's consider a straight path from (0,0,-50) to (100,0,-50).
+Let's consider a straight path from (-100,0,-70) to (100,0,-70).
 This is a 100mm line along the X-axis. A system homing error
 of +/- 2 degrees affects all three XYZ axes. The error impacts
 Z severely and leads to the commonly reported "bowl-shaped error".
@@ -61,16 +61,18 @@ of our supposedly straight path. A two degree error has even
 greater effect on Z at 100mm from the origin. The error is also
 non-linear and it is indeed "bowl shaped".
 
-The error also affects the X and Y axes. The effect on the X-axis
-is quite pronounced and leads to non-linear XY motion (i.e., "twisted bowls"):
+The error also affects the X and Y axes. 
+The effect on the Y-axis
+is quite startling and leads to a surprising non-linear curve:
 
-![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/XHomingError.png)
+![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/YHomingError.png)
 
 Although disturbing by its magnitude, rotational delta system homing error
-is actually easy to correct. All we need to do is change the z-offset
-of our rotational delta models to cancel the error.
+is actually easy to correct. All we need to do is introduce a homing
+angle error parameter for each FPD motor axis.
 
 Calibration is also quite robust because the system homing error
-affects the X-axis and can therefore be easily measured with a
+of a horizontal line on the X-axis bends the line up or down
+on the Y-axis and can therefore be easily measured with a
 camera mounted on the effector.
 
