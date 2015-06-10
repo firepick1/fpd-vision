@@ -68,7 +68,7 @@ making it slightly difficult to detect:
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/XHomingError.png)
 
 Notably, the effect of system homing error on the Y-axis
-is quite startling and leads to a easily recognizable non-linear curve:
+is quite startling and leads to an easily recognizable non-linear curve:
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/YHomingError.png)
 
