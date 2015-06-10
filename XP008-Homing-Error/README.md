@@ -67,12 +67,26 @@ is quite startling and leads to a surprising non-linear curve:
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/YHomingError.png)
 
+### Calibration
 Although disturbing by its magnitude, rotational delta system homing error
 is actually easy to correct. All we need to do is introduce a homing
 angle error parameter for each FPD motor axis.
 
-Calibration is also quite robust because the system homing error
-of a horizontal line on the X-axis bends the line up or down
-along the Y-axis and this displacement can be easily measured with a
-camera mounted on the effector.
+Homing error calibration should proceed in two steps
+
+1. Measure system homing error
+2. Measure axis homing error
+
+For now we'll assume that the axis homing error is neglible
+and consider the system homing error along.
+
+For ease of calibration, we want a deviation that can be measured
+by a downward looking effector camera. The Z homing error could be
+used to detect homing error if the bed is perfectly level, 
+but we can get better accuracy by considering the Y homing error 
+displacement at the horizontal line endpoints. 
+If the line bends up, we have 
+negative homing error. If the line bends down, we have positive
+homing error. Using this simple metric, a genetic algorithm
+can easily determine the actual system homing error.
 
