@@ -40,7 +40,7 @@ that axis.
 
 ### System Homing Error
 To understand the impact of rotational delta homing error, we will
-ignore axis homing error for now and consider the effect
+ignore individual axis homing error for now and consider the effect
 of system homing error.
 
 Consider a system homing error of +/- 2 degrees. This small
