@@ -49,7 +49,7 @@ LooseCanon designs most probably differ in their homing angles by
 this amount, perhaps more.
 
 Let's consider a straight path from (-100,0,-70) to (100,0,-70).
-This is a 100mm line along the X-axis. A system homing error
+This is a 100mm line along the X-axis in the Z plane at -70. A system homing error
 of +/- 2 degrees affects all three XYZ axes. The error impacts
 Z severely and leads to the commonly reported "bowl-shaped error".
 
