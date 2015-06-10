@@ -56,10 +56,10 @@ Z severely and leads to the commonly reported "bowl-shaped error".
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/ZHomingError.png)
 
 The chart shows that a single degree of system homing error introduces
-~3mm of Z error between the origin endpoint and the remote endpoint
-of our supposedly straight path. A two degree error has even
-greater effect on Z at 100mm from the origin. The error is also
-non-linear and it is indeed "bowl shaped".
+up to ~1.5mm of Z error between the intended line and the actual path.
+A two degree error has even
+greater effect on Z at X=+/-100mm from the origin. The error is visibly
+non-linear. Indeed, it is "bowl shaped".
 
 The error also affects the X and Y axes. 
 The effect on the Y-axis
