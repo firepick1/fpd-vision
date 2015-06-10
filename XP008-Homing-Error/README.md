@@ -5,8 +5,8 @@ or even linear delta machines. That error is homing error, which
 is the XYZ position error introduced by homing angle errors.
 
 In a traditional cartesian machine homing error is linear.
-A 0.1mm error in homing results in a 0.1mm error for the
-entire axis. In addition, a homing error on any axis only
+A linear cartesian machine 0.1mm homing error results in a 0.1mm error 
+for each point along that entire axis. In addition, a homing error on any axis only
 affects that axis. With optical limit switches, we can 
 control that error over many repititions after a simple
 one-time calibration.
@@ -16,7 +16,7 @@ non-linear and affects ALL points in XYZ cartesian space.
 Worse, since the error is non-linear, it differs at each point.
 The magnitude of the homing positioning error is also surprising.
 A homing angle error of as little as 1 degree can lead to XYZ
-cartesian space errors of over 3mm.
+cartesian space errors of ~1.5mm.
 
 ### Homing Error Categorization
 FPD has three axes and therefore three sources of homing errors:
@@ -73,6 +73,6 @@ angle error parameter for each FPD motor axis.
 
 Calibration is also quite robust because the system homing error
 of a horizontal line on the X-axis bends the line up or down
-on the Y-axis and can therefore be easily measured with a
+along the Y-axis and this displacement can be easily measured with a
 camera mounted on the effector.
 
