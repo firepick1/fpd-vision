@@ -63,7 +63,7 @@ non-linear. Indeed, it is "bowl shaped".
 
 The error also affects the X and Y axes. The effect on the X-axis
 has an interesting shape (horizontal "S") but is subtle in nature,
-making it slightly difficult to detect:
+making it slightly difficult to measure:
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/XHomingError.png)
 
