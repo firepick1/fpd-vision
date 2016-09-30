@@ -1,22 +1,19 @@
-### Rotational Delta Homing Error
-FirePick Delta (FPD) relies on rotational delta kinematics. As such, it
-is subject to a source of error that does not affect cartesian
-or even linear delta machines. That error is homing error, which
-is the XYZ position error introduced by homing angle errors.
+### Parallax Near/Far Rangefinder
+The simple geometry of [parallax](https://en.wikipedia.org/wiki/Parallax) has been used
+in [coincidence rangefinders](https://en.wikipedia.org/wiki/Coincidence_rangefinder) that
+compare two lateral images of the same object to triangulate the range. 
+All of us also relies on the parallax introduced by the lateral separation of our eyes for binocular rangefinding.
 
-In a traditional cartesian machine homing error is linear.
-A linear cartesian machine 0.1mm homing error results in a 0.1mm error 
-for each point along that entire axis. In addition, a homing error on any axis only
-affects that axis. With optical limit switches, we can 
-control that error over many repititions after a simple
-one-time calibration.
+However, in this experiment, we explore a different parallax method for rangefinding.
+In particular, we use a single camera to compare images of the same object taken at different
+distances. Let's call this _near/far rangefinding_. Since an object appears to shrink as it moves
+away from the observer, parallax allows us to calculate the range based on the change in images.
+Near/far rangefinding is especially suited to pick-and-place, where the objects to be manipulated
+all lie more or less in the same plane orthogonal to the camera.
 
-For rotational delta machines such a FPD, the homing error is
-non-linear and affects ALL points in XYZ cartesian space.
-Worse, since the error is non-linear, it differs at each point.
-The magnitude of the homing positioning error is also surprising.
-A homing angle error of as little as 1 degree can lead to XYZ
-cartesian space errors of ~1.5mm.
+<a href="https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/parallax.png">
+    <img src="https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/parallax.png" height=300px></a>
+
 
 ### Homing Error Categorization
 FPD has three axes and therefore three sources of homing errors:
