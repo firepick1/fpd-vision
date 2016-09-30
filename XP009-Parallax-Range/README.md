@@ -2,7 +2,7 @@
 The simple geometry of [parallax](https://en.wikipedia.org/wiki/Parallax) has been used
 in [coincidence rangefinders](https://en.wikipedia.org/wiki/Coincidence_rangefinder) that
 compare two lateral images of the same object to triangulate the range. 
-Eavh of us also relies on the parallax introduced by the lateral separation of our eyes for binocular rangefinding.
+Each of us also relies on the parallax introduced by the lateral separation of our eyes for binocular rangefinding.
 
 However, in this experiment, we explore a different parallax method for rangefinding.
 In particular, we use a single camera to compare images of the same object taken at different
