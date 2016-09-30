@@ -1,0 +1,37 @@
+#!/bin/bash
+
+XP=009
+
+#if [ -e /var/firefuse/calibration/XP002-A1.1_X10Y10Z0.jpg ]; then
+#  IMAGES=/var/firefuse/calibration
+#elif [ -e img ]; then
+#  IMAGES=img
+#else
+#  IMAGES=$1
+#fi
+#
+#for FILE in `ls $IMAGES/XP$XP*`
+#do
+#	JSON=`firesight -p ../json/meanStdDev.json -i $FILE `
+#	#echo $FILE `echo $JSON | grep -o -E 'gridY":[-0-9. ]*'`
+#	echo $FILE `echo $JSON `
+#done
+
+FAR=img/FloorFar.jpg
+NEAR=img/FloorNear.jpg
+IMGW=400
+IMGH=300
+let W=$IMGW/10
+#let H=$IMGH/2
+let H=$IMGH/3
+L=0
+let R=$IMGW-$W
+let T=$IMGH/2-$H/2
+CORR=0.99
+THRES=0.8
+
+firesight -i $NEAR -o img/l-tmplt.jpg -p ../json/crop.json -Dx=$L -Dy=$T -Dwidth=$W -Dheight=$H
+firesight -i $NEAR -o img/r-tmplt.jpg -p ../json/crop.json -Dx=$R -Dy=$T -Dwidth=$W -Dheight=$H
+firesight -i $NEAR -o img/matchnear.jpg -p ../json/parallax.json -Dtleft=l-tmplt.jpg -Dtright=r-tmplt.jpg -Dthreshold=$THRESH -Dcorr=$CORR
+firesight -i $FAR -o img/matchfar.jpg -p ../json/parallax.json -Dtleft=l-tmplt.jpg -Dtright=r-tmplt.jpg -Dthreshold=$THRESH -Dcorr=$CORR
+echo L$L R$R W$W H$H

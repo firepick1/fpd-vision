@@ -1,0 +1,45 @@
+{
+  "s1":{}
+}
+{
+  "s1":{}
+}
+{
+  "s1":{},
+  "find-left":{
+    "rects":[
+      { "x":20.0, "y":150.0, "width":40.0, "height":100.0, "angle":-0.0, "corr":"1" }
+    ],
+    "maxVal":"0.994999",
+    "matches":1
+  },
+  "find-right":{
+    "rects":[
+      { "x":380.0, "y":150.0, "width":40.0, "height":100.0, "angle":-0.0, "corr":"1" }
+    ],
+    "maxVal":"0.990378",
+    "matches":1
+  },
+  "s4":{},
+  "s5":{}
+}
+{
+  "s1":{},
+  "find-left":{
+    "rects":[
+      { "x":43.0, "y":159.0, "width":40.0, "height":100.0, "angle":-0.0, "corr":"1" }
+    ],
+    "maxVal":"0.883712",
+    "matches":1
+  },
+  "find-right":{
+    "rects":[
+      { "x":349.0, "y":163.0, "width":40.0, "height":100.0, "angle":-0.0, "corr":"1" }
+    ],
+    "maxVal":"0.822466",
+    "matches":1
+  },
+  "s4":{},
+  "s5":{}
+}
+L0 R360 W40 H100
