@@ -52,7 +52,12 @@ We will crop each of these rectangles separately for use as OpenCV image templat
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/l-tmplt.jpg)
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/r-tmplt.jpg)
 
-And we will use `firesight` _matchTemplate_ to locate these templates in the far image:
+We will then use `firesight` _matchTemplate_ to locate these templates in the far image:
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/matchfar.jpg)
+
+In the near image, `firesight` matches our templates with a 360 pixel separation.
+In the far image, `firesight` matches our templates with a 306 pixel separation.
+This yields a far/near ratio of 1.17847, which tell us that our camera was 36" from the floor
+when taking the near image.
 
