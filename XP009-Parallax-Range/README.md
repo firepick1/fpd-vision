@@ -30,11 +30,11 @@ heights.
 
 Near the floor:
 
-![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/FloorNear.png)
+![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/FloorNear.jpg)
 
 Far from the floor:
 
-![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/FloorFar.png)
+![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/FloorFar.jpg)
 
 Notably, the effect of system homing error on the Y-axis
 is quite startling and leads to an easily recognizable non-linear curve:
