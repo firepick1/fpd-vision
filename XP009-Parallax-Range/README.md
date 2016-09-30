@@ -14,55 +14,27 @@ all lie more or less in the same plane orthogonal to the camera.
 <a href="https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/parallax.png">
     <img src="https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/parallax.png" height=300px></a>
 
+In the above diagram, the orange triangle represents the _near field of view_, while the blue triangle represents
+the _far field of view_. These triangles are similar because they both have the same angular field of view,
+which allows us to use simple ratios to find the range. In particular, the near-height *h2* is related
+to the _near-far_ distance *dh* as follows:
 
-### Homing Error Categorization
-FPD has three axes and therefore three sources of homing errors:
+`dH = h2 * (l1/l2 - 1)`
 
-* theta1_error
-* theta2_error
-* theta3_error
+In other words, if we know the _far-near_ change in height as well as the ratio of near/far images *l1/l2*, we
+can calculate the near-height *h2*.
 
-It is useful to categorize these errors in more detail and
-distinguish between *system homing error* as opposed to
-*axis homing error*:
+### Method
+To illustrate the near-far range finding technique, we use two pictures of the floor taken at different
+heights.
 
-* theta1_error = systemHomingError + axis1_error
-* theta2_error = systemHomingError + axis2_error
-* theta3_error = systemHomingError + axis3_error
+Near the floor:
 
-A variance in the FPD middle plate thickness affects
-all axes and contributes to system homing error. A variance in optolimiter
-assembly for an axis results in axis homing error for
-that axis.
+![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/FloorNear.png)
 
-### System Homing Error
-To understand the impact of rotational delta homing error, we will
-ignore individual axis homing error for now and consider the effect
-of system homing error.
+Far from the floor:
 
-Consider a system homing error of +/- 2 degrees. This small
-variation is quite possible. Indeed, the FPD beta kit and
-LooseCanon designs most probably differ in their homing angles by 
-this amount, perhaps more.
-
-Let's consider a straight path from (-100,0,-70) to (100,0,-70).
-This is a 100mm line along the X-axis in the Z plane at -70. A system homing error
-of +/- 2 degrees affects all three XYZ axes. The error impacts
-Z severely and leads to the commonly reported "bowl-shaped error".
-
-![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/ZHomingError.png)
-
-The chart shows that a single degree of system homing error introduces
-up to ~1.5mm of Z error between the intended line and the actual path.
-A two degree error has even
-greater effect on Z at X=+/-100mm from the origin. The error is visibly
-non-linear. Indeed, it is "bowl shaped".
-
-The error also affects the X and Y axes. The effect on the X-axis
-has an interesting shape (horizontal "S") but is subtle in nature,
-making it slightly difficult to measure:
-
-![](https://github.com/firepick1/fpd-vision/blob/master/XP008-Homing-Error/img/XHomingError.png)
+![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/FloorFar.png)
 
 Notably, the effect of system homing error on the Y-axis
 is quite startling and leads to an easily recognizable non-linear curve:
