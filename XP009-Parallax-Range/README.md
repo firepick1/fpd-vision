@@ -43,8 +43,8 @@ Determining the image far/near ratio is trickier.
 For best accuracy, we want to make full use of our two images. We could use the ratio of the 
 the foot separation or the ratio of the iPad sizes, but these occupy only a small part of the
 image and will give us less accuracy. Instead, we will use two rectangles separated by the
-full width of the image to give us the maximum baseline. The targeted regions used for matching
-are called _FNR regions_:
+full width of the image to give us the maximum baseline. We refer to the targeted regions used for matching
+as _FNR regions_:
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/matchnear.jpg)
 
