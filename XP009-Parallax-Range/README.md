@@ -48,7 +48,7 @@ as _FNR regions_:
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/matchnear.jpg)
 
-We will crop each of these rectangles for use as FNR region OpenCV matching templates:
+We will crop these rectangles for use as FNR region OpenCV matching templates:
 
 Left FNR region (red)-> ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/l-tmplt.jpg)
 Right FNR region (blue)-> ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/r-tmplt.jpg)
