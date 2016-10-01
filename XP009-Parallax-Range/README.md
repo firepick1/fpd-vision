@@ -63,7 +63,7 @@ to locate these templates in the far image (see [process...](https://github.com/
 In the near image, `firesight` matches our templates with a 360 pixel separation.
 In the far image, `firesight` matches our templates with a 306 pixel separation.
 This yields a far/near ratio of 1.17847, which tell us that our camera was 34" from the floor
-when taking the near image.
+when taking the near image given that the far/near relative distance is 6".
 
 ### Discussion
 The primary advantage of the FNR method is that it does not require
