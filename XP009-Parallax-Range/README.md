@@ -8,8 +8,8 @@ However, in this experiment, we explore a different parallax method for rangefin
 In particular, we use a single camera to compare images of the same object taken at different
 distances. Let's call this _Far/Near Rangefinding (FNR)_. Since an object appears to shrink as it moves
 away from the observer, parallax allows us to calculate the range based on the change in images.
-far/near rangefinding is especially suited to pick-and-place, where the objects to be manipulated
-all lie more or less in the same plane orthogonal to the camera.
+FNR is especially suited to pick-and-place, where the objects to be manipulated
+all lie more or less in the same plane orthogonal to the camera (see discussion below about "sufficiently coplanar").
 
 <a href="https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/parallax.png">
     <img src="https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/parallax.png" height=300px></a>
