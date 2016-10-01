@@ -15,8 +15,9 @@ all lie more or less in the same plane orthogonal to the camera (see discussion 
     <img src="https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/parallax.png" height=300px></a>
 
 In the above diagram, the orange triangle represents the _near field of view_, while the blue triangle represents
-the _far field of view_. These triangles are similar because they both have the same angular field of view,
-which allows us to use simple ratios to find the range. In particular, the near-height *h2* is related
+the _far field of view_. These triangles are similar because they both have the same angular field of view
+provided by a fixed focus camera. This similarity
+allows us to use simple ratios to find the range. In particular, the near-height *h2* is related
 to the _far/near_ distance *dh* as follows:
 
 `dH = h2 * (l1/l2 - 1)`
