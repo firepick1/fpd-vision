@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo $1
+
+firesight \
+  -i $1 \
+  -p ../json/matchGrid.json \
+  -Dtemplate=../img/cross32.png  \
+  -o ~/Downloads/out.png \
+  > $1.json
+
+

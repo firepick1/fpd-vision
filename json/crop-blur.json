@@ -1,0 +1,10 @@
+
+[
+  {"op":"blur",  "ksize.width":8, "ksize.height":8},
+  {"op":"crop", 
+    "x":"{{x||0}}", 
+    "y":"{{y||0}}", 
+    "width":"{{width||64}}", 
+    "height":"{{height||64}}", 
+    "comment":"crop image to rectangle"} 
+]

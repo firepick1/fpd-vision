@@ -28,10 +28,67 @@ L=0
 let R=$IMGW-$W
 let T=$IMGH/2-$H/2
 CORR=0.99
-THRES=0.8
+THRESH=0.8
 
 firesight -i $NEAR -o img/l-tmplt.jpg -p ../json/crop.json -Dx=$L -Dy=$T -Dwidth=$W -Dheight=$H
 firesight -i $NEAR -o img/r-tmplt.jpg -p ../json/crop.json -Dx=$R -Dy=$T -Dwidth=$W -Dheight=$H
 firesight -i $NEAR -o img/matchnear.jpg -p ../json/parallax.json -Dtleft=l-tmplt.jpg -Dtright=r-tmplt.jpg -Dthreshold=$THRESH -Dcorr=$CORR
 firesight -i $FAR -o img/matchfar.jpg -p ../json/parallax.json -Dtleft=l-tmplt.jpg -Dtright=r-tmplt.jpg -Dthreshold=$THRESH -Dcorr=$CORR
+echo L$L R$R W$W H$H
+
+FAR=img/hilbert-far.jpg
+NEAR=img/hilbert-near.jpg
+IMGW=400
+IMGH=400
+let W=$IMGW/4
+let H=$IMGH/4
+L=0
+let R=$IMGW-$W
+let T=$IMGH/2-$H/2
+firesight -i $NEAR -o img/hilbert-l-tmplt.jpg -p ../json/crop-blur.json -Dx=$L -Dy=$T -Dwidth=$W -Dheight=$H
+firesight -i $NEAR -o img/hilbert-r-tmplt.jpg -p ../json/crop-blur.json -Dx=$R -Dy=$T -Dwidth=$W -Dheight=$H
+
+CORR=0.4
+THRESH=0.6
+firesight -i $NEAR -o img/hilbert-matchnear.jpg -p ../json/parallax-hilbert.json -Dtleft=hilbert-l-tmplt.jpg -Dtright=hilbert-r-tmplt.jpg -Dthreshold=$THRESH -Dcorr=$CORR
+echo HILBERT MATCH FAR
+firesight -i $FAR -o img/hilbert-matchfar.jpg -p ../json/parallax-hilbert.json -Dtleft=hilbert-l-tmplt.jpg -Dtright=hilbert-r-tmplt.jpg -Dthreshold=$THRESH -Dcorr=$CORR
+echo L$L R$R W$W H$H
+
+FAR=img/parallaxfar.jpg
+NEAR=img/parallaxnear.jpg
+IMGW=400
+IMGH=400
+let W=$IMGW/10
+let H=$IMGH/3
+L=0
+let R=$IMGW-$W
+let T=$IMGH/2-$H/2
+firesight -i $NEAR -o img/parallax-l-tmplt.jpg -p ../json/crop.json -Dx=$L -Dy=$T -Dwidth=$W -Dheight=$H
+firesight -i $NEAR -o img/parallax-r-tmplt.jpg -p ../json/crop.json -Dx=$R -Dy=$T -Dwidth=$W -Dheight=$H
+
+CORR=0.999
+THRESH=0.7
+firesight -i $NEAR -o img/parallax-matchnear.jpg -p ../json/parallax.json -Dtleft=parallax-l-tmplt.jpg -Dtright=parallax-r-tmplt.jpg -Dthreshold=$THRESH -Dcorr=$CORR
+echo PARALLAX MATCH FAR
+firesight -i $FAR -o img/parallax-matchfar.jpg -p ../json/parallax.json -Dtleft=parallax-l-tmplt.jpg -Dtright=parallax-r-tmplt.jpg -Dthreshold=$THRESH -Dcorr=$CORR
+echo L$L R$R W$W H$H
+
+FAR=img/DashesFar.jpg
+NEAR=img/DashesNear.jpg
+IMGW=400
+IMGH=400
+let W=$IMGW/10
+let H=$IMGH/3
+L=0
+let R=$IMGW-$W
+let T=$IMGH/2-$H/2
+firesight -i $NEAR -o img/dashes-l-tmplt.jpg -p ../json/crop.json -Dx=$L -Dy=$T -Dwidth=$W -Dheight=$H
+firesight -i $NEAR -o img/dashes-r-tmplt.jpg -p ../json/crop.json -Dx=$R -Dy=$T -Dwidth=$W -Dheight=$H
+
+CORR=0.99
+THRESH=0.4
+firesight -i $NEAR -o img/dashes-matchnear.jpg -p ../json/parallax.json -Dtleft=dashes-l-tmplt.jpg -Dtright=dashes-r-tmplt.jpg -Dthreshold=$THRESH -Dcorr=$CORR
+echo PARALLAX MATCH FAR
+firesight -i $FAR -o img/dashes-matchfar.jpg -p ../json/parallax.json -Dtleft=dashes-l-tmplt.jpg -Dtright=dashes-r-tmplt.jpg -Dthreshold=$THRESH -Dcorr=$CORR
 echo L$L R$R W$W H$H
