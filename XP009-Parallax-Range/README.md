@@ -57,7 +57,6 @@ Right FNR region (blue)-> ![](https://github.com/firepick1/fpd-vision/blob/maste
 
 We will then use `firesight` [matchTemplate](https://github.com/firepick1/FireSight/wiki/op-matchTemplate)
 to locate these templates in the far image (see [process...](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/process)):
-
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/matchfar.jpg)
 
 In the near image, `firesight` matches our templates with a 360 pixel separation.
@@ -79,8 +78,6 @@ a subsection thereof. If the imaged surface has an irregular distance profile fr
 degrades to the point of failure as the targeted FNR regions fail to match uniquely.
 
 
-![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/DashesNear.jpg)
-![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/DashesFar.jpg)
-
-
+![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/dashes-matchnear.jpg)
+![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/dashes-matchnear.jpg) 
 
