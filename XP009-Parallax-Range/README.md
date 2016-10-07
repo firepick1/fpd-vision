@@ -77,6 +77,12 @@ This requirement can be easily met if, for example, the image consists entirely 
 a subsection thereof. If the imaged surface has an irregular distance profile from the camera, then FNR
 degrades to the point of failure as the targeted FNR regions fail to match uniquely.
 
+To address the issues described above, we introduce the 
+[firenodejs&trade; Parallax Dashes page](dashes.pdf),
+which has a carefully designed pseudo-random pattern that works well with FNR at different
+macro distances. The pattern has the many irregular features that FNR requires to work well.
+As you can see from the images below, FNR is able to match the left and right templates even
+though they are not perfect matches (compare the borders of the blue and red rectangles).
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/dashes-matchnear.jpg)
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/dashes-matchfar.jpg) 
