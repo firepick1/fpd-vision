@@ -79,5 +79,5 @@ degrades to the point of failure as the targeted FNR regions fail to match uniqu
 
 
 ![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/dashes-matchnear.jpg)
-![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/dashes-matchnear.jpg) 
+![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/dashes-matchfar.jpg) 
 
