@@ -66,13 +66,21 @@ This yields a far/near ratio of 1.17847, which tell us that our camera was 34" f
 when taking the near image given that the far/near relative distance is 6".
 
 ### Discussion
-The primary advantage of the FNR method is that it does not require
-a specific calibration target. The method just requires that the image have "distinguishable
-features" for OpenCV template matching. In that regard, a featureless surface would not
-work with this method. However, a typical printed circuit board should do quite nicely as a target.
+The primary advantage of the FNR method is that it only requires two images to determine
+range. The two images must have many irregular features for FNR to work well. Images with
+few or replicated features do not do well (e.g., a grid) since FNR requires a unique match
+for templates and cannot handle multiple or no template matches. This means that FNR
+will work well for many PCB's (especially those with dense and irregular features). However,
+FNR will often fail on PCB's having replicated featurs (e.g., LED array).
 
 Another requirement of FNR is that the imaged target regions be "sufficiently coplanar".
 This requirement can be easily met if, for example, the image consists entirely of a blank printed circuit board or
 a subsection thereof. If the imaged surface has an irregular distance profile from the camera, then FNR
 degrades to the point of failure as the targeted FNR regions fail to match uniquely.
+
+
+![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/DashesNear.jpg)
+![](https://github.com/firepick1/fpd-vision/blob/master/XP009-Parallax-Range/img/DashesFar.jpg)
+
+
 
